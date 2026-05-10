@@ -23,8 +23,6 @@ jobs:
         env:
           QTD_START: "2026-04-01"
           MAX_PER_FEED: "80"
-          FETCH_BYLINES: "1"
-          MAX_BYLINE_FETCHES: "120"
         run: python run.py
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
