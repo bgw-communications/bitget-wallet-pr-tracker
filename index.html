@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bitget Wallet PR Monitor</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root{
+      --bg:#0d1117; --panel:#161b22; --panel2:#1c2128; --text:#e6edf3;
+      --muted:#8b949e; --line:#30363d; --green:#00f0b5; --red:#ff6b6b;
+      --yellow:#f2cc60; --blue:#58a6ff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+    a{color:var(--blue);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{position:sticky;top:0;z-index:10;background:rgba(13,17,23,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    .wrap{max-width:1280px;margin:0 auto;padding:20px}
+    .top{display:flex;gap:16px;align-items:center;justify-content:space-between}
+    h1{font-size:24px;margin:0}
+    .sub{color:var(--muted);font-size:13px;margin-top:4px}
+    nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+    nav a{color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:7px 11px;font-size:13px}
+    nav a.active,nav a:hover{color:var(--text);border-color:var(--green);text-decoration:none}
+    .badge{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:6px 10px;color:var(--muted);font-size:12px}
+    #loading-state{max-width:900px;margin:60px auto;padding:20px;text-align:center;color:var(--muted)}
+    .err-box{border:1px solid var(--red);background:rgba(255,107,107,.08);border-radius:12px;padding:16px;color:var(--text)}
+    section{scroll-margin-top:130px}
+    .grid{display:grid;gap:16px}
+    .kpis{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .two{grid-template-columns:1.1fr .9fr}
+    .three{grid-template-columns:repeat(3,minmax(0,1fr))}
+    @media(max-width:900px){.kpis,.two,.three{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 10px 30px rgba(0,0,0,.14)}
+    .card h2{font-size:18px;margin:0 0 12px}
+    .card h3{font-size:14px;margin:0 0 10px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+    .kpi-value{font-size:30px;font-weight:700;margin:6px 0}
+    .kpi-label{font-size:13px;color:var(--muted)}
+    .chart{height:320px}
+    table{width:100%;border-collapse:collapse}
+    th,td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top;font-size:13px}
+    th{color:var(--muted);font-weight:600;background:var(--panel2);position:sticky;top:109px;z-index:3}
+    tr:hover td{background:rgba(255,255,255,.025)}
+    .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 8px;font-size:12px;color:var(--muted);margin:1px}
+    .positive{color:#3fb950}.negative{color:#ff7b72}.neutral{color:var(--muted)}
+    .filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+    select,input{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:9px 10px}
+    input{min-width:260px}
+    .small{font-size:12px;color:var(--muted)}
+    .rank{font-weight:700;color:var(--green)}
+    footer{color:var(--muted);font-size:12px;text-align:center;padding:30px}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>Bitget Wallet PR Monitor</h1>
+        <div class="sub">Wallet category SOV, narrative ownership, recent coverage, and journalist intelligence.</div>
+      </div>
+      <div class="badge">Last updated: <span id="last-updated" style="margin-left:6px">—</span></div>
+    </div>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#sov">Share of Voice</a>
+      <a href="#articles">Recent Coverage</a>
+      <a href="#narratives">Narratives</a>
+      <a href="#journalists">Journalists</a>
+      <a href="#competitors">Competitors</a>
+    </nav>
+  </div>
+</header>
+
+<div id="loading-state">Loading dashboard data…</div>
+
+<main id="dashboard" class="wrap" style="display:none">
+  <section id="overview" class="grid kpis"></section>
+
+  <section id="sov" class="grid two" style="margin-top:16px">
+    <div class="card">
+      <h2>Wallet Share of Voice</h2>
+      <div class="chart"><canvas id="sovChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Sentiment Split</h2>
+      <div class="chart"><canvas id="sentimentChart"></canvas></div>
+    </div>
+  </section>
+
+  <section id="articles" class="card" style="margin-top:16px">
+    <h2>Recent Coverage</h2>
+    <div class="filters">
+      <select id="brandFilter"><option value="">All brands</option></select>
+      <select id="narrativeFilter"><option value="">All narratives</option></select>
+      <select id="sentimentFilter"><option value="">All sentiment</option></select>
+      <input id="searchInput" placeholder="Search headline, source, author…">
+    </div>
+    <div style="overflow:auto;max-height:620px">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th><th>Headline</th><th>Source</th><th>Author</th><th>Brand</th><th>Narrative</th><th>Sentiment</th><th>Type</th><th>Score</th>
+          </tr>
+        </thead>
+        <tbody id="articleRows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="narratives" class="grid two" style="margin-top:16px">
+    <div class="card">
+      <h2>Narrative Ownership</h2>
+      <div class="chart"><canvas id="narrativeChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Narrative Table</h2>
+      <div id="narrativeTable"></div>
+    </div>
+  </section>
+
+  <section id="journalists" class="grid two" style="margin-top:16px">
+    <div class="card">
+      <h2>Journalist & Narrative Tracker</h2>
+      <div class="small" id="journalistSummary"></div>
+      <div style="overflow:auto;max-height:620px;margin-top:10px">
+        <table>
+          <thead>
+            <tr>
+              <th>Journalist</th><th>Outlet</th><th>Articles</th><th>Main Narrative</th><th>Brands</th><th>Priority</th><th>Suggested Pitch</th>
+            </tr>
+          </thead>
+          <tbody id="journalistRows"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Unknown Author Articles</h2>
+      <div class="small">RSS feeds often do not return bylines. Use this list for manual byline checks on high-value articles.</div>
+      <div style="overflow:auto;max-height:620px;margin-top:10px">
+        <table>
+          <thead><tr><th>Date</th><th>Outlet</th><th>Headline</th><th>Narrative</th></tr></thead>
+          <tbody id="unknownRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="competitors" class="grid two" style="margin-top:16px">
+    <div class="card">
+      <h2>Competitor Coverage Map</h2>
+      <div id="competitorTable"></div>
+    </div>
+    <div class="card">
+      <h2>PR Readout</h2>
+      <div id="readout"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Auto-generated by GitHub Actions. Data source: Google News RSS and selected crypto media RSS.
+</footer>
+
+<script>
+let ARTICLES = [];
+let METRICS = {};
+let JOURNALISTS = { named: [], unknown: [] };
+let CHARTS = {};
+
+function fmtDate(iso) {
+  try { return new Date(iso).toISOString().slice(0,10); } catch { return "—"; }
+}
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+function sentimentClass(s) {
+  const x = String(s || "").toLowerCase();
+  if (x.includes("positive")) return "positive";
+  if (x.includes("negative")) return "negative";
+  return "neutral";
+}
+
+// ─── Init ────────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const [manifest, articles, metrics, journalists] = await Promise.all([
+      loadJSON("data/manifest.json"),
+      loadJSON("data/articles.json"),
+      loadJSON("data/metrics.json"),
+      loadJSON("data/journalists.json"),
+    ]);
+
+    ARTICLES = articles || [];
+    METRICS = metrics || {};
+    JOURNALISTS = journalists || { named: [], unknown: [] };
+
+    const lu = manifest?.last_updated || metrics?.generated_at;
+    document.getElementById("last-updated").textContent =
+      lu ? new Date(lu).toLocaleString() : "—";
+
+    document.getElementById("loading-state").style.display = "none";
+    document.getElementById("dashboard").style.display = "block";
+
+    populateFilters();
+    renderKPIs();
+    renderSOV();
+    renderArticles();
+    renderSentiment();
+    renderNarratives();
+    renderJournalists();
+    renderUnknownAuthors();
+    renderCompetitors();
+    attachNavHighlight();
+  } catch (err) {
+    document.getElementById("loading-state").innerHTML = `
+      <div class="err-box">
+        ⚠ Could not load dashboard data.<br>
+        Run <code>python run.py</code> first to generate the <code>data/</code> files.<br>
+        <small>${esc(err.message)}</small>
+      </div>
+    `;
+  }
+}
+
+async function loadJSON(url) {
+  const r = await fetch(url + "?t=" + Date.now());
+  if (!r.ok) throw new Error(`HTTP ${r.status}: ${url}`);
+  return r.json();
+}
+
+// ─── Nav highlight ────────────────────────────────────────────────────────────
+function attachNavHighlight() {
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      document.querySelectorAll("nav a").forEach(a => {
+        a.classList.toggle("active", a.getAttribute("href") === "#" + e.target.id);
+      });
+    });
+  }, { rootMargin: "-25% 0px -65% 0px" });
+  document.querySelectorAll("section[id]").forEach(s => io.observe(s));
+}
+
+// ─── Chart helpers ────────────────────────────────────────────────────────────
+function destroyChart(id) {
+  if (CHARTS[id]) { CHARTS[id].destroy(); delete CHARTS[id]; }
+}
+function baseOpts(extra = {}) {
+  return Object.assign({
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+  }, extra);
+}
+const GRID_COLOR = "#21262d";
+const TICK_COLOR = "#8b949e";
+function scaleOpts() {
+  return {
+    x: { ticks: { color: TICK_COLOR, font: { size: 11 } }, grid: { color: GRID_COLOR } },
+    y: { ticks: { color: TICK_COLOR, font: { size: 11 } }, grid: { color: GRID_COLOR }, beginAtZero: true }
+  };
+}
+
+function populateFilters() {
+  const brands = [...new Set(ARTICLES.map(a => a.primary_brand).filter(Boolean))].sort();
+  const narratives = [...new Set(ARTICLES.map(a => a.narrative).filter(Boolean))].sort();
+  const sentiments = [...new Set(ARTICLES.map(a => a.sentiment).filter(Boolean))].sort();
+
+  addOptions("brandFilter", brands);
+  addOptions("narrativeFilter", narratives);
+  addOptions("sentimentFilter", sentiments);
+
+  ["brandFilter","narrativeFilter","sentimentFilter","searchInput"].forEach(id => {
+    document.getElementById(id).addEventListener("input", renderArticles);
+  });
+}
+function addOptions(id, values) {
+  const el = document.getElementById(id);
+  values.forEach(v => {
+    const opt = document.createElement("option");
+    opt.value = v; opt.textContent = v;
+    el.appendChild(opt);
+  });
+}
+
+function renderKPIs() {
+  const brand = (METRICS.brands || []).find(b => b.brand === METRICS.primary_brand) || {};
+  const js = JOURNALISTS.summary || {};
+  document.getElementById("overview").innerHTML = `
+    <div class="card"><h3>Total Articles</h3><div class="kpi-value">${METRICS.total_articles || 0}</div><div class="kpi-label">Included wallet-relevant coverage</div></div>
+    <div class="card"><h3>Bitget Wallet SOV</h3><div class="kpi-value">${brand.sov ?? 0}%</div><div class="kpi-label">${brand.mentions || 0} mentions in tracked set</div></div>
+    <div class="card"><h3>Named Journalists</h3><div class="kpi-value">${js.named_journalists || 0}</div><div class="kpi-label">${js.high_priority_journalists || 0} high-priority</div></div>
+    <div class="card"><h3>Time Window</h3><div class="kpi-value">${METRICS.days_back || "—"}</div><div class="kpi-label">days tracked</div></div>
+  `;
+}
+
+function renderSOV() {
+  destroyChart("sovChart");
+  const data = (METRICS.brands || []).slice().sort((a,b) => b.mentions - a.mentions);
+  CHARTS.sovChart = new Chart(document.getElementById("sovChart"), {
+    type: "bar",
+    data: {
+      labels: data.map(d => d.brand),
+      datasets: [{ data: data.map(d => d.sov), backgroundColor: data.map(d => d.color || "#58a6ff") }]
+    },
+    options: baseOpts({
+      scales: scaleOpts(),
+      plugins: { legend: { display:false }, tooltip: { callbacks: { label: c => `${c.raw}% SOV` } } }
+    })
+  });
+}
+
+function renderSentiment() {
+  destroyChart("sentimentChart");
+  const s = METRICS.sentiment || {};
+  const labels = Object.keys(s);
+  CHARTS.sentimentChart = new Chart(document.getElementById("sentimentChart"), {
+    type: "doughnut",
+    data: {
+      labels,
+      datasets: [{ data: labels.map(k => s[k]) }]
+    },
+    options: baseOpts({ plugins: { legend: { display:true, labels:{ color:TICK_COLOR } } } })
+  });
+}
+
+function filteredArticles() {
+  const bf = document.getElementById("brandFilter").value;
+  const nf = document.getElementById("narrativeFilter").value;
+  const sf = document.getElementById("sentimentFilter").value;
+  const q = document.getElementById("searchInput").value.toLowerCase().trim();
+  return ARTICLES.filter(a => {
+    if (bf && a.primary_brand !== bf && !(a.brands || []).includes(bf)) return false;
+    if (nf && a.narrative !== nf) return false;
+    if (sf && a.sentiment !== sf) return false;
+    if (q) {
+      const hay = `${a.headline} ${a.source} ${a.author} ${a.narrative}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function renderArticles() {
+  const rows = filteredArticles().slice(0, 300).map(a => `
+    <tr>
+      <td>${fmtDate(a.date)}</td>
+      <td><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.headline)}</a><div class="small">${esc((a.snippet || "").slice(0,160))}</div></td>
+      <td>${esc(a.source)}</td>
+      <td>${esc(a.author || "Unknown author")}</td>
+      <td>${esc(a.primary_brand || "")}</td>
+      <td><span class="pill">${esc(a.narrative)}</span></td>
+      <td class="${sentimentClass(a.sentiment)}">${esc(a.sentiment)}</td>
+      <td>${esc(a.article_type)}</td>
+      <td>${a.relevance_score ?? ""}</td>
+    </tr>
+  `).join("");
+  document.getElementById("articleRows").innerHTML = rows || `<tr><td colspan="9">No articles match the current filters.</td></tr>`;
+}
+
+function renderNarratives() {
+  destroyChart("narrativeChart");
+  const n = METRICS.narratives || {};
+  const entries = Object.entries(n).sort((a,b) => b[1] - a[1]).slice(0,12);
+  CHARTS.narrativeChart = new Chart(document.getElementById("narrativeChart"), {
+    type: "bar",
+    data: { labels: entries.map(x => x[0]), datasets: [{ data: entries.map(x => x[1]) }] },
+    options: baseOpts({ indexAxis: "y", scales: scaleOpts() })
+  });
+
+  const rows = entries.map(([name,count]) => `<tr><td>${esc(name)}</td><td>${count}</td></tr>`).join("");
+  document.getElementById("narrativeTable").innerHTML = `<table><thead><tr><th>Narrative</th><th>Articles</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+function renderJournalists() {
+  const s = JOURNALISTS.summary || {};
+  document.getElementById("journalistSummary").textContent =
+    `${s.named_journalists || 0} named journalists tracked · ${s.high_priority_journalists || 0} high-priority · ${s.unknown_author_articles || 0} unknown-author articles`;
+
+  const rows = (JOURNALISTS.named || []).slice(0,100).map(j => {
+    const brands = Object.entries(j.brands || {}).map(([k,v]) => `<span class="pill">${esc(k)} ${v}</span>`).join("");
+    return `
+      <tr>
+        <td><span class="rank">${esc(j.journalist)}</span></td>
+        <td>${esc(j.outlet)}</td>
+        <td>${j.articles}</td>
+        <td>${esc(j.top_narrative)}</td>
+        <td>${brands}</td>
+        <td>${j.pitch_priority_score}</td>
+        <td>${esc(j.suggested_pitch_angle)}</td>
+      </tr>
+    `;
+  }).join("");
+  document.getElementById("journalistRows").innerHTML = rows || `<tr><td colspan="7">No named journalists found yet.</td></tr>`;
+}
+
+function renderUnknownAuthors() {
+  const rows = (JOURNALISTS.unknown || []).slice(0,80).map(a => `
+    <tr>
+      <td>${fmtDate(a.date)}</td>
+      <td>${esc(a.outlet)}</td>
+      <td><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.headline)}</a></td>
+      <td>${esc(a.narrative)}</td>
+    </tr>
+  `).join("");
+  document.getElementById("unknownRows").innerHTML = rows || `<tr><td colspan="4">No unknown-author articles.</td></tr>`;
+}
+
+function renderCompetitors() {
+  const rows = (METRICS.brands || []).map(b => `
+    <tr>
+      <td>${esc(b.brand)}</td>
+      <td>${b.mentions}</td>
+      <td>${b.sov}%</td>
+    </tr>
+  `).join("");
+  document.getElementById("competitorTable").innerHTML = `
+    <table><thead><tr><th>Brand</th><th>Mentions</th><th>SOV</th></tr></thead><tbody>${rows}</tbody></table>
+  `;
+
+  const topNarrative = Object.entries(METRICS.narratives || {}).sort((a,b)=>b[1]-a[1])[0]?.[0] || "—";
+  const topSource = (METRICS.top_sources || [])[0]?.[0] || "—";
+  const bw = (METRICS.brands || []).find(b => b.brand === "Bitget Wallet") || {};
+  document.getElementById("readout").innerHTML = `
+    <p><strong>Current readout:</strong> Bitget Wallet has <strong>${bw.mentions || 0}</strong> mentions and <strong>${bw.sov || 0}%</strong> SOV in the tracked wallet category.</p>
+    <p>The most active narrative is <strong>${esc(topNarrative)}</strong>, while the top source by count is <strong>${esc(topSource)}</strong>.</p>
+    <p class="small">Use this section as a directional PR signal. Manual QA is recommended before executive reporting.</p>
+  `;
+}
+
+init();
+</script>
+</body>
+</html>
