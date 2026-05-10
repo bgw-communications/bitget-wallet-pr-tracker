@@ -32,3 +32,8 @@ Use `manual_overrides.csv` to correct article classification:
 URL,Correct Brand,Correct Narrative,Correct Sentiment,Correct Author,Correct Article Type,Include / Exclude,Notes
 https://example.com/article,,,,,,exclude,Not wallet-related
 ```
+
+
+## Workflow fix
+
+This package includes an updated `.github/workflows/monitor.yml` that avoids non-fast-forward push failures by syncing with the latest `origin/main`, using native git commit / rebase / push, and preventing overlapping workflow runs.
