@@ -1,71 +1,71 @@
 {
-  "generated_at": "2026-06-10T05:22:37.243660+00:00",
+  "generated_at": "2026-06-11T05:52:56.746789+00:00",
   "time_window": "QTD from 2026-04-01",
   "qtd_start": "2026-04-01",
-  "total_articles": 195,
-  "rss_articles": 195,
+  "total_articles": 182,
+  "rss_articles": 182,
   "google_news_articles": 0,
   "meltwater_articles": 0,
-  "total_mentions": 195,
+  "total_mentions": 182,
   "wallets_tracked": 6,
   "primary_brand": "Bitget Wallet",
   "brands": [
     {
       "brand": "Bitget Wallet",
       "mentions": 62,
-      "sov": 31.79,
+      "sov": 34.07,
       "rank": 2,
       "color": "#00f0b5",
       "sentiment": {
-        "Positive": 40,
         "Neutral": 21,
+        "Positive": 40,
         "Negative": 1
       },
       "top_narrative": "Prediction markets"
     },
     {
       "brand": "MetaMask",
-      "mentions": 92,
-      "sov": 47.18,
+      "mentions": 83,
+      "sov": 45.6,
       "rank": 1,
       "color": "#f6851b",
       "sentiment": {
-        "Neutral": 45,
-        "Positive": 45,
+        "Neutral": 43,
+        "Positive": 38,
         "Negative": 2
       },
       "top_narrative": "AI / agentic finance"
     },
     {
       "brand": "Trust Wallet",
-      "mentions": 26,
-      "sov": 13.33,
+      "mentions": 23,
+      "sov": 12.64,
       "rank": 3,
       "color": "#3375bb",
       "sentiment": {
-        "Negative": 4,
-        "Neutral": 17,
-        "Positive": 5
+        "Neutral": 14,
+        "Positive": 6,
+        "Negative": 3
       },
       "top_narrative": "General wallet coverage"
     },
     {
       "brand": "Phantom Wallet",
-      "mentions": 6,
-      "sov": 3.08,
-      "rank": 4,
+      "mentions": 5,
+      "sov": 2.75,
+      "rank": 5,
       "color": "#ab9ff2",
       "sentiment": {
         "Neutral": 3,
         "Positive": 1,
-        "Negative": 2
+        "Negative": 1
       },
       "top_narrative": "General wallet coverage"
     },
     {
       "brand": "OKX Wallet",
       "mentions": 4,
-      "sov": 2.05,
+      "sov": 2.2,
       "rank": 6,
       "color": "#ffffff",
       "sentiment": {
@@ -77,8 +77,8 @@
     {
       "brand": "Coinbase Wallet / Base App",
       "mentions": 5,
-      "sov": 2.56,
-      "rank": 5,
+      "sov": 2.75,
+      "rank": 4,
       "color": "#0052ff",
       "sentiment": {
         "Positive": 4,
@@ -88,57 +88,57 @@
     }
   ],
   "sentiment": {
-    "Neutral": 89,
-    "Positive": 97,
-    "Negative": 9
+    "Neutral": 84,
+    "Positive": 91,
+    "Negative": 7
   },
   "primary_sentiment": {
-    "Positive": 40,
     "Neutral": 21,
+    "Positive": 40,
     "Negative": 1
   },
   "narratives": {
-    "AI / agentic finance": 56,
+    "General wallet coverage": 59,
+    "AI / agentic finance": 55,
+    "Onchain trading / swaps": 14,
     "RWA / tokenized assets": 10,
-    "Self-custody": 2,
-    "Onchain trading / swaps": 20,
-    "General wallet coverage": 66,
     "Security": 6,
-    "Prediction markets": 13,
-    "Stablecoin payments": 6,
+    "Prediction markets": 14,
+    "Stablecoin payments": 7,
     "Crypto card": 11,
     "QR payments": 2,
+    "Self-custody": 1,
     "Regulation": 3
   },
   "narrative_by_brand": {
     "Bitget Wallet": {
-      "RWA / tokenized assets": 9,
-      "Onchain trading / swaps": 10,
-      "Prediction markets": 13,
       "General wallet coverage": 8,
-      "AI / agentic finance": 6,
-      "Stablecoin payments": 6,
+      "Onchain trading / swaps": 7,
+      "RWA / tokenized assets": 9,
+      "Prediction markets": 14,
+      "AI / agentic finance": 7,
+      "Stablecoin payments": 7,
       "Crypto card": 9,
       "QR payments": 1
     },
     "MetaMask": {
-      "AI / agentic finance": 44,
-      "General wallet coverage": 36,
-      "Onchain trading / swaps": 6,
+      "AI / agentic finance": 41,
+      "General wallet coverage": 32,
+      "Onchain trading / swaps": 4,
       "Crypto card": 2,
       "QR payments": 1,
       "Regulation": 2,
       "RWA / tokenized assets": 1
     },
     "Trust Wallet": {
-      "Self-custody": 2,
-      "General wallet coverage": 12,
-      "Onchain trading / swaps": 3,
-      "AI / agentic finance": 5,
+      "General wallet coverage": 10,
+      "Onchain trading / swaps": 2,
+      "AI / agentic finance": 6,
+      "Self-custody": 1,
       "Security": 4
     },
     "Phantom Wallet": {
-      "General wallet coverage": 5,
+      "General wallet coverage": 4,
       "Regulation": 1
     },
     "OKX Wallet": {
@@ -155,26 +155,38 @@
   "keyword_cloud": [
     {
       "keyword": "agent",
-      "count": 83
+      "count": 77
     },
     {
       "keyword": "trading",
       "count": 39
     },
     {
-      "keyword": "acces",
-      "count": 38
+      "keyword": "tokenized",
+      "count": 32
     },
     {
-      "keyword": "defi",
-      "count": 31
+      "keyword": "acces",
+      "count": 32
     },
     {
       "keyword": "binance",
       "count": 30
     },
     {
-      "keyword": "tokenized",
+      "keyword": "defi",
+      "count": 28
+    },
+    {
+      "keyword": "globenewswire",
+      "count": 28
+    },
+    {
+      "keyword": "expand",
+      "count": 28
+    },
+    {
+      "keyword": "payment",
       "count": 28
     },
     {
@@ -186,14 +198,6 @@
       "count": 26
     },
     {
-      "keyword": "expand",
-      "count": 26
-    },
-    {
-      "keyword": "globenewswire",
-      "count": 24
-    },
-    {
       "keyword": "stablecoin",
       "count": 24
     },
@@ -202,47 +206,39 @@
       "count": 24
     },
     {
-      "keyword": "payment",
-      "count": 24
-    },
-    {
-      "keyword": "finance",
+      "keyword": "world",
       "count": 22
     },
     {
-      "keyword": "bring",
-      "count": 20
-    },
-    {
-      "keyword": "world",
-      "count": 20
-    },
-    {
-      "keyword": "security",
-      "count": 19
-    },
-    {
       "keyword": "acros",
-      "count": 19
-    },
-    {
-      "keyword": "unveil",
-      "count": 18
+      "count": 20
     },
     {
       "keyword": "coinmarketcap",
       "count": 18
     },
     {
-      "keyword": "trade",
+      "keyword": "security",
+      "count": 18
+    },
+    {
+      "keyword": "integrate",
+      "count": 18
+    },
+    {
+      "keyword": "finance",
+      "count": 18
+    },
+    {
+      "keyword": "stock",
       "count": 16
     },
     {
-      "keyword": "mexc",
+      "keyword": "unveil",
       "count": 16
     },
     {
-      "keyword": "ethereum",
+      "keyword": "bring",
       "count": 16
     },
     {
@@ -254,32 +250,20 @@
       "count": 16
     },
     {
-      "keyword": "integrate",
+      "keyword": "america",
       "count": 16
     },
     {
-      "keyword": "stock",
+      "keyword": "mexc",
       "count": 14
     },
     {
-      "keyword": "yahoo",
+      "keyword": "ethereum",
       "count": 14
     },
     {
-      "keyword": "xstock",
-      "count": 14
-    },
-    {
-      "keyword": "transaction",
-      "count": 14
-    },
-    {
-      "keyword": "integration",
-      "count": 14
-    },
-    {
-      "keyword": "times",
-      "count": 14
+      "keyword": "trade",
+      "count": 13
     },
     {
       "keyword": "opens",
@@ -294,11 +278,7 @@
       "count": 12
     },
     {
-      "keyword": "bots",
-      "count": 12
-    },
-    {
-      "keyword": "onchain",
+      "keyword": "xstock",
       "count": 12
     },
     {
@@ -306,16 +286,16 @@
       "count": 12
     },
     {
-      "keyword": "tradingview",
+      "keyword": "times",
       "count": 12
     },
     {
-      "keyword": "adds",
+      "keyword": "usdcv",
       "count": 12
     },
     {
-      "keyword": "america",
-      "count": 12
+      "keyword": "autonomou",
+      "count": 11
     },
     {
       "keyword": "cryptonew",
@@ -326,11 +306,7 @@
       "count": 10
     },
     {
-      "keyword": "self-custody",
-      "count": 10
-    },
-    {
-      "keyword": "layer",
+      "keyword": "yahoo",
       "count": 10
     },
     {
@@ -338,74 +314,102 @@
       "count": 10
     },
     {
-      "keyword": "live",
+      "keyword": "bots",
       "count": 10
     },
     {
-      "keyword": "finlay",
+      "keyword": "transaction",
       "count": 10
     },
     {
-      "keyword": "today",
+      "keyword": "tradingview",
       "count": 10
     },
     {
-      "keyword": "usdcv",
+      "keyword": "adds",
       "count": 10
+    },
+    {
+      "keyword": "campaign",
+      "count": 10
+    },
+    {
+      "keyword": "jack",
+      "count": 10
+    },
+    {
+      "keyword": "zhai",
+      "count": 10
+    },
+    {
+      "keyword": "integration",
+      "count": 10
+    },
+    {
+      "keyword": "latin",
+      "count": 10
+    },
+    {
+      "keyword": "spacex",
+      "count": 8
     }
   ],
   "keyword_cloud_by_brand": {
     "Bitget Wallet": [
       {
+        "keyword": "globenewswire",
+        "count": 28
+      },
+      {
+        "keyword": "tokenized",
+        "count": 26
+      },
+      {
         "keyword": "polymarket",
         "count": 26
       },
       {
-        "keyword": "globenewswire",
-        "count": 24
-      },
-      {
         "keyword": "expand",
-        "count": 24
-      },
-      {
-        "keyword": "tokenized",
-        "count": 22
+        "count": 26
       },
       {
         "keyword": "prediction",
         "count": 22
       },
       {
+        "keyword": "world",
+        "count": 20
+      },
+      {
         "keyword": "card",
         "count": 20
       },
       {
-        "keyword": "world",
+        "keyword": "payment",
         "count": 18
       },
       {
-        "keyword": "acces",
-        "count": 16
-      },
-      {
-        "keyword": "payment",
-        "count": 16
-      },
-      {
-        "keyword": "xstock",
-        "count": 14
-      },
-      {
-        "keyword": "bring",
-        "count": 14
-      },
-      {
         "keyword": "acros",
+        "count": 16
+      },
+      {
+        "keyword": "america",
+        "count": 16
+      },
+      {
+        "keyword": "acces",
         "count": 14
       },
       {
         "keyword": "trading",
+        "count": 12
+      },
+      {
+        "keyword": "xstock",
+        "count": 12
+      },
+      {
+        "keyword": "bring",
         "count": 12
       },
       {
@@ -417,35 +421,39 @@
         "count": 12
       },
       {
-        "keyword": "america",
-        "count": 12
-      },
-      {
-        "keyword": "integration",
+        "keyword": "stock",
         "count": 10
       },
       {
-        "keyword": "stock",
-        "count": 8
-      },
-      {
-        "keyword": "adds",
-        "count": 8
-      },
-      {
         "keyword": "campaign",
-        "count": 8
+        "count": 10
       },
       {
         "keyword": "jack",
-        "count": 8
+        "count": 10
       },
       {
         "keyword": "zhai",
-        "count": 8
+        "count": 10
       },
       {
         "keyword": "latin",
+        "count": 10
+      },
+      {
+        "keyword": "spacex",
+        "count": 8
+      },
+      {
+        "keyword": "opens",
+        "count": 8
+      },
+      {
+        "keyword": "uber",
+        "count": 8
+      },
+      {
+        "keyword": "integration",
         "count": 8
       },
       {
@@ -457,10 +465,6 @@
         "count": 8
       },
       {
-        "keyword": "opens",
-        "count": 6
-      },
-      {
         "keyword": "partner",
         "count": 6
       },
@@ -469,23 +473,15 @@
         "count": 6
       },
       {
-        "keyword": "spacex",
+        "keyword": "adds",
+        "count": 6
+      },
+      {
+        "keyword": "taps",
         "count": 6
       },
       {
         "keyword": "blockchainreporter",
-        "count": 6
-      },
-      {
-        "keyword": "uber",
-        "count": 6
-      },
-      {
-        "keyword": "onchain",
-        "count": 6
-      },
-      {
-        "keyword": "yahoo",
         "count": 6
       },
       {
@@ -495,32 +491,28 @@
       {
         "keyword": "emerging",
         "count": 6
+      },
+      {
+        "keyword": "stellar",
+        "count": 6
       }
     ],
     "MetaMask": [
       {
         "keyword": "agent",
-        "count": 73
+        "count": 65
       },
       {
         "keyword": "defi",
-        "count": 27
+        "count": 24
       },
       {
         "keyword": "trading",
         "count": 21
       },
       {
-        "keyword": "acces",
-        "count": 20
-      },
-      {
         "keyword": "stablecoin",
         "count": 20
-      },
-      {
-        "keyword": "ethereum",
-        "count": 16
       },
       {
         "keyword": "co-founder",
@@ -531,19 +523,19 @@
         "count": 16
       },
       {
+        "keyword": "acces",
+        "count": 16
+      },
+      {
         "keyword": "unveil",
         "count": 14
       },
       {
-        "keyword": "trade",
-        "count": 12
+        "keyword": "ethereum",
+        "count": 14
       },
       {
-        "keyword": "bots",
-        "count": 12
-      },
-      {
-        "keyword": "transaction",
+        "keyword": "usdcv",
         "count": 12
       },
       {
@@ -555,11 +547,7 @@
         "count": 10
       },
       {
-        "keyword": "finlay",
-        "count": 10
-      },
-      {
-        "keyword": "finance",
+        "keyword": "bots",
         "count": 10
       },
       {
@@ -567,19 +555,15 @@
         "count": 10
       },
       {
-        "keyword": "usdcv",
-        "count": 10
-      },
-      {
         "keyword": "autonomou",
         "count": 9
       },
       {
-        "keyword": "security",
+        "keyword": "trade",
         "count": 9
       },
       {
-        "keyword": "yahoo",
+        "keyword": "finlay",
         "count": 8
       },
       {
@@ -587,11 +571,11 @@
         "count": 8
       },
       {
-        "keyword": "robinhood",
+        "keyword": "security",
         "count": 8
       },
       {
-        "keyword": "mexc",
+        "keyword": "transaction",
         "count": 8
       },
       {
@@ -611,8 +595,8 @@
         "count": 7
       },
       {
-        "keyword": "self-custodial",
-        "count": 7
+        "keyword": "just",
+        "count": 6
       },
       {
         "keyword": "introduce",
@@ -623,38 +607,54 @@
         "count": 6
       },
       {
-        "keyword": "opens",
+        "keyword": "yahoo",
         "count": 6
       },
       {
-        "keyword": "early",
+        "keyword": "self-custodial",
         "count": 6
       },
       {
-        "keyword": "self-custody",
+        "keyword": "debut",
         "count": 6
       },
       {
-        "keyword": "onchain",
+        "keyword": "block",
+        "count": 6
+      },
+      {
+        "keyword": "finance",
+        "count": 6
+      },
+      {
+        "keyword": "financefeed",
+        "count": 6
+      },
+      {
+        "keyword": "payment",
+        "count": 6
+      },
+      {
+        "keyword": "tokenized",
         "count": 6
       }
     ],
     "Trust Wallet": [
       {
         "keyword": "binance",
-        "count": 14
+        "count": 16
+      },
+      {
+        "keyword": "agent",
+        "count": 8
       },
       {
         "keyword": "coinmarketcap",
         "count": 6
       },
       {
-        "keyword": "agent",
+        "keyword": "briefing",
         "count": 6
-      },
-      {
-        "keyword": "self-custody",
-        "count": 4
       },
       {
         "keyword": "token",
@@ -677,19 +677,15 @@
         "count": 4
       },
       {
+        "keyword": "hack",
+        "count": 4
+      },
+      {
         "keyword": "trading",
         "count": 4
       },
       {
-        "keyword": "paypal",
-        "count": 4
-      },
-      {
-        "keyword": "openpr",
-        "count": 4
-      },
-      {
-        "keyword": "hyperliquid",
+        "keyword": "edition",
         "count": 4
       },
       {
@@ -697,7 +693,11 @@
         "count": 4
       },
       {
-        "keyword": "bring",
+        "keyword": "x402",
+        "count": 4
+      },
+      {
+        "keyword": "payment",
         "count": 4
       },
       {
@@ -717,40 +717,12 @@
         "count": 4
       },
       {
-        "keyword": "briefing",
-        "count": 4
-      },
-      {
-        "keyword": "integration",
-        "count": 4
-      },
-      {
         "keyword": "issue",
         "count": 4
       },
       {
         "keyword": "advisory",
         "count": 4
-      },
-      {
-        "keyword": "inside",
-        "count": 2
-      },
-      {
-        "keyword": "layer",
-        "count": 2
-      },
-      {
-        "keyword": "eating",
-        "count": 2
-      },
-      {
-        "keyword": "exchange",
-        "count": 2
-      },
-      {
-        "keyword": "hackernoon",
-        "count": 2
       },
       {
         "keyword": "live",
@@ -779,6 +751,34 @@
       {
         "keyword": "fiat",
         "count": 2
+      },
+      {
+        "keyword": "trader",
+        "count": 2
+      },
+      {
+        "keyword": "union",
+        "count": 2
+      },
+      {
+        "keyword": "chainwire",
+        "count": 2
+      },
+      {
+        "keyword": "investing",
+        "count": 2
+      },
+      {
+        "keyword": "casino",
+        "count": 2
+      },
+      {
+        "keyword": "gambling",
+        "count": 2
+      },
+      {
+        "keyword": "cryptonew",
+        "count": 2
       }
     ],
     "Phantom Wallet": [
@@ -787,23 +787,11 @@
         "count": 4
       },
       {
-        "keyword": "times",
-        "count": 4
-      },
-      {
         "keyword": "disruption",
         "count": 4
       },
       {
         "keyword": "display",
-        "count": 4
-      },
-      {
-        "keyword": "outage",
-        "count": 4
-      },
-      {
-        "keyword": "spark",
         "count": 4
       },
       {
@@ -824,6 +812,10 @@
       },
       {
         "keyword": "protection",
+        "count": 2
+      },
+      {
+        "keyword": "times",
         "count": 2
       },
       {
@@ -859,19 +851,11 @@
         "count": 2
       },
       {
-        "keyword": "token",
+        "keyword": "outage",
         "count": 2
       },
       {
-        "keyword": "loss",
-        "count": 2
-      },
-      {
-        "keyword": "fears",
-        "count": 2
-      },
-      {
-        "keyword": "among",
+        "keyword": "spark",
         "count": 2
       },
       {
@@ -1163,23 +1147,23 @@
   "top_sources": [
     [
       "GlobeNewswire",
-      12
+      14
     ],
     [
       "Bitget",
-      11
-    ],
-    [
-      "Binance",
       10
     ],
     [
-      "MEXC",
-      7
+      "Binance",
+      9
     ],
     [
       "CoinMarketCap",
       7
+    ],
+    [
+      "MEXC",
+      6
     ],
     [
       "Crypto Briefing",
@@ -1187,15 +1171,7 @@
     ],
     [
       "TradingView",
-      6
-    ],
-    [
-      "Yahoo Finance",
-      6
-    ],
-    [
-      "BlockchainReporter",
-      4
+      5
     ],
     [
       "Crypto Economy",
@@ -1206,7 +1182,11 @@
       4
     ],
     [
-      "openPR.com",
+      "BlockchainReporter",
+      4
+    ],
+    [
+      "Yahoo Finance",
       4
     ],
     [
@@ -1220,6 +1200,10 @@
     [
       "Cryptonews",
       3
+    ],
+    [
+      "bloomingbit",
+      3
     ]
   ],
   "competitor_intelligence": [
@@ -1228,12 +1212,20 @@
       "tagline": "Incumbent self-custody and distribution benchmark",
       "threat_level": "HIGH",
       "rank": 1,
-      "mentions": 92,
-      "positive": 45,
+      "mentions": 83,
+      "positive": 38,
       "negative": 2,
-      "tier1": 6,
+      "tier1": 5,
       "top_narrative": "AI / agentic finance",
       "latest_articles": [
+        {
+          "date": "2026-06-10T18:00:03+00:00",
+          "headline": "MetaMask just gave AI agents a DeFi wallet with a leash - CryptoSlate",
+          "source": "CryptoSlate",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcjVZX2ZfVS1VWjVDN19yV0JzWVAwSlcyVWhXRm9pd2pJcFFJTVBTWnVpVFByUXJBZkd5Z2g1OVlPWFUzTGNIdUwxX0I4ZzdSdVpuajIzYWJQc3EweFprd3dJZHRlQTZwbUlZejVJWlRyTWN4WjdKQTdQZ1RVVmZXRkpjaC1kdjA?oc=5",
+          "narrative": "AI / agentic finance",
+          "sentiment": "Neutral"
+        },
         {
           "date": "2026-06-10T05:05:00+00:00",
           "headline": "Crypto Revolution: MetaMask Hands Over the Keys of DeFi to Autonomous AI! - Cointribune",
@@ -1249,14 +1241,6 @@
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONXhnbkVEWENLenVSY2tEVzBxZ2p6dVl1eVRhYkxLeF9HWnd2QWZvZHFVYmdGaThMRnNRZjVmRlNLckVFUmpoMDZGckI4WTV1Y2o3b185M2Y5Ml9LMHRQeEZ3U2ZTS1ZnME1yc1A3dlZTbXpVYXlUbTQwZ1YwaHZnVlFvZlk2OUEyYWVHMi1lSUVvN3IteXUzYTJYbXZHdlVaaVZLTWxLNWVuVm9YYUF6LXNB?oc=5",
           "narrative": "AI / agentic finance",
           "sentiment": "Positive"
-        },
-        {
-          "date": "2026-06-09T16:51:43+00:00",
-          "headline": "Crypto Market Update: MetaMask Introduces Agent Wallet for Safe AI-Powered DeFi Trading - Analytics Insight",
-          "source": "Analytics Insight",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWUF3ZHFLcW9zWThHYUJhSEI1S0dCVjlPWWFKLXRJOXlublRZZFlqWHZEV0xaSWZGUFlUNWlMVkRnU1c1NmkwV2cxdmpCZ2l5Wk1KVzJ2RjN0QkhHRkFYS3BiaEVQZW1NaWJvSkphbXZQTlRBdXdOMFdmT3pJdUNuS2RKTGxsMXA2NjJNdlNWYjY5TmY1d2prSE54OFZiamhEX25ubkI3cW11TEdwUkNHN0c1YUN3dDZQUU9GY2hBOFZ2SGRJeTFkdmN0Y1hsUjDSAc8BQVVfeXFMTVlBd2RxS3Fvc1k4R2FCYUhCNUtHQlY5T1lhSi10STl5bm5UWWRZalh2RFdMWklmRlBZVDVpTFZEZ1NXNTZpMFdnMXZqQmdpeVpNSlcydkYzdEJIR0ZBWEtwYmhFUGVtTWlib0pKYW12UE5UQXV3TjBXZk96SXVDbktkSkxsbDFwNjYyTXZTVmI2OU5mNXdqa0hOeDhWYmpoRF9ubm5CN3FtdUxHcFJDRzdHNWFDd3Q2UFFPRmNoQThWdkhkSXkxZHZjdGNYbFIw?oc=5",
-          "narrative": "AI / agentic finance",
-          "sentiment": "Positive"
         }
       ],
       "verdict": "Owns visibility around ai / agentic finance, a strategically relevant wallet narrative. Useful benchmark for Bitget Wallet proof points and media hooks. Sentiment skews constructive, suggesting room for proactive counter-positioning."
@@ -1266,20 +1250,12 @@
       "tagline": "Retail scale and wallet UX challenger",
       "threat_level": "HIGH",
       "rank": 3,
-      "mentions": 26,
-      "positive": 5,
-      "negative": 4,
+      "mentions": 23,
+      "positive": 6,
+      "negative": 3,
       "tier1": 1,
       "top_narrative": "General wallet coverage",
       "latest_articles": [
-        {
-          "date": "2026-06-09T14:27:59+00:00",
-          "headline": "Inside Trust Wallet: The Self-Custody Layer Eating the Exchange - HackerNoon",
-          "source": "HackerNoon",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTlRVVzhSYVhlekFvSk0zaHMzZHg2RThEQzNyOVlTZDJONEN3X2t4TlF0bEhSX0hlZG5CZGxsaWdZVXgzOGw4Vno4bjFEWW51dG13QTlOeDA1S0xDMlVOLWEycmszeTlMSmxaMzZRVXh2YUdoMkhfOGh2cFdCck9PeDhuYWxvem9tOUdOTS1n?oc=5",
-          "narrative": "Self-custody",
-          "sentiment": "Negative"
-        },
         {
           "date": "2026-06-04T13:30:00+00:00",
           "headline": "Trust Wallet Token Price Today | TWT to ZAR Live Price, Market Cap & Chart - Binance",
@@ -1295,6 +1271,14 @@
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbGl2c1ktMjhXd3N4Vi1IRVRtRV80Tm9XdmI0VHpLeGNjNWhSSldhOU93b21lMlZlZWNvUVJHOUR2dFpzWGVzU0lrOW9kLWxtWFctN0dtNUl0dG9JNXdxM1lvNUNQcUxlRjhBR1dBcjdPekNkS1VZWTNoQkhDb3Qtb09Sdm53S2FMSnNMU3EzV2gxaTRPdG5GY21SbDQ4bHIwd1pSMDFkTlI3VV9rUFdhNw?oc=5",
           "narrative": "Onchain trading / swaps",
           "sentiment": "Neutral"
+        },
+        {
+          "date": "2026-06-04T07:00:00+00:00",
+          "headline": "Trust Wallet Withdrawal Guide For Crypto To Fiat In 2026 - Traders Union",
+          "source": "Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zVUdRSTdrNm4zZ3N4WWEzQ3RVZU9XX0RSNEJ6Nm1kNWZrNm1YQTNIb0JLcmxGd0ZoeUJsQmh5R2FBb2tWTFNCSjB0MllGd1NMTUJUOHVSV0tCRy1tcXA1c1lTMDBrSEV1VE5QYUkxSTVkU2loVWhhalZPY2JGTEk?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Neutral"
         }
       ],
       "verdict": "Lower direct narrative overlap, but 1 higher-impact article(s) make this worth monitoring for category perception. Sentiment skews constructive, suggesting room for proactive counter-positioning."
@@ -1303,10 +1287,10 @@
       "brand": "Phantom Wallet",
       "tagline": "Solana-native wallet expanding cross-chain",
       "threat_level": "MONITOR",
-      "rank": 4,
-      "mentions": 6,
+      "rank": 5,
+      "mentions": 5,
       "positive": 1,
-      "negative": 2,
+      "negative": 1,
       "tier1": 0,
       "top_narrative": "General wallet coverage",
       "latest_articles": [
@@ -1335,13 +1319,13 @@
           "sentiment": "Neutral"
         }
       ],
-      "verdict": "Coverage is present but mostly broad wallet/category news. Lower immediate threat unless volume accelerates. Negative coverage may create a contrast opportunity."
+      "verdict": "Coverage is present but mostly broad wallet/category news. Lower immediate threat unless volume accelerates."
     },
     {
       "brand": "Coinbase Wallet / Base App",
       "tagline": "US-regulated wallet and Base ecosystem gateway",
       "threat_level": "MONITOR",
-      "rank": 5,
+      "rank": 4,
       "mentions": 5,
       "positive": 4,
       "negative": 0,
@@ -1417,223 +1401,50 @@
   "last_24h": {
     "articles": [
       {
-        "date": "2026-06-10T05:05:00+00:00",
-        "source": "Cointribune",
-        "headline": "Crypto Revolution: MetaMask Hands Over the Keys of DeFi to Autonomous AI! - Cointribune",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMGVUUkhKRFFrUXY5aVk1S3M1ZWFLZmw3MHhEYWV0VjRNODlzN0RNUVJjUC05X2dOX3hPX0Uta1RIZlBYSm4weWRTdmxXMVZDV20wLWg4VDBOMTBoWGNjUTQ1cmotbEdGdk5lUmJHZUlxY0FsOHV6VG5UdEI5Q3BmeE5YV3VxeUVCdGc?oc=5",
+        "date": "2026-06-11T04:18:03+00:00",
+        "source": "Coin Edition",
+        "headline": "Bitget Wallet Tokenized SpaceX IPO Hits $13M, Sells Out in 30 Minutes - Coin Edition",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWUFJZkZtYXhBUVB5VHFKN1ZNbmI5QlB5bzJEdUtOSHU2dTktUVRURDBUaXQ5Z1pXdk1yaURLdlBWTk1pM3pjRkJzdzdabWhJUklBd29vemdDV0kyM3NOZTVpMUJzbUdqbUJmSko3ZGFDNklVaW5OMUpLc2JpRDJLTHhTanJXX0dOaWhqWmQ1M1VRZHFqQlZJ?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-06-10T18:00:03+00:00",
+        "source": "CryptoSlate",
+        "headline": "MetaMask just gave AI agents a DeFi wallet with a leash - CryptoSlate",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcjVZX2ZfVS1VWjVDN19yV0JzWVAwSlcyVWhXRm9pd2pJcFFJTVBTWnVpVFByUXJBZkd5Z2g1OVlPWFUzTGNIdUwxX0I4ZzdSdVpuajIzYWJQc3EweFprd3dJZHRlQTZwbUlZejVJWlRyTWN4WjdKQTdQZ1RVVmZXRkpjaC1kdjA?oc=5",
         "brand": "MetaMask",
         "narrative": "AI / agentic finance",
         "sentiment": "Neutral"
       },
       {
-        "date": "2026-06-10T04:59:19+00:00",
+        "date": "2026-06-10T17:44:23+00:00",
         "source": "GlobeNewswire",
-        "headline": "Bitget Wallet Opens Tokenized Stock and RWA Trading to API Partners - GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONXBESlg3VkpFMVJSbTZyalk4M2dhZW1RcFBNY1V3SXY0OXhUVkFpa2lxM3V5SWItWHFpdndSckUyT09ab1lIdmp6T3VRZnU1eWFpVWQ3LTFfYmRGVXoyYXBsOTRVZHFxcXNwNDBNNkVYOXNtWFlXVnBLV1IwdTRieHpBZVo4MGdFaHdjYmYtMTN1dzBGZ2tVck1Ldy1MNWpFNGtzY2Voak9uWWxmVGhCV01Xbng4Unpld3lHSm1zQkh1YjBjRUszR1B3el9RMXkyY1ZSZUd3?oc=5",
+        "headline": "Bitget Wallet: $13M in Tokenized SpaceX IPO Subscriptions Close in 30 Minutes - GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYTctSjE1Si1kNjAzdTk5cXlGb0dFX0ZZZjV3SWFSelNhYVRQMXBlTTBLaTYxWnFhRXc4TWRYbWlCSWpUelA0NkhWZUhhbGZyUWxCNmRaZXBMZVU1bnRsOVdxMDNHLVNoZVJoOFdRQ1V1d0xUR0FJbWpQWXNTcy1jUXBRd1lzbFlyQUp2RC12ZmthUEh6amgtckp6M29kT3Q5VFU1RFdzcEdOU3oxWTJ3eElLSkNDMkdMY2VQVWhnUmdaYmZGWFhRVGJtOXIwcG54RE9wTm1SOUdyUmF4UXZORA?oc=5",
         "brand": "Bitget Wallet",
-        "narrative": "RWA / tokenized assets",
+        "narrative": "General wallet coverage",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-06-10T02:54:59+00:00",
-        "source": "Bitcoin News",
-        "headline": "Metamask Launches Agent Wallet for AI-Driven DeFi Trading, Targets $236B AI Agent Market - Bitcoin News",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONXhnbkVEWENLenVSY2tEVzBxZ2p6dVl1eVRhYkxLeF9HWnd2QWZvZHFVYmdGaThMRnNRZjVmRlNLckVFUmpoMDZGckI4WTV1Y2o3b185M2Y5Ml9LMHRQeEZ3U2ZTS1ZnME1yc1A3dlZTbXpVYXlUbTQwZ1YwaHZnVlFvZlk2OUEyYWVHMi1lSUVvN3IteXUzYTJYbXZHdlVaaVZLTWxLNWVuVm9YYUF6LXNB?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T16:51:43+00:00",
-        "source": "Analytics Insight",
-        "headline": "Crypto Market Update: MetaMask Introduces Agent Wallet for Safe AI-Powered DeFi Trading - Analytics Insight",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWUF3ZHFLcW9zWThHYUJhSEI1S0dCVjlPWWFKLXRJOXlublRZZFlqWHZEV0xaSWZGUFlUNWlMVkRnU1c1NmkwV2cxdmpCZ2l5Wk1KVzJ2RjN0QkhHRkFYS3BiaEVQZW1NaWJvSkphbXZQTlRBdXdOMFdmT3pJdUNuS2RKTGxsMXA2NjJNdlNWYjY5TmY1d2prSE54OFZiamhEX25ubkI3cW11TEdwUkNHN0c1YUN3dDZQUU9GY2hBOFZ2SGRJeTFkdmN0Y1hsUjDSAc8BQVVfeXFMTVlBd2RxS3Fvc1k4R2FCYUhCNUtHQlY5T1lhSi10STl5bm5UWWRZalh2RFdMWklmRlBZVDVpTFZEZ1NXNTZpMFdnMXZqQmdpeVpNSlcydkYzdEJIR0ZBWEtwYmhFUGVtTWlib0pKYW12UE5UQXV3TjBXZk96SXVDbktkSkxsbDFwNjYyTXZTVmI2OU5mNXdqa0hOeDhWYmpoRF9ubm5CN3FtdUxHcFJDRzdHNWFDd3Q2UFFPRmNoQThWdkhkSXkxZHZjdGNYbFIw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T14:27:59+00:00",
-        "source": "HackerNoon",
-        "headline": "Inside Trust Wallet: The Self-Custody Layer Eating the Exchange - HackerNoon",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTlRVVzhSYVhlekFvSk0zaHMzZHg2RThEQzNyOVlTZDJONEN3X2t4TlF0bEhSX0hlZG5CZGxsaWdZVXgzOGw4Vno4bjFEWW51dG13QTlOeDA1S0xDMlVOLWEycmszeTlMSmxaMzZRVXh2YUdoMkhfOGh2cFdCck9PeDhuYWxvem9tOUdOTS1n?oc=5",
-        "brand": "Trust Wallet",
-        "narrative": "Self-custody",
-        "sentiment": "Negative"
-      },
-      {
-        "date": "2026-06-09T14:09:38+00:00",
-        "source": "Bitget",
-        "headline": "MetaMask launches AI-powered wallet with protection up to $10. - Bitget",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZVmVteHlzV2w4QmdXdEwxa1hPUVB1NjNHUXJhTjJwYnVRWlMxSS11QjhLTUtUQXJPQUxnaDUwcHZ5QWdNZmIyRU5sb1dXYVFtMnAyc0tDdHRzakxRT1BPVnJCNNIBY0FVX3lxTE9ZVmVteHlzV2w4QmdXdEwxa1hPUVB1NjNHUXJhTjJwYnVRWlMxSS11QjhLTUtUQXJPQUxnaDUwcHZ5QWdNZmIyRU5sb1dXYVFtMnAyc0tDdHRzakxRT1BPVnJCNA?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T14:00:19+00:00",
-        "source": "coininsider.com",
-        "headline": "MetaMask Opens AI Agent Wallet for DeFi Trades - coininsider.com",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb0MtSW4wbXY1UEsxdXc2S1VNY1ZicWM4c0wzcWIwYUFFdktaZ0RMSVk4Z0NnYVZwMzUzd1NlTnZrVmk3b2tlcXNxaWNZZERKSTlhNHhSSFBnNFh3NVBseHhqSUJvTW9RZmlXZzJudkJndW93d0xHT1BPV3hJVUZXTDQ4SXQ4Qkk?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-09T13:57:26+00:00",
-        "source": "Coinspot.io",
-        "headline": "MetaMask Gives AI Agents Secure Access to DeFi - Coinspot.io",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOEg4cmJlckFfbGJUanZzc0VwTENlT1lnd2E1YWJJSEVkN0pqVFJvV1BucFR6VVJ1UlJjS09ZVHlVM1M0ZjlFU0hBdUZMTnltXy1NbkFDcVd6bXJuNTd5TUxXNEpGN2ZnVkZSTVpaaHB3TGY1bDUzcjVqZjVYWTAxN1pHc3JhVDVQTkY3dHczVlo?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T13:36:04+00:00",
-        "source": "Blockster",
-        "headline": "Bitget Wallet Opens Tokenized Stocks and RWAs to Developers Through API Upgrade - Blockster",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVmZxbDhFZ1EwUUVyaURZRWFjQ0M1TW5XaEpKQ182WDZLQ2kzaGxyU0NjQUpnU1dJenRzUlppZ0lDcjRlc2NJRUo2Y3AwZjJDVkJiRXhoenpDVTgwOC1PSzVhVDdxSFR0YkRSTWFsb05nY3IzQmoteC1MTUV0eUJhcTZhQlNNVjBCQm9fS2I5U0NGd3ZMTGpRU3J4aFBma1VWMUdR?oc=5",
-        "brand": "Bitget Wallet",
-        "narrative": "RWA / tokenized assets",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T13:22:00+00:00",
-        "source": "Yahoo Tech",
-        "headline": "MetaMask Unveils New A.I. Agent Wallet - Yahoo Tech",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeTFEeFdxdVdYQzZONUF5dG9qOXBNUU1Ed0ZjVHAzaXVmOFF5N3RkT3IwMzRiS2dobTR2cWZqTVFES045cm5yWTVqYmhHc01xMU9QUFd1b0JVeVBtUGhOTEgydTJnamRqQkpZQk11NUtGVXItRGgyXzhVRXgyM0VxRER3WW5HUE9hQkNJZDN5ZlM?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T12:52:37+00:00",
-        "source": "MEXC",
-        "headline": "Bitget Wallet and xStocks Open SpaceX IPO Access - MEXC",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HR284NHV3ZUlCQktRUHpWQm0wQjhuTTVKNGFRMGdUOUxoRHhCNWFWdVFORTg4TnV3TXgzTXV1OHdKMUdETm5FQQ?oc=5",
-        "brand": "Bitget Wallet",
-        "narrative": "RWA / tokenized assets",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-09T12:34:50+00:00",
-        "source": "blockhead.co",
-        "headline": "MetaMask Launches Agentic Wallet - blockhead.co",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IWF9tbTc4SFFPa3RVZ25pdk5aTmt4MllOSWhLWU5nUjhBcTNqcFZiOHoxRzBwOU5JUkpRRTk2SUpRMnVGVzZ1QzNLV0JOMm9fVmRqMDRWVEJIeG1sSU8xN3hPOUZ1RHR5RTJEMXItOFZ2QXVOVWhOTw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T12:04:48+00:00",
-        "source": "BlockchainReporter",
-        "headline": "Bitget Wallet Unveils Tokenized RWA And Stock Trading For API Partners - BlockchainReporter",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRllVZklvMWZIVjcxUExRUDNGYVhYZ3ZqWi1DY0p2aHVhRTFmRHUzUjFSUjFlSDYzZkV2Z0hYdEEweTI0cGpnRnJTd2FZQVRuN1h6VnlPbUFLandFaE9tUlhxUFBydGU1a2YtODJjZEVTS2pTYXU1a1pIYTZtNVZ0OGZkMnIzdE00dTc2WmxaUl9ORXRIYWwtUDVHeXZ0UU9HeDVmTQ?oc=5",
+        "date": "2026-06-10T12:54:38+00:00",
+        "source": "深潮TechFlow",
+        "headline": "Bitget Wallet Research Institute | A Comprehensive Overview of the Tokenized Stock Market Behind the $5.5 Billion Trading Volume - 深潮TechFlow",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01c0N2clpjTVRnSUhiSmNWdTBSaFFpR1pBaU9vZ2p0M01HcEM1ZkpRM2dDMy1CRWN0d1FvWVRLYlByM21tMFN5bldVMUM5TGVnbjVyOXNucGtfN0o2?oc=5",
         "brand": "Bitget Wallet",
         "narrative": "Onchain trading / swaps",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T11:31:48+00:00",
-        "source": "Crypto Reporter",
-        "headline": "Bitget Wallet and xStocks Bring Tokenized SpaceX IPO Access to Retail Investors - Crypto Reporter",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDRXWEJXRUJpVmJDQU9VblZnODhnbF9jSGpzc05TNTdZR1l5QV92Mks1SFpSM3Z2RTRoUE5FZ0Y4RjBKQVk3RFdSdi1CZmhKSjhWOHk5R2dFRGQxRGdDdG01SzEteEdoMHZZMElwSVlqbHQtWWY0ejhBQjVNZVFiZmV5YnVxTmFXbEFoOFNhRkNyMmVYSGdRN0U2a2FqandTbjRLQU5SWldqQ0pYRXhLdkFDTUhTQTQ2R0VwaHBvWmhPQUNSUjlv?oc=5",
-        "brand": "Bitget Wallet",
-        "narrative": "RWA / tokenized assets",
         "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-09T11:01:05+00:00",
-        "source": "Cryptonews",
-        "headline": "Ethereum Price Could See a Shake-Up: MetaMask Unveils AI Agent Bots - Cryptonews",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Mc2FOOVJ1LXdfakxfZ2tHM3VoNnVoeEUwRlB5anBVbmptRnY3akpHTjd0cHNYdTZUdV9HaTE3VXhzWE8wNHU0MkJtaGJtZTMtMU9lLUFCQ0FHMlljVHNSdDdWczNDMkVNVVl0dGN3?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T11:00:55+00:00",
-        "source": "CryptoNews",
-        "headline": "Ethereum Price Could See a Shake-Up: MetaMask Unveils AI Agent Bots",
-        "url": "https://cryptonews.com/news/ethereum-price-metamask-ai-agent/",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T10:37:42+00:00",
-        "source": "The Daily Tribune News",
-        "headline": "Bitget Wallet and xStocks Bring Tokenized SpaceX IPO Access to Retail Investors - The Daily Tribune News",
-        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNZTlvNGdPaHQ1bTd5bmVVSlFEdnV5ZS1DSDFEbERzQUxtam43ZmpIaUZNSWpuV0ZZMXJrYm5HQ214RHZuamU3TG9YbVhSS2gxdDRtMzZtS2htZFlXWDRJWHJtZU1yR2M5d25rdWQ5QmFvRnpjOWVYWmlDdWtIR2UtbThMRVRvWVM5VjFmQ2MweW1sc3NOd1c3d19CNHpSMnhrRkpvMXJ4NXBQZWhLOWRRbmEzRWY3QlNoUDMxbHRzbW9ITG5ZUmVSckFodUJ3dkJfYUlDVEdEcWlLVHhKRzcwakE0TmZxUUZ3NVY5cVBRWWhJbVJ1YTlEdGFUZmF0R0Zqc0thOWs3TlQySW9QZkY0SnM5YlItQk9Ca1E?oc=5",
-        "brand": "Bitget Wallet",
-        "narrative": "RWA / tokenized assets",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T10:29:56+00:00",
-        "source": "99Bitcoins",
-        "headline": "MetaMask Has a New AI Agent Wallet: Let Bots Trade Your Crypto - 99Bitcoins",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWWxsVDgtenBhYUNoRTZKalRqczhoT0tlZnVCd2Y3WEMwRlY1ekF0Vm1SdFcxVnoybnMxaHJiZkZDbl9Uamc4czJjTFZyV1VQY0tOejdEVnBGeHlVLVV5bFJmckhTczRHbEF2UmwwRmZsZnZsNW8wTkR6eTVxN1ZMbV9lbw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T09:57:09+00:00",
-        "source": "CoinGape",
-        "headline": "MetaMask Follows Coinbase, Launches Separate Agentic Wallet - CoinGape",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM0RtRnd6RHJvVllORVNncndRYnlncjVnZ0d0VV9yTTlOMnN5NzdYX2U5UElZcGd2ZnpKZWdvMmZEZlM2VTZER3dKR19pYlpuVW9OM0FUcVZIMk9Nd2drOF9tZ1FDQ2VpZHh4STV0LXNVTUZwa3V5dmhlb0h6VlpwRG9IQzExWUFNOUdVN2FVSDFGaVBwNzVVZm1kTzVqSDFkc1E?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T09:44:45+00:00",
-        "source": "Cryptonews.net",
-        "headline": "MetaMask unveils self-custodial wallet for agentic DeFi trading - Cryptonews.net",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA1Z256ek0wU2thNEdqNV9TTzlybjZBYjVvRmxhRzUwWmt0N2V3elZqOW1VSnNHaXpucUh4YVV0UVFXOGZzS0k0Wmt3Ujc2WWRaVHdRbnE5cw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T07:50:15+00:00",
-        "source": "The Cryptonomist",
-        "headline": "MetaMask Agent Wallet AI crypto trading goes live on 10 chains - The Cryptonomist",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Mbjk1VEY4NUUzMHBhS093anNReW5lN1M5WHUxSHpKdTFqWEtOSUdIYTE5T1NNVUdRSm1uQk5oeTRiNVZCWjVMN3VaVmlWcDE2Vks1UkpVeXY1Rlg3SlN3aW5DMHg0ZEZOTnIwaGVyM0UyUHUwaVJ6YU5kYw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-09T06:43:22+00:00",
-        "source": "Cryptopolitan",
-        "headline": "MetaMask launches Agent Wallet for AI bots to trade crypto - Cryptopolitan",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05dFNCbktGSG8weWU5a1pxdkNUcklUMUY3N1VTRzRGQnpKSlQ1cmNKM1F0ZWFSdUtXR2g0MXdjbTVPdllHNFZLS3ZPMFdjaWt5SVlIRnpBTkdkXzdsRDhaN0R3ZFh0X2JfN1hPQ2Zxc3lCRFg2QW4yZ2FlM2VGZw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-09T06:42:23+00:00",
-        "source": "Bitget",
-        "headline": "Bitget Wallet rolls out direct token-to-stock trading via upgraded API - Bitget",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9waXdZQUM4SHc5aVR0dWF0ZjNFN05kc0RIdF9ld3duS1pYMEhBZzlDNU15ejQxUUVUOWNKdWpEZ3U0ZzVHa3pzZjhyTE41WXhtUGZMekNZS3J3WGV1b0HSAWNBVV95cUxPeHNONDBzaENUczl1TVE2Z2ZaYVMxUXVzZjFVSnV1NE1MZVhiR0hFb1Y3Q0JuYTY5aGZ1dTVSa2xrb3o0bHlUVk01dE90a2JpVDdwckNUUmhPQzhkQU05ZE1scEU?oc=5",
-        "brand": "Bitget Wallet",
-        "narrative": "Onchain trading / swaps",
-        "sentiment": "Positive"
       }
     ],
     "narratives": {
-      "AI / agentic finance": 15,
-      "RWA / tokenized assets": 5,
-      "Self-custody": 1,
-      "Onchain trading / swaps": 2
+      "General wallet coverage": 2,
+      "AI / agentic finance": 1,
+      "Onchain trading / swaps": 1
     },
     "brands": {
-      "MetaMask": 15,
-      "Bitget Wallet": 7,
-      "Trust Wallet": 1
+      "Bitget Wallet": 3,
+      "MetaMask": 1
     }
   }
 }
