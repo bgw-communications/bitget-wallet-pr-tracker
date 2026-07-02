@@ -1,171 +1,172 @@
 {
-  "generated_at": "2026-07-01T05:24:49.229389+00:00",
+  "generated_at": "2026-07-02T05:00:32.911078+00:00",
   "time_window": "QTD from 2026-04-01",
   "qtd_start": "2026-04-01",
-  "total_articles": 196,
-  "rss_articles": 196,
+  "total_articles": 223,
+  "rss_articles": 223,
   "google_news_articles": 0,
   "meltwater_articles": 0,
-  "total_mentions": 196,
+  "total_mentions": 223,
   "wallets_tracked": 6,
   "primary_brand": "Bitget Wallet",
   "brands": [
     {
       "brand": "Bitget Wallet",
-      "mentions": 51,
-      "sov": 26.02,
+      "mentions": 58,
+      "sov": 26.01,
       "rank": 2,
       "color": "#00f0b5",
       "sentiment": {
-        "Positive": 33,
-        "Neutral": 17,
+        "Positive": 39,
+        "Neutral": 18,
         "Negative": 1
       },
-      "top_narrative": "RWA / tokenized assets"
+      "top_narrative": "Onchain trading / swaps"
     },
     {
       "brand": "MetaMask",
-      "mentions": 99,
-      "sov": 50.51,
+      "mentions": 109,
+      "sov": 48.88,
       "rank": 1,
       "color": "#f6851b",
       "sentiment": {
-        "Positive": 60,
-        "Neutral": 37,
+        "Positive": 64,
+        "Neutral": 43,
         "Negative": 2
       },
       "top_narrative": "General wallet coverage"
     },
     {
       "brand": "Trust Wallet",
-      "mentions": 26,
-      "sov": 13.27,
+      "mentions": 27,
+      "sov": 12.11,
       "rank": 3,
       "color": "#3375bb",
       "sentiment": {
-        "Positive": 8,
-        "Neutral": 14,
-        "Negative": 4
+        "Positive": 9,
+        "Neutral": 15,
+        "Negative": 3
       },
       "top_narrative": "General wallet coverage"
     },
     {
       "brand": "Phantom Wallet",
-      "mentions": 11,
-      "sov": 5.61,
+      "mentions": 20,
+      "sov": 8.97,
       "rank": 4,
       "color": "#ab9ff2",
       "sentiment": {
-        "Neutral": 9,
-        "Positive": 1,
+        "Positive": 9,
+        "Neutral": 10,
         "Negative": 1
       },
-      "top_narrative": "General wallet coverage"
+      "top_narrative": "Prediction markets"
     },
     {
       "brand": "OKX Wallet",
-      "mentions": 4,
-      "sov": 2.04,
-      "rank": 6,
+      "mentions": 5,
+      "sov": 2.24,
+      "rank": 5,
       "color": "#ffffff",
       "sentiment": {
-        "Neutral": 2,
+        "Neutral": 3,
         "Positive": 2
       },
       "top_narrative": "AI / agentic finance"
     },
     {
       "brand": "Coinbase Wallet / Base App",
-      "mentions": 5,
-      "sov": 2.55,
-      "rank": 5,
+      "mentions": 4,
+      "sov": 1.79,
+      "rank": 6,
       "color": "#0052ff",
       "sentiment": {
-        "Neutral": 4,
+        "Neutral": 3,
         "Positive": 1
       },
       "top_narrative": "General wallet coverage"
     }
   ],
   "sentiment": {
-    "Positive": 105,
-    "Neutral": 83,
-    "Negative": 8
+    "Positive": 124,
+    "Neutral": 92,
+    "Negative": 7
   },
   "primary_sentiment": {
-    "Positive": 33,
-    "Neutral": 17,
+    "Positive": 39,
+    "Neutral": 18,
     "Negative": 1
   },
   "narratives": {
-    "General wallet coverage": 86,
-    "Crypto card": 20,
-    "Onchain trading / swaps": 19,
+    "General wallet coverage": 96,
+    "Prediction markets": 19,
+    "Onchain trading / swaps": 23,
+    "AI / agentic finance": 36,
+    "Crypto card": 19,
+    "Regulation": 3,
     "Self-custody": 5,
-    "AI / agentic finance": 33,
-    "Security": 5,
+    "Security": 4,
     "Stablecoin payments": 8,
-    "RWA / tokenized assets": 9,
-    "Regulation": 2,
-    "Prediction markets": 9
+    "RWA / tokenized assets": 10
   },
   "narrative_by_brand": {
     "Bitget Wallet": {
+      "Onchain trading / swaps": 12,
       "General wallet coverage": 8,
-      "AI / agentic finance": 3,
+      "AI / agentic finance": 4,
       "Stablecoin payments": 8,
-      "Onchain trading / swaps": 7,
-      "RWA / tokenized assets": 9,
+      "RWA / tokenized assets": 10,
       "Prediction markets": 9,
       "Crypto card": 7
     },
     "MetaMask": {
-      "General wallet coverage": 53,
-      "Crypto card": 13,
+      "General wallet coverage": 64,
       "Onchain trading / swaps": 6,
+      "Crypto card": 12,
+      "Regulation": 2,
       "Self-custody": 3,
-      "AI / agentic finance": 22,
-      "Security": 1,
-      "Regulation": 1
+      "AI / agentic finance": 21,
+      "Security": 1
     },
     "Trust Wallet": {
-      "General wallet coverage": 13,
-      "Security": 4,
+      "General wallet coverage": 14,
+      "Security": 3,
       "Self-custody": 2,
       "Regulation": 1,
       "Onchain trading / swaps": 2,
-      "AI / agentic finance": 4
+      "AI / agentic finance": 5
     },
     "Phantom Wallet": {
-      "Onchain trading / swaps": 3,
-      "AI / agentic finance": 1,
-      "General wallet coverage": 7
+      "Prediction markets": 10,
+      "AI / agentic finance": 2,
+      "Onchain trading / swaps": 2,
+      "General wallet coverage": 6
     },
     "OKX Wallet": {
-      "AI / agentic finance": 3,
+      "AI / agentic finance": 4,
       "General wallet coverage": 1
     },
     "Coinbase Wallet / Base App": {
       "Onchain trading / swaps": 1,
-      "General wallet coverage": 4
+      "General wallet coverage": 3
     }
   },
   "keyword_cloud": [
     {
       "keyword": "account",
-      "count": 81
+      "count": 108
     },
     {
       "keyword": "money",
-      "count": 67
+      "count": 89
     },
     {
       "keyword": "stablecoin",
-      "count": 65
+      "count": 75
     },
     {
       "keyword": "yield",
-      "count": 47
+      "count": 63
     },
     {
       "keyword": "card",
@@ -177,30 +178,58 @@
     },
     {
       "keyword": "agent",
-      "count": 40
+      "count": 42
     },
     {
       "keyword": "payment",
-      "count": 35
+      "count": 41
     },
     {
-      "keyword": "expand",
-      "count": 34
-    },
-    {
-      "keyword": "tokenized",
-      "count": 34
+      "keyword": "world",
+      "count": 39
     },
     {
       "keyword": "trading",
+      "count": 37
+    },
+    {
+      "keyword": "tokenized",
+      "count": 36
+    },
+    {
+      "keyword": "prediction",
+      "count": 33
+    },
+    {
+      "keyword": "expand",
+      "count": 32
+    },
+    {
+      "keyword": "onchain",
       "count": 28
+    },
+    {
+      "keyword": "globenewswire",
+      "count": 26
+    },
+    {
+      "keyword": "musd",
+      "count": 26
     },
     {
       "keyword": "acces",
       "count": 26
     },
     {
-      "keyword": "adds",
+      "keyword": "finance",
+      "count": 24
+    },
+    {
+      "keyword": "bring",
+      "count": 22
+    },
+    {
+      "keyword": "spending",
       "count": 22
     },
     {
@@ -208,11 +237,23 @@
       "count": 22
     },
     {
-      "keyword": "globenewswire",
-      "count": 22
+      "keyword": "solana",
+      "count": 21
     },
     {
-      "keyword": "finance",
+      "keyword": "polymarket",
+      "count": 21
+    },
+    {
+      "keyword": "coinmarketcap",
+      "count": 20
+    },
+    {
+      "keyword": "integration",
+      "count": 20
+    },
+    {
+      "keyword": "adds",
       "count": 20
     },
     {
@@ -220,23 +261,43 @@
       "count": 19
     },
     {
-      "keyword": "musd",
+      "keyword": "partner",
       "count": 18
     },
     {
-      "keyword": "briefing",
+      "keyword": "stock",
       "count": 18
     },
     {
-      "keyword": "spending",
-      "count": 17
+      "keyword": "bitcoin",
+      "count": 18
     },
     {
       "keyword": "mastercard",
+      "count": 18
+    },
+    {
+      "keyword": "defi",
+      "count": 18
+    },
+    {
+      "keyword": "token",
       "count": 16
     },
     {
-      "keyword": "integration",
+      "keyword": "spend",
+      "count": 16
+    },
+    {
+      "keyword": "yahoo",
+      "count": 16
+    },
+    {
+      "keyword": "tradingview",
+      "count": 16
+    },
+    {
+      "keyword": "unveil",
       "count": 16
     },
     {
@@ -244,31 +305,15 @@
       "count": 16
     },
     {
-      "keyword": "defi",
-      "count": 16
-    },
-    {
-      "keyword": "polymarket",
-      "count": 16
-    },
-    {
-      "keyword": "coinmarketcap",
+      "keyword": "briefing",
       "count": 14
     },
     {
-      "keyword": "bitcoin",
+      "keyword": "mexc",
       "count": 14
     },
     {
-      "keyword": "world",
-      "count": 14
-    },
-    {
-      "keyword": "cryptonew",
-      "count": 14
-    },
-    {
-      "keyword": "latin",
+      "keyword": "earn",
       "count": 14
     },
     {
@@ -276,15 +321,11 @@
       "count": 14
     },
     {
-      "keyword": "balance",
-      "count": 13
-    },
-    {
-      "keyword": "spend",
+      "keyword": "block",
       "count": 12
     },
     {
-      "keyword": "tradingview",
+      "keyword": "blockonomi",
       "count": 12
     },
     {
@@ -292,11 +333,7 @@
       "count": 12
     },
     {
-      "keyword": "monad",
-      "count": 12
-    },
-    {
-      "keyword": "yahoo",
+      "keyword": "balance",
       "count": 12
     },
     {
@@ -304,71 +341,51 @@
       "count": 12
     },
     {
-      "keyword": "prediction",
-      "count": 12
-    },
-    {
       "keyword": "america",
       "count": 12
     },
     {
-      "keyword": "bstock",
+      "keyword": "asset",
       "count": 12
     },
     {
-      "keyword": "bring",
+      "keyword": "latin",
       "count": 12
-    },
-    {
-      "keyword": "consensy",
-      "count": 11
-    },
-    {
-      "keyword": "hyperliquid",
-      "count": 10
-    },
-    {
-      "keyword": "support",
-      "count": 10
-    },
-    {
-      "keyword": "countrie",
-      "count": 10
-    },
-    {
-      "keyword": "mexc",
-      "count": 10
-    },
-    {
-      "keyword": "block",
-      "count": 10
-    },
-    {
-      "keyword": "onchain",
-      "count": 10
-    },
-    {
-      "keyword": "equitie",
-      "count": 10
     }
   ],
   "keyword_cloud_by_brand": {
     "Bitget Wallet": [
       {
+        "keyword": "globenewswire",
+        "count": 26
+      },
+      {
         "keyword": "expand",
         "count": 26
       },
       {
-        "keyword": "globenewswire",
-        "count": 22
-      },
-      {
         "keyword": "tokenized",
-        "count": 22
+        "count": 24
       },
       {
         "keyword": "payment",
-        "count": 20
+        "count": 22
+      },
+      {
+        "keyword": "bring",
+        "count": 18
+      },
+      {
+        "keyword": "trading",
+        "count": 18
+      },
+      {
+        "keyword": "polymarket",
+        "count": 18
+      },
+      {
+        "keyword": "onchain",
+        "count": 16
       },
       {
         "keyword": "xstock",
@@ -383,19 +400,31 @@
         "count": 16
       },
       {
-        "keyword": "polymarket",
-        "count": 16
+        "keyword": "stock",
+        "count": 14
+      },
+      {
+        "keyword": "partner",
+        "count": 12
       },
       {
         "keyword": "america",
         "count": 12
       },
       {
-        "keyword": "trading",
+        "keyword": "spacex",
+        "count": 12
+      },
+      {
+        "keyword": "token",
         "count": 10
       },
       {
-        "keyword": "spacex",
+        "keyword": "businessinsider",
+        "count": 10
+      },
+      {
+        "keyword": "integration",
         "count": 10
       },
       {
@@ -411,31 +440,19 @@
         "count": 10
       },
       {
-        "keyword": "integration",
+        "keyword": "robinhood",
         "count": 8
       },
       {
-        "keyword": "adds",
+        "keyword": "yahoo",
         "count": 8
       },
       {
-        "keyword": "equitie",
-        "count": 8
-      },
-      {
-        "keyword": "businessinsider",
-        "count": 8
-      },
-      {
-        "keyword": "bring",
+        "keyword": "stablecoin",
         "count": 8
       },
       {
         "keyword": "world",
-        "count": 8
-      },
-      {
-        "keyword": "integrate",
         "count": 8
       },
       {
@@ -451,11 +468,7 @@
         "count": 6
       },
       {
-        "keyword": "yahoo",
-        "count": 6
-      },
-      {
-        "keyword": "onchain",
+        "keyword": "adds",
         "count": 6
       },
       {
@@ -463,7 +476,7 @@
         "count": 6
       },
       {
-        "keyword": "stablecoin",
+        "keyword": "equitie",
         "count": 6
       },
       {
@@ -475,42 +488,30 @@
         "count": 6
       },
       {
-        "keyword": "taps",
+        "keyword": "integrate",
         "count": 6
       },
       {
-        "keyword": "africa",
+        "keyword": "exodu",
         "count": 6
-      },
-      {
-        "keyword": "apac",
-        "count": 6
-      },
-      {
-        "keyword": "through",
-        "count": 4
-      },
-      {
-        "keyword": "uber",
-        "count": 4
       }
     ],
     "MetaMask": [
       {
         "keyword": "account",
-        "count": 81
+        "count": 106
       },
       {
         "keyword": "money",
-        "count": 65
+        "count": 87
       },
       {
         "keyword": "stablecoin",
-        "count": 59
+        "count": 67
       },
       {
         "keyword": "yield",
-        "count": 45
+        "count": 61
       },
       {
         "keyword": "agent",
@@ -522,14 +523,26 @@
       },
       {
         "keyword": "musd",
-        "count": 18
+        "count": 26
       },
       {
         "keyword": "spending",
-        "count": 17
+        "count": 22
       },
       {
         "keyword": "mastercard",
+        "count": 18
+      },
+      {
+        "keyword": "payment",
+        "count": 17
+      },
+      {
+        "keyword": "spend",
+        "count": 16
+      },
+      {
+        "keyword": "defi",
         "count": 16
       },
       {
@@ -537,23 +550,23 @@
         "count": 15
       },
       {
-        "keyword": "defi",
+        "keyword": "earn",
         "count": 14
       },
       {
-        "keyword": "binance",
+        "keyword": "unveil",
         "count": 14
       },
       {
-        "keyword": "payment",
-        "count": 13
-      },
-      {
-        "keyword": "spend",
+        "keyword": "mexc",
         "count": 12
       },
       {
-        "keyword": "monad",
+        "keyword": "finance",
+        "count": 12
+      },
+      {
+        "keyword": "tradingview",
         "count": 12
       },
       {
@@ -561,15 +574,15 @@
         "count": 12
       },
       {
-        "keyword": "consensy",
+        "keyword": "usdcv",
+        "count": 12
+      },
+      {
+        "keyword": "monad",
         "count": 11
       },
       {
-        "keyword": "balance",
-        "count": 11
-      },
-      {
-        "keyword": "tradingview",
+        "keyword": "feature",
         "count": 10
       },
       {
@@ -577,15 +590,15 @@
         "count": 10
       },
       {
+        "keyword": "balance",
+        "count": 10
+      },
+      {
         "keyword": "bitcoin",
         "count": 10
       },
       {
-        "keyword": "trading",
-        "count": 10
-      },
-      {
-        "keyword": "usdcv",
+        "keyword": "binance",
         "count": 10
       },
       {
@@ -593,23 +606,27 @@
         "count": 10
       },
       {
-        "keyword": "offer",
+        "keyword": "trading",
         "count": 9
       },
       {
-        "keyword": "earn",
-        "count": 8
-      },
-      {
-        "keyword": "mexc",
-        "count": 8
-      },
-      {
-        "keyword": "finance",
-        "count": 8
-      },
-      {
         "keyword": "briefing",
+        "count": 8
+      },
+      {
+        "keyword": "debut",
+        "count": 8
+      },
+      {
+        "keyword": "offering",
+        "count": 8
+      },
+      {
+        "keyword": "coinmarketcap",
+        "count": 8
+      },
+      {
+        "keyword": "blockonomi",
         "count": 8
       },
       {
@@ -617,30 +634,14 @@
         "count": 8
       },
       {
-        "keyword": "expand",
-        "count": 8
-      },
-      {
-        "keyword": "countrie",
-        "count": 8
-      },
-      {
         "keyword": "bots",
-        "count": 8
-      },
-      {
-        "keyword": "co-founder",
-        "count": 8
-      },
-      {
-        "keyword": "generale",
         "count": 8
       }
     ],
     "Trust Wallet": [
       {
         "keyword": "binance",
-        "count": 22
+        "count": 26
       },
       {
         "keyword": "bstock",
@@ -655,15 +656,15 @@
         "count": 8
       },
       {
-        "keyword": "support",
-        "count": 6
-      },
-      {
-        "keyword": "scam",
-        "count": 6
+        "keyword": "agent",
+        "count": 8
       },
       {
         "keyword": "chain",
+        "count": 6
+      },
+      {
+        "keyword": "coinmarketcap",
         "count": 6
       },
       {
@@ -675,12 +676,12 @@
         "count": 6
       },
       {
-        "keyword": "briefing",
+        "keyword": "trading",
         "count": 6
       },
       {
-        "keyword": "agent",
-        "count": 6
+        "keyword": "support",
+        "count": 4
       },
       {
         "keyword": "just",
@@ -691,11 +692,15 @@
         "count": 4
       },
       {
-        "keyword": "coinmarketcap",
+        "keyword": "token",
         "count": 4
       },
       {
-        "keyword": "token",
+        "keyword": "scam",
+        "count": 4
+      },
+      {
+        "keyword": "today",
         "count": 4
       },
       {
@@ -707,11 +712,27 @@
         "count": 4
       },
       {
-        "keyword": "trading",
+        "keyword": "integrate",
+        "count": 4
+      },
+      {
+        "keyword": "cryptorank",
+        "count": 4
+      },
+      {
+        "keyword": "hack",
+        "count": 4
+      },
+      {
+        "keyword": "edition",
         "count": 4
       },
       {
         "keyword": "hyperliquid",
+        "count": 4
+      },
+      {
+        "keyword": "briefing",
         "count": 4
       },
       {
@@ -757,43 +778,55 @@
       {
         "keyword": "biggest",
         "count": 2
-      },
-      {
-        "keyword": "mover",
-        "count": 2
-      },
-      {
-        "keyword": "volu",
-        "count": 2
-      },
-      {
-        "keyword": "addres",
-        "count": 2
-      },
-      {
-        "keyword": "screening",
-        "count": 2
-      },
-      {
-        "keyword": "acros",
-        "count": 2
       }
     ],
     "Phantom Wallet": [
       {
+        "keyword": "world",
+        "count": 29
+      },
+      {
+        "keyword": "solana",
+        "count": 21
+      },
+      {
+        "keyword": "prediction",
+        "count": 21
+      },
+      {
+        "keyword": "bitcoin",
+        "count": 8
+      },
+      {
+        "keyword": "inside",
+        "count": 7
+      },
+      {
+        "keyword": "onchain",
+        "count": 6
+      },
+      {
+        "keyword": "pluang",
+        "count": 6
+      },
+      {
+        "keyword": "chainlink",
+        "count": 5
+      },
+      {
+        "keyword": "oracle",
+        "count": 5
+      },
+      {
+        "keyword": "bets",
+        "count": 4
+      },
+      {
+        "keyword": "on-chain",
+        "count": 4
+      },
+      {
         "keyword": "team",
-        "count": 4
-      },
-      {
-        "keyword": "perpetual",
-        "count": 4
-      },
-      {
-        "keyword": "future",
-        "count": 4
-      },
-      {
-        "keyword": "hyperliquid",
         "count": 4
       },
       {
@@ -801,7 +834,7 @@
         "count": 4
       },
       {
-        "keyword": "disruption",
+        "keyword": "asset",
         "count": 4
       },
       {
@@ -809,115 +842,83 @@
         "count": 4
       },
       {
-        "keyword": "hiring",
+        "keyword": "polymarket",
         "count": 3
       },
       {
-        "keyword": "behind",
+        "keyword": "kalshi",
         "count": 3
       },
       {
-        "keyword": "hires",
+        "keyword": "coinmarketcap",
         "count": 2
       },
       {
-        "keyword": "ventual",
+        "keyword": "moneycheck",
         "count": 2
       },
       {
-        "keyword": "boost",
+        "keyword": "goes",
         "count": 2
       },
       {
-        "keyword": "trading",
+        "keyword": "live",
         "count": 2
       },
       {
-        "keyword": "expansion",
+        "keyword": "take",
         "count": 2
       },
       {
-        "keyword": "pluang",
+        "keyword": "hits",
         "count": 2
       },
       {
-        "keyword": "pushe",
+        "keyword": "currency",
         "count": 2
       },
       {
-        "keyword": "deeper",
+        "keyword": "analytic",
         "count": 2
       },
       {
-        "keyword": "perps",
+        "keyword": "emerge",
         "count": 2
       },
       {
-        "keyword": "openai",
+        "keyword": "powering",
         "count": 2
       },
       {
-        "keyword": "anthropic",
+        "keyword": "genfinity",
         "count": 2
       },
       {
-        "keyword": "coindesk",
+        "keyword": "solana-based",
         "count": 2
       },
       {
-        "keyword": "down",
+        "keyword": "block",
         "count": 2
       },
       {
-        "keyword": "builder",
+        "keyword": "explorer",
         "count": 2
       },
       {
-        "keyword": "highlight",
+        "keyword": "project",
         "count": 2
       },
       {
-        "keyword": "world",
+        "keyword": "offer",
         "count": 2
       },
       {
-        "keyword": "issuer",
+        "keyword": "decrypt",
         "count": 2
       },
       {
-        "keyword": "blockchain",
-        "count": 2
-      },
-      {
-        "keyword": "event",
-        "count": 2
-      },
-      {
-        "keyword": "contract",
-        "count": 2
-      },
-      {
-        "keyword": "tekedia",
-        "count": 2
-      },
-      {
-        "keyword": "token",
-        "count": 2
-      },
-      {
-        "keyword": "financefeed",
-        "count": 2
-      },
-      {
-        "keyword": "everyone",
-        "count": 2
-      },
-      {
-        "keyword": "beginner",
-        "count": 2
-      },
-      {
-        "keyword": "bitcoin",
+        "keyword": "enabling",
         "count": 2
       }
     ],
@@ -1007,7 +1008,47 @@
         "count": 2
       },
       {
-        "keyword": "wublockchain",
+        "keyword": "substack",
+        "count": 2
+      },
+      {
+        "keyword": "encounter",
+        "count": 2
+      },
+      {
+        "keyword": "web3",
+        "count": 2
+      },
+      {
+        "keyword": "carnival",
+        "count": 2
+      },
+      {
+        "keyword": "again",
+        "count": 2
+      },
+      {
+        "keyword": "onchain",
+        "count": 2
+      },
+      {
+        "keyword": "redefine",
+        "count": 2
+      },
+      {
+        "keyword": "paradigm",
+        "count": 2
+      },
+      {
+        "keyword": "on-chain",
+        "count": 2
+      },
+      {
+        "keyword": "operation",
+        "count": 2
+      },
+      {
+        "keyword": "odaily",
         "count": 2
       },
       {
@@ -1021,63 +1062,11 @@
       {
         "keyword": "partner",
         "count": 2
-      },
-      {
-        "keyword": "exclusively",
-        "count": 2
-      },
-      {
-        "keyword": "mainnet",
-        "count": 2
-      },
-      {
-        "keyword": "enjoy",
-        "count": 2
-      },
-      {
-        "keyword": "annual",
-        "count": 2
-      },
-      {
-        "keyword": "percentage",
-        "count": 2
-      },
-      {
-        "keyword": "yield",
-        "count": 2
-      },
-      {
-        "keyword": "binance",
-        "count": 2
-      },
-      {
-        "keyword": "adds",
-        "count": 2
-      },
-      {
-        "keyword": "native",
-        "count": 2
-      },
-      {
-        "keyword": "aave",
-        "count": 2
       }
     ],
     "Coinbase Wallet / Base App": [
       {
         "keyword": "betting",
-        "count": 4
-      },
-      {
-        "keyword": "signal",
-        "count": 4
-      },
-      {
-        "keyword": "push",
-        "count": 4
-      },
-      {
-        "keyword": "toward",
         "count": 4
       },
       {
@@ -1153,74 +1142,82 @@
         "count": 2
       },
       {
-        "keyword": "cryptonew",
+        "keyword": "signal",
         "count": 2
       },
       {
-        "keyword": "coinfomania",
+        "keyword": "push",
+        "count": 2
+      },
+      {
+        "keyword": "toward",
+        "count": 2
+      },
+      {
+        "keyword": "cryptonew",
         "count": 2
       }
     ]
   },
   "top_sources": [
     [
-      "Binance",
-      14
-    ],
-    [
       "GlobeNewswire",
-      11
+      13
     ],
     [
-      "Crypto Briefing",
-      9
+      "Binance",
+      12
+    ],
+    [
+      "CoinMarketCap",
+      8
+    ],
+    [
+      "TradingView",
+      8
     ],
     [
       "Bitget",
       8
     ],
     [
-      "TradingView",
-      6
+      "Crypto Briefing",
+      7
     ],
     [
-      "CoinDesk",
-      6
-    ],
-    [
-      "CoinMarketCap",
-      6
+      "Yahoo Finance",
+      7
     ],
     [
       "The Block",
       6
     ],
     [
-      "Cryptonews.net",
+      "Blockonomi",
       6
+    ],
+    [
+      "markets.businessinsider.com",
+      5
+    ],
+    [
+      "Pluang",
+      5
     ],
     [
       "MEXC",
       5
     ],
     [
-      "Yahoo Finance",
+      "Cryptonews.net",
       5
     ],
     [
-      "Coinfomania",
+      "Decrypt",
       4
     ],
     [
-      "FinanceFeeds",
-      4
-    ],
-    [
-      "Blockonomi",
-      4
-    ],
-    [
-      "markets.businessinsider.com",
+      "CoinDesk",
       4
     ]
   ],
@@ -1230,47 +1227,47 @@
       "tagline": "Incumbent self-custody and distribution benchmark",
       "threat_level": "HIGH",
       "rank": 1,
-      "mentions": 99,
-      "positive": 60,
+      "mentions": 109,
+      "positive": 64,
       "negative": 2,
-      "tier1": 12,
+      "tier1": 9,
       "top_narrative": "General wallet coverage",
       "latest_articles": [
         {
-          "date": "2026-07-01T03:46:24+00:00",
-          "headline": "MetaMask launches mUSD-linked money account with card payments - 디지털투데이",
-          "source": "디지털투데이",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUwzWEU5d2hIcThZQ1V3TTNocWtXZHF5Q0l5OU5KOGs3WDdzSE4zUnIza29qZ2ppbWFKbXVPMUhJNC1qTENrRFZyWS1MR1hFUDFHTjRKclB2MWd3UDJacE9mUWtHa3MzQXVHVzRLR3ZaWnpCb1NUUEtKVEFCSkxUSVFLQXVGU2I1dWdxYlZkdjZUZ0Q0bHFEZHptWVNPSXdxVEpwdDBSWUV4ZW8?oc=5",
+          "date": "2026-07-02T01:28:35+00:00",
+          "headline": "MetaMask Launches Money Account Feature for Yield and Payments - sekbernews.id",
+          "source": "sekbernews.id",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY2FHckVucGliTWxvZGFaVHhRczAyeUtDb1I2ZUdCUzB6M0REbEpQTGV1M1hxdzBmMHhlV040S3FLN003SmROR2FkMTFoY1hGUVZmZzFwdnYyODMzRHNwS3lzcDk1TnpKUVJSakM3aVNXdF9tT2NueGtqMTRKdDZuZA?oc=5",
           "narrative": "General wallet coverage",
           "sentiment": "Positive"
         },
         {
-          "date": "2026-07-01T02:12:30+00:00",
-          "headline": "MetaMask Money Account: Earn 4% Yield, Spend via Mastercard, Own Your Keys - Tech Times",
-          "source": "Tech Times",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdjVKV051VWtYODd2REJWQnNXSDFqaWVva2Q3VzRUUWQxREtyNHpmYWJoQWVRMVRTWnM5RG1zWXROOU5HRGdONnJ4SDR2RlpxY2NUZTA5ZWdqT3ZwUVh3Q3M0QldFV2lqZVRYemx4VlFaRnlDUG5pTjFfLUU5ZVp2aDdLaWJEZlNTTlBKSjJJMVpRTHc1UE56QzliVVJ3MUd1RHRiaDF0Z05lOHFQMkJmeDc2OVMyMGROVUdXTG1VdU1GOHM?oc=5",
-          "narrative": "Crypto card",
-          "sentiment": "Neutral"
+          "date": "2026-07-02T00:22:13+00:00",
+          "headline": "Top 3 Cryptos to Buy Now: Pepeto Targets 100x as MetaMask Launches Stablecoin Yield Account - openPR.com",
+          "source": "openPR.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMlNfeEs1b193RjZkYzlyVzgzWHlLdDBZV1d4TUlRQTFzLVR1ZGRuR2sxaWhZaGRHRnJhZEk3TndEV3NuQ0xKaWRiQWEzT3NKTGhkR2ZOWVh4NzZnUUJwRTZ2SDlGbGZVV2toel9DbEV5UjlOSVBjYUl2bU01bzhEV3UzWU9BRzV0VUhranZ0OS0tX0pRTUFCSk5FY0RVcm1USEJ3?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Positive"
         },
         {
-          "date": "2026-07-01T01:29:35+00:00",
-          "headline": "Consensys Amplifies MetaMask's Launch of Money Account — And Why Traders Are Watching - Coinfomania",
-          "source": "Coinfomania",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSEQtbm5ZdTlNc3dQV1czWGI1U0lrdEFYMjN4OFJQR1dBOEZxMW1vYUdoUU1LdEpwTU5HYlZXQmtCQmlTcExQTWJwVWY5Z0I2QmJiTDdNd3lFUzR4MC1YNmkxQ2VGNzlVNV9FcTlXcU9OdUZkZFhhYlFoalpEcTZ1Z3pvVFlUa256OW5VYUdTRGRMSjNzU1ZpdXU3TTBSTjRleVBKcUMyWjdIZ2s?oc=5",
+          "date": "2026-07-01T21:36:26+00:00",
+          "headline": "MetaMask enables batch selling for up to 5 tokens at once - Crypto Briefing",
+          "source": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PN05QaHhlSFE1dUtiZHpXVWRRQi1hTnh5ZlJxU1gtWllWYXB2WDlkUWphd0lsbjEyTUJiTzRvUEFjYmRsMUhIXzJsRGo1N2NGc0oxYnlaVFBzVzE0SHczaUtkRVg?oc=5",
           "narrative": "General wallet coverage",
           "sentiment": "Positive"
         }
       ],
-      "verdict": "Lower direct narrative overlap, but 12 higher-impact article(s) make this worth monitoring for category perception. Sentiment skews constructive, suggesting room for proactive counter-positioning."
+      "verdict": "Lower direct narrative overlap, but 9 higher-impact article(s) make this worth monitoring for category perception. Sentiment skews constructive, suggesting room for proactive counter-positioning."
     },
     {
       "brand": "Trust Wallet",
       "tagline": "Retail scale and wallet UX challenger",
       "threat_level": "HIGH",
       "rank": 3,
-      "mentions": 26,
-      "positive": 8,
-      "negative": 4,
+      "mentions": 27,
+      "positive": 9,
+      "negative": 3,
       "tier1": 1,
       "top_narrative": "General wallet coverage",
       "latest_articles": [
@@ -1291,12 +1288,12 @@
           "sentiment": "Neutral"
         },
         {
-          "date": "2026-06-27T08:51:17+00:00",
-          "headline": "Trust Wallet Adds Scam Address Screening Across 32 Chains - CoinMarketCap",
-          "source": "CoinMarketCap",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1pQZmVzVW5NOUhkRVFIT1BXWlgzbkVadHZFaGtna2JPOG11UkxCRDdyWU10aGdEVFQ5VmF4UTk0ODJValpzb0d1Zlc4aTVFX1BpMlp1UnVlSjR1VXJoblhtb0JKQ0tmeDBQM3I2LXBqTDJESGFabUp6ckJ4Y2VaT0U3VGxKNjhYbGJEY0VLS1dOc29Jd2VMSDN0M2tiaU1H?oc=5",
-          "narrative": "Security",
-          "sentiment": "Negative"
+          "date": "2026-06-28T06:10:00+00:00",
+          "headline": "Trust Wallet Token Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecast - Binance",
+          "source": "Binance",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13R0Z3Uk0ySG9qMUEwMnpMT01kYjBxSDdTNUp1U29LOGdqNFNOd19TcGZCQmctU0ZZMm11OEdkTTQ2TjhyU1ZzWVJaeml0WUNxZmhiOGdDQlRaWjc2UE1ReDdMakhQcDlzcWg3alpJRDhWSEU?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Neutral"
         }
       ],
       "verdict": "Lower direct narrative overlap, but 1 higher-impact article(s) make this worth monitoring for category perception. Sentiment skews constructive, suggesting room for proactive counter-positioning."
@@ -1304,47 +1301,85 @@
     {
       "brand": "Phantom Wallet",
       "tagline": "Solana-native wallet expanding cross-chain",
-      "threat_level": "MONITOR",
+      "threat_level": "HIGH",
       "rank": 4,
-      "mentions": 11,
-      "positive": 1,
+      "mentions": 20,
+      "positive": 9,
       "negative": 1,
-      "tier1": 2,
-      "top_narrative": "General wallet coverage",
+      "tier1": 3,
+      "top_narrative": "Prediction markets",
       "latest_articles": [
         {
-          "date": "2026-06-30T21:18:04+00:00",
-          "headline": "Phantom hires Ventuals team to boost perpetual futures trading in crypto wallet expansion - Pluang",
-          "source": "Pluang",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSjlEeXNjazA5anJ5d3ZGUHZNWGo1OGwxT2lVaTVXajAxVml5YUlleHpraXhmUHAtY0wtaXZLcTRzMXZKVU9mQkxRSW5Tci1rakNVY0c4eEVqVlNyQ0gzelI1Nk9keXZaWGJoUzFwc05ZbktBaElxbUVabjFkX05ydlRBLXF0cE1yS1d2Z3JMSXNGSGpGVFZiR0l5VkN3OXlheDVxQ3BR?oc=5",
-          "narrative": "Onchain trading / swaps",
+          "date": "2026-07-01T22:07:00+00:00",
+          "headline": "Solana Prediction Market ‘World’ Launches Inside Phantom Wallet - CoinMarketCap",
+          "source": "CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpTWWhhSmRvNjZzVEtCS0dESGo2MURSVFFtSmNEQVljMV9nOUhiZzhUUm1nR2JlS09YTVNOUl9Ic05aOXBPTVpEN0NmcmZCSF9nRGJHNjBJSjdEeko4WkhQUkhzRFZxU3FLdFI0VjJ1c1lrSEQwMUYxLVRnUU1CbldVUGJaTzV6aEdtazBpa2h4akxjNWhuNnlheTRNZw?oc=5",
+          "narrative": "Prediction markets",
+          "sentiment": "Positive"
+        },
+        {
+          "date": "2026-07-01T20:47:40+00:00",
+          "headline": "World Launches Solana Prediction Markets In Phantom Wallet - MoneyCheck",
+          "source": "MoneyCheck",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObmJIYTFPU28yZlNRckZ5Mm5xTTlkdnFMdkpWU0EyRml5U195ckFuTEIxcUtuOFRBNmcyUnJacE41TFlsWmVjbTZBcmpiYzdVMmNzNVo2dE5EcjFZUUlHVUcwWXJkOXNYdDN3MlpiSzVHTEZ0dldKTHhQWUxZR01oMHpLeEl5RjRMX0E?oc=5",
+          "narrative": "Prediction markets",
+          "sentiment": "Positive"
+        },
+        {
+          "date": "2026-07-01T20:11:13+00:00",
+          "headline": "Solana Prediction Market World Goes Live: Can It Take on Polymarket and Kalshi?",
+          "source": "BeInCrypto",
+          "url": "https://beincrypto.com/world-solana-prediction-market-phantom/",
+          "narrative": "Prediction markets",
+          "sentiment": "Positive"
+        }
+      ],
+      "verdict": "Owns visibility around prediction markets, a strategically relevant wallet narrative. Useful benchmark for Bitget Wallet proof points and media hooks. Sentiment skews constructive, suggesting room for proactive counter-positioning."
+    },
+    {
+      "brand": "OKX Wallet",
+      "tagline": "Exchange-backed Web3 wallet and DEX thesis",
+      "threat_level": "HIGH",
+      "rank": 5,
+      "mentions": 5,
+      "positive": 2,
+      "negative": 0,
+      "tier1": 0,
+      "top_narrative": "AI / agentic finance",
+      "latest_articles": [
+        {
+          "date": "2026-06-20T10:30:00+00:00",
+          "headline": "o1 Exchange Airdrop Update: OKX Wallet Opens Reward Claims. What Next? - Coin Gabbar",
+          "source": "Coin Gabbar",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYi1XbnVxSWdkZ2FtUjJNWkc3NGNldXFjcU1kTTJvXzBqNWluLXVUb3FWNWJ1a3BiVTYza0szZzlMQjZFYTcyMUNSd3JudnJQQ0MzMlU0Q0VKZ1RSOVFDd2t2NjZYVjBjSVB5S1EzcmJPSHU3NjVmQlVmZFBLMWk2NXRHUzVMV0txUGdET3c2SFRFM2V3S3JtcV9rSC04WTljTFdzQXZxZHJSWGpQbHc?oc=5",
+          "narrative": "AI / agentic finance",
           "sentiment": "Neutral"
         },
         {
-          "date": "2026-06-30T21:01:08+00:00",
-          "headline": "Crypto wallet Phantom pushes deeper into perps hiring team behind Hyperliquid's OpenAI, Anthropic markets - CoinDesk",
-          "source": "CoinDesk",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTVNEb0Yzb19vNEtaa0xvMUR4RC14Mnl6T21SZU5iOVRDQmR6RTVPTmc4OUhVUkRGRUVnMjIxclZHaGFDaG0tZFU5cTdweDU5VE02ZXZTUXo5VWlZMUJFTURhV0VwVm5BaDNJckEwaFREZWxWMXRpMGhoZmlmazM3blZiWDJxUjNjWl94TWx0bXRsbTgxMXhsVFdSYmFTM1BPWHdpX1NjVEpWMERyTXcyYzhDc0lnME01QVo4RUFQSnJvb3Q4clE?oc=5",
-          "narrative": "Onchain trading / swaps",
+          "date": "2026-04-29T07:00:00+00:00",
+          "headline": "OKX Wallet in Conversation with Vitalik Buterin: How Will Wallets, L2s, and Identity Systems Evolve After AI Agents Trade Autonomously? - Substack",
+          "source": "Substack",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lRGxQNFE5NmozdGZwSmVaTVVob1NDejNNQXlYazBWdVVxZmRwTmFRbjBCNENSd1E1amY0WThyWkx6anJqd2poQU1LVjg4QllNbXJ4bGJKczZMM2I3R1JjVTZFc0FMYW1vUG5KRHE1WlJhRGthS2NBcFR3?oc=5",
+          "narrative": "AI / agentic finance",
           "sentiment": "Neutral"
         },
         {
-          "date": "2026-06-30T21:00:19+00:00",
-          "headline": "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/06/30/phantom-doubles-down-on-perpetual-futures-with-hire-of-hyperliquid-market-builders",
-          "narrative": "Onchain trading / swaps",
+          "date": "2026-04-23T07:00:00+00:00",
+          "headline": "OKX Wallet Encounters Web3 Carnival Again; Onchain OS Redefines the Paradigm of On-Chain Operations - odaily.news",
+          "source": "odaily.news",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96OVV2UUVqOG4xVUFvZEVVajAyMEFQdnRiMG41SWFzLWZUUDlrZGxXeE1RY1l2TjFULVlUSzcwWGlZYzduRjJQcXA5cVd5MWhS?oc=5",
+          "narrative": "AI / agentic finance",
           "sentiment": "Neutral"
         }
       ],
-      "verdict": "Lower direct narrative overlap, but 2 higher-impact article(s) make this worth monitoring for category perception."
+      "verdict": "Owns visibility around ai / agentic finance, a strategically relevant wallet narrative. Useful benchmark for Bitget Wallet proof points and media hooks. Sentiment skews constructive, suggesting room for proactive counter-positioning."
     },
     {
       "brand": "Coinbase Wallet / Base App",
       "tagline": "US-regulated wallet and Base ecosystem gateway",
       "threat_level": "MONITOR",
-      "rank": 5,
-      "mentions": 5,
+      "rank": 6,
+      "mentions": 4,
       "positive": 1,
       "negative": 0,
       "tier1": 1,
@@ -1375,495 +1410,294 @@
           "sentiment": "Neutral"
         }
       ],
-      "verdict": "Lower direct narrative overlap, but 1 higher-impact article(s) make this worth monitoring for category perception. Sentiment skews constructive, suggesting room for proactive counter-positioning."
-    },
-    {
-      "brand": "OKX Wallet",
-      "tagline": "Exchange-backed Web3 wallet and DEX thesis",
-      "threat_level": "LOW",
-      "rank": 6,
-      "mentions": 4,
-      "positive": 2,
-      "negative": 0,
-      "tier1": 0,
-      "top_narrative": "AI / agentic finance",
-      "latest_articles": [
-        {
-          "date": "2026-06-20T10:30:00+00:00",
-          "headline": "o1 Exchange Airdrop Update: OKX Wallet Opens Reward Claims. What Next? - Coin Gabbar",
-          "source": "Coin Gabbar",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYi1XbnVxSWdkZ2FtUjJNWkc3NGNldXFjcU1kTTJvXzBqNWluLXVUb3FWNWJ1a3BiVTYza0szZzlMQjZFYTcyMUNSd3JudnJQQ0MzMlU0Q0VKZ1RSOVFDd2t2NjZYVjBjSVB5S1EzcmJPSHU3NjVmQlVmZFBLMWk2NXRHUzVMV0txUGdET3c2SFRFM2V3S3JtcV9rSC04WTljTFdzQXZxZHJSWGpQbHc?oc=5",
-          "narrative": "AI / agentic finance",
-          "sentiment": "Neutral"
-        },
-        {
-          "date": "2026-04-29T07:00:00+00:00",
-          "headline": "OKX Wallet in Conversation with Vitalik Buterin: How Will Wallets, L2s, and Identity Systems Evolve After AI Agents Trade Autonomously? - WuBlockchain",
-          "source": "WuBlockchain",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lRGxQNFE5NmozdGZwSmVaTVVob1NDejNNQXlYazBWdVVxZmRwTmFRbjBCNENSd1E1amY0WThyWkx6anJqd2poQU1LVjg4QllNbXJ4bGJKczZMM2I3R1JjVTZFc0FMYW1vUG5KRHE1WlJhRGthS2NBcFR3?oc=5",
-          "narrative": "AI / agentic finance",
-          "sentiment": "Neutral"
-        },
-        {
-          "date": "2026-04-13T07:00:00+00:00",
-          "headline": "Pharos Network partners with OKX Wallet to exclusively launch 'Stake Before the Stake': Stake before the mainnet launch to enjoy up to 16% annual percentage yield - Binance",
-          "source": "Binance",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uSHpVQkpwQUZIZTFzd1pWMjg4VVdHVW9hVHVYWFlQQ3lKejJlb2c5WFo2UUFaVUI3eDMyYXpyaUxhVTZudmF5OUlWQTlBbjR4VHlheVd2R0ZaMHhEb3BPWF9mNTM?oc=5",
-          "narrative": "AI / agentic finance",
-          "sentiment": "Positive"
-        }
-      ],
-      "verdict": "Owns visibility around ai / agentic finance, a strategically relevant wallet narrative. Useful benchmark for Bitget Wallet proof points and media hooks."
+      "verdict": "Lower direct narrative overlap, but 1 higher-impact article(s) make this worth monitoring for category perception."
     }
   ],
   "last_24h": {
     "articles": [
       {
-        "date": "2026-07-01T03:46:24+00:00",
-        "source": "디지털투데이",
-        "headline": "MetaMask launches mUSD-linked money account with card payments - 디지털투데이",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQUwzWEU5d2hIcThZQ1V3TTNocWtXZHF5Q0l5OU5KOGs3WDdzSE4zUnIza29qZ2ppbWFKbXVPMUhJNC1qTENrRFZyWS1MR1hFUDFHTjRKclB2MWd3UDJacE9mUWtHa3MzQXVHVzRLR3ZaWnpCb1NUUEtKVEFCSkxUSVFLQXVGU2I1dWdxYlZkdjZUZ0Q0bHFEZHptWVNPSXdxVEpwdDBSWUV4ZW8?oc=5",
+        "date": "2026-07-02T01:28:35+00:00",
+        "source": "sekbernews.id",
+        "headline": "MetaMask Launches Money Account Feature for Yield and Payments - sekbernews.id",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY2FHckVucGliTWxvZGFaVHhRczAyeUtDb1I2ZUdCUzB6M0REbEpQTGV1M1hxdzBmMHhlV040S3FLN003SmROR2FkMTFoY1hGUVZmZzFwdnYyODMzRHNwS3lzcDk1TnpKUVJSakM3aVNXdF9tT2NueGtqMTRKdDZuZA?oc=5",
         "brand": "MetaMask",
         "narrative": "General wallet coverage",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-07-01T02:12:30+00:00",
-        "source": "Tech Times",
-        "headline": "MetaMask Money Account: Earn 4% Yield, Spend via Mastercard, Own Your Keys - Tech Times",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdjVKV051VWtYODd2REJWQnNXSDFqaWVva2Q3VzRUUWQxREtyNHpmYWJoQWVRMVRTWnM5RG1zWXROOU5HRGdONnJ4SDR2RlpxY2NUZTA5ZWdqT3ZwUVh3Q3M0QldFV2lqZVRYemx4VlFaRnlDUG5pTjFfLUU5ZVp2aDdLaWJEZlNTTlBKSjJJMVpRTHc1UE56QzliVVJ3MUd1RHRiaDF0Z05lOHFQMkJmeDc2OVMyMGROVUdXTG1VdU1GOHM?oc=5",
-        "brand": "MetaMask",
-        "narrative": "Crypto card",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-07-01T01:29:35+00:00",
-        "source": "Coinfomania",
-        "headline": "Consensys Amplifies MetaMask's Launch of Money Account — And Why Traders Are Watching - Coinfomania",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSEQtbm5ZdTlNc3dQV1czWGI1U0lrdEFYMjN4OFJQR1dBOEZxMW1vYUdoUU1LdEpwTU5HYlZXQmtCQmlTcExQTWJwVWY5Z0I2QmJiTDdNd3lFUzR4MC1YNmkxQ2VGNzlVNV9FcTlXcU9OdUZkZFhhYlFoalpEcTZ1Z3pvVFlUa256OW5VYUdTRGRMSjNzU1ZpdXU3TTBSTjRleVBKcUMyWjdIZ2s?oc=5",
+        "date": "2026-07-02T00:22:13+00:00",
+        "source": "openPR.com",
+        "headline": "Top 3 Cryptos to Buy Now: Pepeto Targets 100x as MetaMask Launches Stablecoin Yield Account - openPR.com",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMlNfeEs1b193RjZkYzlyVzgzWHlLdDBZV1d4TUlRQTFzLVR1ZGRuR2sxaWhZaGRHRnJhZEk3TndEV3NuQ0xKaWRiQWEzT3NKTGhkR2ZOWVh4NzZnUUJwRTZ2SDlGbGZVV2toel9DbEV5UjlOSVBjYUl2bU01bzhEV3UzWU9BRzV0VUhranZ0OS0tX0pRTUFCSk5FY0RVcm1USEJ3?oc=5",
         "brand": "MetaMask",
         "narrative": "General wallet coverage",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-07-01T00:17:00+00:00",
-        "source": "Tech in Asia",
-        "headline": "MetaMask launches stablecoin Money Account - Tech in Asia",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYkdfRWZWVVRKM054amlLbFd6R3owZ241QS1yNXRsUkFvY2U0YzJmQnRvaWl2UmlrNUQ5STNZaENqazJjR1RsSmJUTXJHc0hyNWVSbkdvY3ZyUG43Q2NEaHNSOWRvLURRMHNfdVNfZEpCeHdGTDZPcXVTTG1wRXBXeE1HWW1uQQ?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T22:01:26+00:00",
-        "source": "TradingView",
-        "headline": "Morpho (MORPHO) - MetaMask Stablecoin Yield - 30 June 2026 - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLTlhVzg5TURxZmR5V0hPWWFKcnVjR1BMY191Wk1CMmtvV3pCSzZCUHRXV09IMWR2REM1YUV1LTRIWmRBQzcxVzR6MWt2RVNWbEI0WXhxQmVEcTZGLUZJWDV5c2IyaW9uTURpNlRtX2kzNk90RFo1bExPeUkxY3VnTEszb0hMZkVjWVhGeEZvQkxuUm1HWUJRbGpPTy1nNHRScU1iNWNJaU81d3EtRUVnS0ljQ1A4NDQ?oc=5",
-        "brand": "MetaMask",
-        "narrative": "Onchain trading / swaps",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T21:18:04+00:00",
-        "source": "Pluang",
-        "headline": "Phantom hires Ventuals team to boost perpetual futures trading in crypto wallet expansion - Pluang",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSjlEeXNjazA5anJ5d3ZGUHZNWGo1OGwxT2lVaTVXajAxVml5YUlleHpraXhmUHAtY0wtaXZLcTRzMXZKVU9mQkxRSW5Tci1rakNVY0c4eEVqVlNyQ0gzelI1Nk9keXZaWGJoUzFwc05ZbktBaElxbUVabjFkX05ydlRBLXF0cE1yS1d2Z3JMSXNGSGpGVFZiR0l5VkN3OXlheDVxQ3BR?oc=5",
-        "brand": "Phantom Wallet",
-        "narrative": "Onchain trading / swaps",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T21:01:08+00:00",
-        "source": "CoinDesk",
-        "headline": "Crypto wallet Phantom pushes deeper into perps hiring team behind Hyperliquid's OpenAI, Anthropic markets - CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTVNEb0Yzb19vNEtaa0xvMUR4RC14Mnl6T21SZU5iOVRDQmR6RTVPTmc4OUhVUkRGRUVnMjIxclZHaGFDaG0tZFU5cTdweDU5VE02ZXZTUXo5VWlZMUJFTURhV0VwVm5BaDNJckEwaFREZWxWMXRpMGhoZmlmazM3blZiWDJxUjNjWl94TWx0bXRsbTgxMXhsVFdSYmFTM1BPWHdpX1NjVEpWMERyTXcyYzhDc0lnME01QVo4RUFQSnJvb3Q4clE?oc=5",
-        "brand": "Phantom Wallet",
-        "narrative": "Onchain trading / swaps",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T21:00:19+00:00",
-        "source": "CoinDesk",
-        "headline": "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
-        "url": "https://www.coindesk.com/business/2026/06/30/phantom-doubles-down-on-perpetual-futures-with-hire-of-hyperliquid-market-builders",
-        "brand": "Phantom Wallet",
-        "narrative": "Onchain trading / swaps",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T20:47:42+00:00",
+        "date": "2026-07-01T22:07:00+00:00",
         "source": "CoinMarketCap",
-        "headline": "MetaMask Turns $mUSD Into Yield and Spending Account - CoinMarketCap",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMGhUejNaM2JBWXVMTnNkTDFhWkpzczNWWnNmUGtTTUZ1MVpmUVhpbVE3b0s4cjdaQVRETFoxOGROY29LRVE4VlRnX2NVMnJnMFhVRHlUSUNTUFJPQno5dG1FMUFIQ3ZJdDdudnJlM2dMbkxod21YakxFX0hZZEF5ZTVFLVBCQkt6NEFKQ2pUZG53cUJ6?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T20:36:55+00:00",
-        "source": "خبرپو",
-        "headline": "MetaMask launches stablecoin yield account with card spendin|Cointelegraph - خبرپو",
-        "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxNRExfMGZOVjNZNXpUTkh2dGNsczlYQjN6emdCT184ZEN1UlNqUmFhaHlLNFRxbXVMY0V0OFlmYjFRWU44WUhEMm96eU53M1AwcTNaS2M2eEYwMTFlMHNXbFk0dUQ3SVl2MFNoUFhJWThPVllWRGl6a3NrWUZyTEFQU0JlQmFMeTdFcVJYSUdFRWZlaGVncWV4NTR6LTA0NUdfLUMxbHNZZDU2MXNPYlFGSU10UnZ2YUx0bkZuNDNWUC16OTJETGVWVWRrV2Y1RVgzYkRpNXdMbDJCQnk0Qmw0bEo1aXpxVmR1V2F1eHEtd1dncmpuTWh3cGRFSUFUZ20zTkFBU2NQQzZJRG53QWRGdW5DMnJ3LWFQREFfSy01MGFqNFFJdUpyNkRMM1YxWlYyaTZ0ZzlrVDJ2SmU5NVpSdTNYUUtSNDdfMEhLMDAzT2tmTm1OS1J2T1hLMkREcnNiS2V1QmVpclFrd3U3RURCcUFra2JfdW16YXhaX1IxcDZabkxNR3hZZjVGWF9sNnVOeUd3R1NVbnRxNkg4Vkt5TUZpNlRkdDc1YXZ2OXRYNTZhQQ?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T20:26:40+00:00",
-        "source": "thestreet.com",
-        "headline": "MetaMask launches Money Account letting users earn, spend, and trade from one balance - thestreet.com",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUERMM1dhdjNzVURYLXN6djdlYk9pYjJURnFOZl9rRWR2M2M4bVhaSXZzSkYxbmlPWHVjbWd0UjZFU0pmWVlUS0g2ZTZuOGFZVGJqQ3A4b19BalhpRFFtbWZDeEt3LWZlTHJkUWFyTmx4bmJKek5sM3EwUTVtY00wSTVMT2NQc0U3RzFQdm94VUVIeFA4SjlVRGxUQ3BwVmRmNVA2c21FVzFxRURtUy1OcFRiVExrM0pWQUhKZm9BSERwcjJzUnc?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T19:39:14+00:00",
-        "source": "FinanceFeeds",
-        "headline": "MetaMask Launches Money Account for Yield-Bearing Stablecoin Balances - FinanceFeeds",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTGJxMUNkRFRFYk5xRGNpelFoZmNYTEVwalNveV9fUW1QUzk3c1UxVktwRGZTRk8yZ1B0LVlBMWVOc2FDd3JUemRYcTh5Y2ZYQzZMVzBteGtqeXNEX2hRb0dXdXc0QXVXREMwSWlYbDBrLVRUYTNaVjBfczZtbkVaNXJ5cVpadE04WjlPZnFac1NzTEJsR0xqM0g3RQ?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T19:35:41+00:00",
-        "source": "Bitget",
-        "headline": "Trust Wallet Adds Apple Pay Support for 45+ Countries - Bitget",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lLWxrLUhJSWVBa1RhWVJQNzcwOF9HN2Q5RWRzUkVtZzZQa00tSG9CUGMxXzNMM2VsNUJRTG1nQlpucGNWbm1xd29KVDlXdGlmVW8wZkxHMkRUMGtFdmZpeDMxUkd0N0HSAWdBVV95cUxNZS1say1ISUllQWtUYVlSUDc3MDhfRzdkOUVkc1JFbWc2UGtNLUhvQlBjMV8zTDNlbDVCUUxtZ0JabnBjVm5tcXdvSlQ5V3RpZlVvMGZMRzJEVDBrRXZmaXgzMVJHdDdB?oc=5",
-        "brand": "Trust Wallet",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T19:32:03+00:00",
-        "source": "Crypto Adventure",
-        "headline": "MetaMask Launches Money Account With Up To 4% Yield On mUSD Balances - Crypto Adventure",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMDhtc2tCWWFYNHBocklzbTEySGdZbWJKX0tENmFuUVlEdW1lTm1MX0NMWlBFVGhSZ1RkMkJzZkotQ3FGNkR3dXVDb2dYY1NJajNLUjNHWmVEZlNLS1VBQmRaclJJUlp5RW4tQlREdXp1V3ZIbmdfa21RWXNnOWt4cmdDUVNvVVVRNm4yanZWY1g2SmpROGdndUI4VFU?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T18:26:13+00:00",
-        "source": "MEXC",
-        "headline": "MetaMask Launches Money Account With Up to 4% APY on Stablecoins - MEXC",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5TYnJ0WTBXT1hOTFlESmZaV1dTdGdNYzBpYU12ZzRqcTRCTkVkYkVjOTEwbllVZFZBRlFsTWVsNER1ME5MdkZ5aA?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T18:22:20+00:00",
-        "source": "CoinLaw",
-        "headline": "MetaMask Launches Money Account With up to 4% APY on Monad - CoinLaw",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RUnpHeWY3VWNuVThJNlczNXV0SHd4VThCSVRvSVotSFB2WUtOZ3FNVkhTbXFWMHZJYVVIdTI5SVM0LXFRWkhmY0ZxMTFiZWlHWkVvYw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T17:58:30+00:00",
-        "source": "Blockonomi",
-        "headline": "MetaMask Introduces Money Account Featuring mUSD Rewards and Payment Integration - Blockonomi",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdllMNVdyYjN4blhXMnlRWExDSmg1bVZWRzZ0QWZwRjZ2VFJSZXo5WUZOemdDS1ZwdzR1MTNZbW8zcUxmYlNjX3FMakIzV1dtbGotM0ViZTRjMnp1VF82ZDdOaW9QNzgyeDloX1pkWkdtZ3pLZ0F6ZGkzRDhRUXZMbjZJNHUyODhmaDVqN0VjREdjOXJyNFRSYkdiYllMejFOUVZtR3plTQ?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T17:54:27+00:00",
-        "source": "MoneyCheck",
-        "headline": "MetaMask Introduces Money Account Feature With mUSD Yields and Payment Integration - MoneyCheck",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd01mMWFyNGl0YTFJUDhWcm1Tbmdxc3BQQlJPejJzN01VbHk3SEwwZDZYMmVxeUF2ZTNqN25yeE5nRS1BeWhhZzU3WFlfSk5IWWpBMWZiRnVkOEtWdVlTWUFITjExVjN1QjJFZ1RLTXNLM09xb2RCT2ZlR1lKVUw3TFhmbC11TmZoV0JyYUI4RER0dklGZFoyZmY3UHozUHJvVUVUUEVJWm01QQ?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T17:43:32+00:00",
-        "source": "ababnews.com",
-        "headline": "Consensys Launches MetaMask Money Account Integrating Stablecoin Yield Payments - ababnews.com",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lc0M2T1BWSUM5endCel9rS29BWFRyRTJpM1l5Y185N3AtLWN0NkFaRGpkY2lSSFdoSDFJM3JOS0o1cUJUN3I0V1E4dVRyWkxwZzgzSmVCMExKVkY4Y2prNlgtc093WHhKVzl6a3M0ZEd3Mzda?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T17:26:15+00:00",
-        "source": "MEXC",
-        "headline": "MetaMask Money Account Offers 4% Yield You Can Spend via Mastercard - MEXC",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uZXZBRFNhLU1GZm45blJXRDQyMEJzTlBrME1kM2xPRW1YLU81UHh6alBCUmdpQmNIS0xOVDhBdjBsTXVZdFFYRg?oc=5",
-        "brand": "MetaMask",
-        "narrative": "Crypto card",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T17:20:00+00:00",
-        "source": "MEXC",
-        "headline": "MetaMask Adds Stablecoin Yield Account With Card Spending - MEXC",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBCY1daUVhsTWJvX3NRS2QxUy1IREkwYVVtZkhwMUp0YjRMQXJ0dFRDMXk1WkExcHczX09nSmhxallfem5XVTVrUw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T16:55:00+00:00",
-        "source": "HOKANEWS.COM",
-        "headline": "MetaMask Launches Money Account With Up to 4% APY on Stablecoin Balances - HOKANEWS.COM",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTXBqck9rMDdRSnE4VFV1b1BQZjZycWtKWktVeUsyUE9uX3hBN1dLdzM2X0d0bmQ3aXh5SUtMYWg5Z1pJeHM0M1FjM0JILXhiX0hMekVNb1gyUWFzRTlNb3RfcXpGbng4dzVOQ0RRRFJYV29VWlBoY3BZS0FlR1FhT2lxYw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T16:54:08+00:00",
-        "source": "roundtable.io",
-        "headline": "MetaMask launches Money Account letting users earn, spend, and trade from one balance - roundtable.io",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc0xZdnNKRTRCQUZ1YU1hUkJIc1pmR0VCUzlNdGxwbktodWtQZkEyZmtORW9XN1paZmowSUlyRndNV2llN1RIb3g4djNVdXQyMjhHUzFnNktuRThMRk9hRWRrNGJqZnc5dUlpY1NadmRwRlczNWNpRFhxRGRfSFQ3WTRtbWFLUlNmSFJWaU4tQUNwUTd3UWNic0VheXFabS1hN2N1TnZiRmpFWVdGNG1J?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T16:35:10+00:00",
-        "source": "Bitcoin World",
-        "headline": "MetaMask Launches Self-Custody Savings Account on Monad, Offering Up to 4% APY on Stablecoins - Bitcoin World",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qUG5yREFfanZhM2QzZnBCTW05Skp0cFJibmZGeHZQRDF0YVN5SGdLZHlRbG9rUzZKNE9fMVI3bkozYWswNy1xcHBYaGFYRW1BOE1ZSlJZVGNsdVdTeE1tVzl1QlFLZlNCM2RXUmR4VQ?oc=5",
-        "brand": "MetaMask",
-        "narrative": "Self-custody",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T16:21:24+00:00",
-        "source": "Crypto Economy",
-        "headline": "MetaMask Introduces Self‑Custody Money Accounts on Monad With Built‑In Stablecoin Yield - Crypto Economy",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUkRUQV9QZ0RvUVYxUlk2dHpBbDY4X19UTlhZaUVUMHlDU25hZEVtdVRLcnNMcUotX1Npa0ltbTVHU2xVZVRheVpPcVlic21Dcjl0Rk1MMDZFc3MtTmxlMjdFbWMwbDBmQzFzaGs0NkwxaFNaWkNYWEFpbFREdTRmTkV6SVQwOVZqV0ZRUDR0OFBPeDlseFRGRjZSS0l0SzR1ckZWbmVxUE93a0dqSmZRRTZFUURPUQ?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T16:19:20+00:00",
-        "source": "The Crypto Times",
-        "headline": "MetaMask Launches Money Account With Up to 4% APY on Stablecoins - The Crypto Times",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcVR4QTIzQW1mOTVvUE5pVzJhRXp6dXRCTFpxNmU1S1J6U0pfdHhGOUVIZ2dackg5SWpUbzQ5TWkyZkJGYXNWWXUyMl8wYUh4aGZrR3dvcmo5Z3NVYmhFVXVWNkR1bEMxSlFTa2NMV1FvY2U4bnpaZDhfSnNKVHJYclNVWVQyZUxpNmJha2pkdWx1am5NNmN0YW5mT2xWVElmVFNPUA?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T16:12:27+00:00",
-        "source": "FXDailyReport.Com",
-        "headline": "MetaMask Launches ‘Money Account’ to Let Users Earn Yield on Stablecoins - FXDailyReport.Com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVkpRdWFGN2dYelRpTG40VlM5X3o2TjNJMkpuWkQ5cVU5QmRTVlBIcU9kellOU082VnVvbTlEWUE1QjVPQWVZclJTT29wZlRWSk1ULVhncExGU25zNXZ5X0lmeFNoZmJLa1JRYlhmLVN2cnBIZlNFTjVOUm9iVEcwR1hkRUxzUFRpZGZyRzdpeEJPU3N6aUFFWjNEOXVnUQ?oc=5",
-        "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T16:04:16+00:00",
-        "source": "Tekedia",
-        "headline": "Phantom Wallet Highlights World XYZ as Issuer of Blockchain Event Contracts - Tekedia",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUE56bFg1R1VJRDZTVGRYSGVOY1JGWW1tWC1qT0JLeE1jc09xWXJINER0NDZQUllFNnVNQ08wMHRDTGwtNU04R2tZMXlqWk1sSUhKeTM2eURid2p5M2dtTVR1THB4eWo4eDZhbjd2S0NWRGlKM0NXa2U0UWNHRXRoUnptZUxIX0M0SjN4aDRldEZScDk0XzkxQU9KdWxwR2M5RXc?oc=5",
+        "headline": "Solana Prediction Market ‘World’ Launches Inside Phantom Wallet - CoinMarketCap",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpTWWhhSmRvNjZzVEtCS0dESGo2MURSVFFtSmNEQVljMV9nOUhiZzhUUm1nR2JlS09YTVNOUl9Ic05aOXBPTVpEN0NmcmZCSF9nRGJHNjBJSjdEeko4WkhQUkhzRFZxU3FLdFI0VjJ1c1lrSEQwMUYxLVRnUU1CbldVUGJaTzV6aEdtazBpa2h4akxjNWhuNnlheTRNZw?oc=5",
         "brand": "Phantom Wallet",
-        "narrative": "AI / agentic finance",
+        "narrative": "Prediction markets",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T21:36:26+00:00",
+        "source": "Crypto Briefing",
+        "headline": "MetaMask enables batch selling for up to 5 tokens at once - Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PN05QaHhlSFE1dUtiZHpXVWRRQi1hTnh5ZlJxU1gtWllWYXB2WDlkUWphd0lsbjEyTUJiTzRvUEFjYmRsMUhIXzJsRGo1N2NGc0oxYnlaVFBzVzE0SHczaUtkRVg?oc=5",
+        "brand": "MetaMask",
+        "narrative": "General wallet coverage",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T20:47:40+00:00",
+        "source": "MoneyCheck",
+        "headline": "World Launches Solana Prediction Markets In Phantom Wallet - MoneyCheck",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObmJIYTFPU28yZlNRckZ5Mm5xTTlkdnFMdkpWU0EyRml5U195ckFuTEIxcUtuOFRBNmcyUnJacE41TFlsWmVjbTZBcmpiYzdVMmNzNVo2dE5EcjFZUUlHVUcwWXJkOXNYdDN3MlpiSzVHTEZ0dldKTHhQWUxZR01oMHpLeEl5RjRMX0E?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "Prediction markets",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T20:11:13+00:00",
+        "source": "BeInCrypto",
+        "headline": "Solana Prediction Market World Goes Live: Can It Take on Polymarket and Kalshi?",
+        "url": "https://beincrypto.com/world-solana-prediction-market-phantom/",
+        "brand": "Phantom Wallet",
+        "narrative": "Prediction markets",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T19:50:25+00:00",
+        "source": "markets.businessinsider.com",
+        "headline": "Robinhood and Bitget Wallet Partner to Bring 24/7 Stock Token Trading Onchain - markets.businessinsider.com",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObWoyQTNWMGhFN1dmSldnbW4xZmpyX1FJSjZaWUFtVUNYSWZXamNKSVdBekhsemFGS3pkd1lhdl9KTTZSWlV1bHV0dkxLblR5d215M0puRjJKVzRva0FBZVJwYS1WQk9VMUhOalZlaXBRamQ5WWM5M3hKSUNON3hKUUZsNjI0aTJ5QzVuVVRqVnJQYnRaTFZwTkU0VlpjQm9obXpUMW9aS2R0ZnotenhWelNyd2M5YTlPN0FDNTVEblVRMmVyZ3lIWVR6ZXhNN3NSNEE?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "Onchain trading / swaps",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T19:13:49+00:00",
+        "source": "Pluang",
+        "headline": "Bitget Wallet partners with Robinhood to enable 24/7 onchain trading of 90+ stock tokens without brokerage accounts. - Pluang",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVXRUM2Z3ZS1ad2lnVVVkTkFoSmpVODFSaUFJMEpJV0F0ZzRTdVRKY214MWRkamtUTWU2U29KUG4yT3poXzVXUm9laVhIU1dFVk1xTVpVRnFEQ2lyblFwYzVEWEp1cGJFODFISDNMR2RBRXFxUjAyLVpBOFJTaXRzOFZyMDRtM1pUeFhYV2N6TUdwSGR2Q1BQUmc0UXAwUy1E?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "Onchain trading / swaps",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T19:11:36+00:00",
+        "source": "The Currency analytics",
+        "headline": "Prediction Market World Hits Solana With Bitcoin and World Cup Bets Inside Phantom - The Currency analytics",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbzg5cl9mQUhtZlFJMmZ3bDh1bWFHM3VqMkdzRHZTZ0lJX2E2Q0hKX0ltalk2QUhGWGtncUxRcmFuSWpXWkpaX2NGTDMteUxNTXEzSHNvZl9RTmFXNHJxQ29HUmZHOWZpTldQXzNOd1VBUGJJa3NHNERSUXRVQUt5UXE2OThLYXZtc3Nfa1FHMkNZbWJHOTlPb2dUUGxGeVpDS2h5aTFsNjhfOGZtb3lqTE1nNGQzZ0gxNzNtNC1CSXlfYTdieWxnUUFn?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "Prediction markets",
         "sentiment": "Neutral"
       },
       {
-        "date": "2026-06-30T15:15:50+00:00",
-        "source": "Cryptopolitan",
-        "headline": "RaveDAO Expands $RAVE Utility Through Bitget Wallet Integration - Cryptopolitan",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOem5NdDFJN0FOWGxUNV9KTWk1NUVBVEdSQWwta0hVcW5pTHJHd3h1RXVqQUVUMlFqSUhZMzhDV3F6dktPOXFCS2ptYVNXZFE1QTdMMkMxTXFjb096N2pHazluYjhTc0Ztb3RpUHNWUU5pZXo3VlBSX2k1bHZuLVh1WGlzRmNEaG9NOERTVFBxQ1d4N0RmaDR5eQ?oc=5",
+        "date": "2026-07-01T19:01:05+00:00",
+        "source": "StreetInsider",
+        "headline": "Robinhood and Bitget Wallet Partner to Bring 24/7 Stock Token Trading Onchain - StreetInsider",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR2F2UF9XREJ2dW1uSGRpaklBSnNNVXpjcFRad1EwOFJPWGRrSEhXQ1d1Y0NPb1lTX2NweURIYXlDYWh1ekVLTkZyQ0g0bW45OTdLNWt1eGJ3cFc0V2xjX2E1UU1zLVlhalAzS1hzbFhoWDlOQk01RHZ3NnZScldOVkZ4MW9pbGZQV2NHbVpwY0dWVVRYcDc4OURKQ2cyZ3ZSRVB3RzIyY3lfM1Vad0kzSnNwNzZWUUtSdDdZLUdwa3VzeUZxeTJkOTJfazRnd2Q4?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "Onchain trading / swaps",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T19:00:00+00:00",
+        "source": "GlobeNewswire",
+        "headline": "Robinhood and Bitget Wallet Partner to Bring 24/7 Stock Token Trading Onchain - GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWXdWSC1FN3BsNDhxVnRXZ0czRUdJOUhlXzBNMkpkVi1EYnhwUHl5ZmI3bFYwUkt0NXpSWU0wRWI2NVdMZU1jTGJFenFiNlpRLTQxVkJiYlluY3RCS2ZsQWlfTGc3SHJVQVFETXQ4U25nWHJkYnU5RDhCeXlpZXpmcmlocFc0QUs5NTZzUzFYVWlnWTNkUUdmNkRjSlpjMTNOYVZhRnMyM1h4aHBZdnFNbGtaQ1NnanFZeEsxWWtHS3FOXzdxRU5sY2Z5cWRJR3RrMngyZnZvdmFwcXVRcFd1bUhlNA?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "Onchain trading / swaps",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T17:28:19+00:00",
+        "source": "genfinity.io",
+        "headline": "World Emerges as Solana’s Prediction Market Powering Phantom with Chainlink Oracles - genfinity.io",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPakZVWE1VbVBtbHk5OEdTWVJKY3FvQWRqclBLd0c2ZGFmTkFPMXgwcUlKLUduaDUzeWZ6M1BmN1FISFBlbnZHaDAyTzBEYko0NUtTYWpEc3k2YU9IVktwa1RDNG02NUs2X2UxdGRIc1laOFN4RFRRT0xzUzFyQ2pCZ1d0bU1DZjFW?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "Prediction markets",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-07-01T15:45:00+00:00",
+        "source": "CFOtech Asia",
+        "headline": "RaveDAO links $RAVE token to Bitget Wallet payments - CFOtech Asia",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdUhVdVFlNGNyM2l4Q2lad1djYUFlWVQtb1BsZWhVcVV1NGlQQVlOeGVhOHBmbTdjc1FXemJDSzlxOUVuTWY1WTJjLXJHY1FnYk9XUC1SOWNEd083UFk0dDhabjB2WHdxbzR1blNTVE1HUEdtY1doSkZKN0E0SzJ3RFA4aw?oc=5",
         "brand": "Bitget Wallet",
         "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-07-01T15:34:21+00:00",
+        "source": "The Block",
+        "headline": "Solana-based prediction market app on Phantom wallet launches - The Block",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTEtwWnVrNHpEXy1ESXVKRFlUVzVPdlBzU3pXMEVtMUJpSFZpTTZoX240ZUsyLVRQNlhrZVQtMGkzamJTdmk1R2JDUXhKUDRkblJZNkxwZkV4VkhvV2ctaDZSOGdEeUlQLXNKTlVFdjZkR0hrV0pzWkgwQkttcUs4WnhEQVRqWW0yVHhudFp2WFdhOW95WnY2RHVFWFJuQQ?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "Prediction markets",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-06-30T15:00:00+00:00",
-        "source": "crypto.news",
-        "headline": "MetaMask launches stablecoin Money Account with up to 4% yield - crypto.news",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNDQ5b3EtZGVFVjM1TU9lYjdPd19CX0NGX0M4aXpnSUF0ZkVkMEQxNjlMWHJFcE9hZG9BY2lDSlhBdzZXc2kwZE5mRWlMQVFrWUx1ci1qM0htbmZhLTJXRHRBTEpfdzJDb2hLdmZ4UGdHbVljSk5idXZDTGg5dzdkVnVZNkV0dTNjV3c?oc=5",
+        "date": "2026-07-01T15:28:59+00:00",
+        "source": "MEXC",
+        "headline": "MetaMask Launches Self-Custodial Money Account With Up to 4% APY - MEXC",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0zWmNOYWJUa0hyS250MFZ3RlRjNnlvb0pxUUI0cXZVYVY4OVFkeHBxcy1UbWdua2FNQmhPckVycThnZzNTVUpGTw?oc=5",
         "brand": "MetaMask",
         "narrative": "General wallet coverage",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-06-30T14:56:52+00:00",
-        "source": "Global Crypto",
-        "headline": "MetaMask Launches Money Account for Stablecoin Yield - Global Crypto",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS1gxRi1WSHBhN2V4aW9ZLU9IV0c5WUxENWtnZUlCbWZWZ3VDYnZ4ZU9hb3hJU0tuUlB3Q1lhV0E4cGZGODE4RlFGaDlLeU96TzluamtEbHlQcVVZLVpPLUphOUQzVTkzWmpydE0tZUhJZE5rRGRpOU1nazJQYzlkQjBQQQ?oc=5",
+        "date": "2026-07-01T15:28:02+00:00",
+        "source": "Decrypt",
+        "headline": "News Explorer — World Project on Solana's Phantom Wallet Offers On-Chain Prediction Markets - Decrypt",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQUxBRWRvcTc1eG42eDRDWGlac1RucDhDcDhaWF8xTEJrREJ5T0pITldzdjlaZVF2ZnFPQ3Y4WVJjVWlyS0FiUkJSa3JlZ2plMS1uQkN0LWdKaExzUWJUSTNaSGtYdWRPTzZGU0NPazkyMC1ndUhxNWotaDZZN1pDSGxzeEdyamFhU0tYbUdRbzdQNjVVY0U5ZlkzLVZUSWxPWV9JN3NjUnhZZzItY18wN3F6a3dIVmo1V2hDQ2RYbFNUQzZlVzVR?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "Prediction markets",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T15:12:59+00:00",
+        "source": "Pluang",
+        "headline": "World launches on Solana, enabling onchain bets on Bitcoin and World Cup via Phantom wallet. - Pluang",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTHBSV1hiZ2o0QkNVTGxlQkJhT3BxT1d1RnhDRG5EODlSdjc5bHAwcDlmcXc4aUp6R3F0SGFuenlrYXpsWGtBWmp3bXAzWXpESk5xT042OGQxU0tyWW16Zms1b3BLa0pDQktkSzI4OTZQdUhtUXhZUlY1ZGNOWDg1TWxVMWhhUVVmQkdBN09tMlJvaXpyUGZ4YXFsUV8wazRaT21TamJJeWtPaDg?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "AI / agentic finance",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T14:45:35+00:00",
+        "source": "Coinspot.io",
+        "headline": "MetaMask launched yield account for mUSD with card payments - Coinspot.io",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb29VbkM2UHpkZmVpNmpRN1hmZExkS1Q2OHFBWUJsYjZfeXhucGVFZmMxQlYxVGdSaklmUzZ3YXBzN1ZkZm5mSHVYOXlSejl5WV82N29HVUF3bUlaeUptbHlUMUpyQzN4dndYdkY5WUo1TlFpOXhYZllDaE04LUp4dU43THRFTE5tdzd3Qk0wQ1pmQ2VCaVlsWXdrbEpRbVk1MFVkeHBoa003YmwtVnc?oc=5",
         "brand": "MetaMask",
         "narrative": "General wallet coverage",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-06-30T14:55:00+00:00",
-        "source": "finance.biggo.com",
-        "headline": "MetaMask Launches Money Account, Blending Up to 4% Stablecoin Yield With Direct Spending - finance.biggo.com",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fY3EyVzFpaDJiWE1uVUpKN01BVzBqV2g3TE1YQURXWFA5Zld0LXdBWi1NR1NzQlRqVnp6R19TMHUxekxjTmtMNGdjY0E2VHQxZDl3TmpEUmRNV0hZczRjdnQzU00zTjZPTDZfWlo4SGQ1TGFqMkE?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
+        "date": "2026-07-01T14:16:21+00:00",
+        "source": "Pluang",
+        "headline": "World launches fully onchain prediction market on Solana via Phantom wallet with Chainlink data oracles. - Pluang",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53cG5iWC1COG9KbFN0UnEweWpqX0xIT3YxazR4MmpJaWZHV0JXYUZWZlFEb2E2cHFENHhFWXZPZ2VXU1V5cFRSU0FoTGVaZWFxRFVuUVo5TTBTX21PMmF1VS1XaTVGNC1yVTlSTDBhQWt2NXFJQVF2ZUFGbWM5Ykk?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "Prediction markets",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-06-30T14:54:28+00:00",
-        "source": "WEEX",
-        "headline": "MetaMask launches self-custody account Money Account - WEEX",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbTRzUHZCNlhlVmdDdGZtSjBtSW5oUTNkMDJGS2Y3X3lhYWxFRndGY1ZPMXZsQnlNcFlteXJWTWllWU1ZbE85QmwzamFybkM2eGJ5M3hQWFVpcTR1NS0wbEU1ZzZUTkc0MlY5aDN5WUx3NS1fVHRYWjk4YU51OUZ1ajA3VHdkR2lack0waEtlR2ZvQTkzMVIwTXF4TFN0UVVRWlZzWEVxZzR0azJ4YkVV?oc=5",
-        "brand": "MetaMask",
-        "narrative": "Self-custody",
+        "date": "2026-07-01T14:10:11+00:00",
+        "source": "Bitcoin World",
+        "headline": "World Launches On-Chain Prediction Market Directly Inside Phantom Wallet - Bitcoin World",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TSUN0U09RZ2hNOFVOdDdScVdMSnNEMlQ3bHlPcEdrbGVxRFJKUlpibXByZ0FMQlc4SmVOVENjT0JTM2JSU2JqOTBIblFWaUlEdUJHMWpGWW1Ma1U4d3VwbEhOVHlfOXdDQWRCalN1MDh0cGhUZngw?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "Prediction markets",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-06-30T14:50:34+00:00",
-        "source": "Traders Union",
-        "headline": "MetaMask launches Money Account with up to 4% APY on mUSD - Traders Union",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEVVVGViSE5LTHQ1X1JtS1JKcXRLbUswSVdNT3ZxcUhnNlg5dk5yY1hjel8yeDdmVTFwZm9jQUVZQkdjZ1M3RkMzSVprWjJkZWgyTVcyeVdlVXh3MGItMDJpTEFBOEl1cnlqZkVfZ01GY3lTdTI2SEp4U0VKXzFmdlJtWENXenluY3liSnVlLUs?oc=5",
+        "date": "2026-07-01T12:50:00+00:00",
+        "source": "CoinCodex",
+        "headline": "MetaMask Launches Money Account Feature with 4% APY on mUSD Stablecoin - CoinCodex",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNXzY4NUMwLTlzVUp0M2FDdGZLU0dFRFdYanNNSnpUN3dqRkpCbEhZTjRFRUZPeGxvVTd1b3hXN0dTUkpyR3N1cmlEYzFyTzhqM0JvNko4d3ByYzVnOHV3NVFVcmxWbktKTG9WbEpLbGppWXFtWGN3TDdjMXFkVElRTzhHOTZfZnhWRjhMWGlOMTVmVHhRY29qNDE4Mkw1TG9hTGp4ckEySUppdw?oc=5",
         "brand": "MetaMask",
-        "narrative": "General wallet coverage",
+        "narrative": "Onchain trading / swaps",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-06-30T14:32:47+00:00",
-        "source": "Blockster",
-        "headline": "MetaMask Wants to Become More Than a Wallet With New 4% Yield Account - Blockster",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNjU4YUNtdjNtYjZLbHJKNUhpb1dNSUdBWnA0VUs2QTAzTVJ0cUJqYU5GdGVOd05tSGdOV3BkM1lpeklrWmxZbk5fUHlRWXZYQjlMU0NiQ0lmdDNCT19QUFc1c2E2QTM2cE1WWVlfV2FMUUtveTRsMno5SnBYNWZwWGcyTnZ5N2FnU1JkM2VXNVZ4ZW5F?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T14:29:12+00:00",
-        "source": "The Cryptonomist",
-        "headline": "MetaMask Money Account Offers 4% Yield You Can Spend via Mastercard - The Cryptonomist",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvQ3hOV3cwR0ZJaWdSMC0xR0xTMzdrU3JaNkU3MmNmN2sxRVpjUFNINVNZQnNjZ2lqWnlYMllidElpenh5QldhUlU2U1dsX3FFNGdvVXFya1Q2Q1R3ckdMbGxNUnVIUHV2RDFtVGF3?oc=5",
+        "date": "2026-07-01T11:53:09+00:00",
+        "source": "Yahoo Finance",
+        "headline": "MetaMask Money Account: Earn 4% Yield and Spend via Mastercard - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYkpmX21iY2dJZ01xQklZdG9mUHRieng2aUJhNnE5WVJnTDg4MXk4SUt0QUdjcHdibm5Hc0ZQdFlrS3pmTGtPWmg4VGRzUlNTak9QLVVlOFY0MUZ3VlNvekN2dlVtU1hiQ0RSc2lNZUxpTlk3WHJEblRCZ015NFlVY1FFTmxMOGJQZGVaeWVvSnJ1ZkFUQTgtOHh3?oc=5",
         "brand": "MetaMask",
         "narrative": "Crypto card",
         "sentiment": "Neutral"
       },
       {
-        "date": "2026-06-30T14:21:02+00:00",
-        "source": "Decrypt",
-        "headline": "News Explorer — MetaMask's Money Accounts Offer a Neo-Banking Experience With Stablecoin Yield - Decrypt",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUDh1MHZFZFFJdThvYjhrRmJURlBvUTF2UGljdjVFaWRLakQxRGNzNWtLYkx5bWl6alNmWjVsRjBvcDVRYk5DcVBmLU91QllrbHdVa3poc1g4T1hxQmNnd2J5RDlCZ0RyTzdiaGxxUmlIQzhETTdTVkJFXzZiNUFMNHFrZnlFcXZVS2Rfd0xnN1RGNjRSc3RHQWRZYWl4dUZpWHhYMUF0NTJEcWEwSzRRbzg2amc1WWVBT1VTU0VLQmJpaDNvTk51WktSaw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T14:19:01+00:00",
-        "source": "bloomingbit",
-        "headline": "MetaMask Launches Money Account With Up to 4% Annual Yield on mUSD - bloomingbit",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PM1ZNemszOE5Mdjk0RzZjMlVvb0lqbnpKczNpMlQ0MmI5bEVWX2RydUR3aEF0b24tLXJ4WEd5UkFvVjFUV3dqZzJZdC01YnlCSkxLUw?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T14:11:09+00:00",
-        "source": "Crypto Briefing",
-        "headline": "MetaMask unveils Money Account offering up to 4% APY on mUSD holdings - Crypto Briefing",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQjU5MVhfWTNoWlgwMjVJY21yWVZvNHBQN1JWY0lwQU94TVE2Q2RGeUJGNU5fZU1ZTlBRaTl6dlhNQnZDaVEwWXJuVnlIc3hDc2pkSVdXXzVNSnd1QktlZ3JIWkFsa3Bkelc1RjBvU21VMjN6UGlJbg?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T14:01:03+00:00",
-        "source": "Decrypt",
-        "headline": "Crypto Wallet MetaMask Launches Yield-Paying Money Account on Monad - Decrypt",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQWtHX1dWdlE5X3ItZzczejctWW8tWktEb0tLMjhFeWxfaFNZOFM4ejY4ZTNZNjgtLWFOb3FsNS1hT3I5YXhvNjZYTUJOZWhlQ0x1SW42cXEyVzRTMmhwU3V6UjNJTGVaNjllR2I2cXljSDBXZUdUaFFIdDhyT2tNWUZMTGkySDNrSlHSAZIBQVVfeXFMTmoyLUR2WUFfX3NyQXo5b1JHSkY0eGtrY2UyaGwxazh0cEo4UWNaOFI5NjJRUjE1Q3BxZzNiU3B6SGZwSW12X0M5eTBRUDgxYTZTZzBXOUstcmFYNWloMXJMMU1BZ0RBdTZRZ0hoMmdXTmQ2RnV3UEQwc1ZiSEhMMFZIMnc5ak5ibDlzTmhVZzJ4eFE?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T14:01:03+00:00",
-        "source": "Decrypt",
-        "headline": "Crypto Wallet MetaMask Launches Yield-Paying Money Account on Monad",
-        "url": "https://decrypt.co/372298/crypto-wallet-metamask-yield-paying-money-accounts-monad",
-        "brand": "MetaMask",
-        "narrative": "Self-custody",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T14:00:42+00:00",
-        "source": "CoinDesk",
-        "headline": "MetaMask launches Money Account with stablecoin yield and spending in one wallet - CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQak5BTU8wVzNwRC0yUWFVamRaTzl3TW5XNFpVZXl3SDFVMWNMejExZHh5SllXdzFfRGZjVmxmYVUtd2J1WENCOExTWFBEWHNqTlNZbkFyTktjSjdzQ2h0cXJpUTkxcFdlVWRfeWgzaHlVZWJudXZ1bHhEY2VQdzBCWld0QldkQ244VEwwUG1FQkZva1Jmd0NQcEZZN1o1ZktldW5ZZDN4eEFNLXUxcmE5a1VOZWJGd256cWszMFZR?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Positive"
-      },
-      {
-        "date": "2026-06-30T14:00:00+00:00",
-        "source": "The Block",
-        "headline": "MetaMask unveils all-in-one Money Account offerings users up to 4% APY on mUSD holdings - The Block",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ01wdDE1aTVUM0Z6QVpDa0tqZ2t4QUFFdXpaUks0TXBmbHFVek03cEtOOXowTWZQTDY3dV8tQ0RKMlNYR3d1TzlTMDFLUVlaT3JrakJ5cWUwQWhCX19ZTk4tZkpWNVJuUGdjQWJuSFJVMkV3TG11UFVyRjNyMnNhQmU1TEVRWGU5cUs1ZXlmV0E5MXFZQXBMd1RRbF9tTXpCbklVZ09mQXZpMlM0Wmc?oc=5",
-        "brand": "MetaMask",
-        "narrative": "General wallet coverage",
-        "sentiment": "Neutral"
-      },
-      {
-        "date": "2026-06-30T14:00:00+00:00",
+        "date": "2026-07-01T11:53:09+00:00",
         "source": "TradingView",
-        "headline": "MetaMask launches stablecoin yield account with card spending - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY0FxY3Jxel9ISzUtSm9kTEVabHZBQ0ZwS21fTUtoVUx3bDlmZlFrY09pR0V1MUo2R1lzd3dxN3FZZUFqTzFfdURqNkpGMWptZDJ6U1BYaHBBQlVXV2x3bVpmQkJRNlRPWEE5aEpRYWxIb18xTmNfeVhFWEpWUWNGak5vZmVuNGVBdEljSmRhZDVfMVV1c0hIUGJNQWlwcGhJZGl5VTlNQnRBTXR4bGlwT0VncHFIRXNUa1ZjOFpLZm8xWXc?oc=5",
+        "headline": "MetaMask Money Account: Earn 4% Yield and Spend via Mastercard - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUDBiVWYyekJNTWluM1BaQVQ1U01zWjR4ZFNkU0dyeWdTT2JSWE1iOHVvWml1aFZyY2VBSXVubU9fYlI0WHlpQlA2eTdyNGFQaW5kR2NPYUZQUDBoZ0NhZEx1WHNhYUtqLWlmNFRuRzFfYS0tQm5GMWh6WTllaTZfTUI0a1dhUVFDNHRNLUNNbi1Obmp1Y0JWUnZ1d0ZRYnBncDdNZmYtNWROYkFVZmxYU2FpT29BWkZqbmdQc3l3?oc=5",
         "brand": "MetaMask",
-        "narrative": "Onchain trading / swaps",
-        "sentiment": "Positive"
+        "narrative": "Crypto card",
+        "sentiment": "Neutral"
       },
       {
-        "date": "2026-06-30T14:00:00+00:00",
-        "source": "CoinTelegraph",
-        "headline": "MetaMask launches stablecoin yield account with card spending",
-        "url": "https://cointelegraph.com/news/metamask-money-account-musd-stablecoin-yield?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "date": "2026-07-01T10:08:28+00:00",
+        "source": "CryptoDnes.bg",
+        "headline": "MetaMask Launches Money Account: DeFi Yield Meets Card Spending - CryptoDnes.bg",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLWlWaUw4clZWWXVhUGNoZFZua1duRVVuQ2EtT3lBNmo5QU9lcUV0WDVhZTMtOE96bDFUTUk0d0k5Y3dBeFAzSmRXRTkxd2R2M2xKSTdWa1VQWFZFX3FzSGxxTWdnQmJjNV9NN1BURjNKZEwxdjBMWVlWMmdhTHFJdmlxUktkTjB5Tmc?oc=5",
         "brand": "MetaMask",
         "narrative": "General wallet coverage",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-06-30T14:00:00+00:00",
-        "source": "CoinDesk",
-        "headline": "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
-        "url": "https://www.coindesk.com/tech/2026/06/30/metamask-launches-money-account-with-stablecoin-yield-and-spending-in-one-wallet",
+        "date": "2026-07-01T09:46:00+00:00",
+        "source": "finance.biggo.com",
+        "headline": "MetaMask Debuts Money Account Offering Up to 4% Yield on mUSD Stablecoin - finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZVWE5am13ZFVQSV9EeVBDQXo0UWJQb3prXzNTWjlnQlVjV3dMYlh3cGpQSl9KX3pabHBObHF5dTBXaFd1UWNBMzU4ay11SzB5OVRDOGNJelBpRUJPMDA0b2tUR1N4NnR3UmJ4LVQ1clp0R1NfdGc?oc=5",
         "brand": "MetaMask",
-        "narrative": "Onchain trading / swaps",
+        "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-07-01T08:33:59+00:00",
+        "source": "MEXC Exchange",
+        "headline": "MetaMask Launches Money Account With Stablecoin Yield and Card Spending - MEXC Exchange",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53QlZob2VBVVc3SWRmcS1CdU1hV3pMTm1hVkdvaTNfeHVKbzluWV9RZFRKeXA0SlZUOTN6Y0xpY05lNVBrWElTMnZHdlh0NlE?oc=5",
+        "brand": "MetaMask",
+        "narrative": "General wallet coverage",
         "sentiment": "Positive"
       },
       {
-        "date": "2026-06-30T14:00:00+00:00",
-        "source": "The Block",
-        "headline": "MetaMask unveils all-in-one Money Account offerings users up to 4% APY on mUSD holdings",
-        "url": "https://www.theblock.co/post/406570/metamask-all-in-one-money-account-offerings-users-4-apy-musd-holdings?utm_source=rss&utm_medium=rss",
+        "date": "2026-07-01T07:05:00+00:00",
+        "source": "CoinMarketCap",
+        "headline": "Morpho Surges 3.58% on MetaMask Money Account Integration - CoinMarketCap",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBMEJZZnZIMGVYaUR3M2FjLVJqOUdlMms3LXJWdjJsTGJfYnB2OXBTY2Z2MUJjSkEyZVFMTGNTNVQ0aUtkT1p4SUpJbGl5b2tqc0xfLTF2cW5pN0JaaV8yaGkwcG12WTNfSGpFY1QtQ1g?oc=5",
         "brand": "MetaMask",
-        "narrative": "AI / agentic finance",
+        "narrative": "General wallet coverage",
         "sentiment": "Neutral"
       },
       {
-        "date": "2026-06-30T05:28:53+00:00",
-        "source": "CoinMarketCap",
-        "headline": "Base App Ends Creator Rewards, Shifts to Trading - CoinMarketCap",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONFdCWjdoeGVoTDFGdnhJdmtYLUszX1NBREE5T0luUmFZeEV3MUxSWVVPS2V4RkhTbmp5TTNacThacl9WNmFLeTRES19PWDRBUHR3X0NlUnNTQnlLZlY2NU1NNHEzVmsyR0NOT2R4TW1oMWdjeTNuNmFCNTJkbkNQMUpJengzQndKREpic2lGMWhmRm8?oc=5",
-        "brand": "Coinbase Wallet / Base App",
-        "narrative": "Onchain trading / swaps",
+        "date": "2026-07-01T06:53:02+00:00",
+        "source": "MoneyCheck",
+        "headline": "MetaMask Unveils Money Account: Earn Yield and Spend Stablecoins Seamlessly - MoneyCheck",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcDM4OXNJRnhoVTd4alowYzdZWnYxb0NLanlkQ3ZXSF8zbWY0aHRCa0VEMk1iXzdPQmJWSTdIQ0JsMTRXT2tsOHlBaVd2bGJOUTNvNW1sRGtxdmtZUjZSTldOVGpJaFFrQXFuN0pyMkJsUzh3OG1FbnpoRVdGYmFOcEYxc0VTekFFZGF0d3FnTGUwSC1VNFR3V0lCVEpNNjQ?oc=5",
+        "brand": "MetaMask",
+        "narrative": "Regulation",
         "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-07-01T06:52:32+00:00",
+        "source": "Blockonomi",
+        "headline": "MetaMask Unveils New Money Account Feature With Yield-Generating Stablecoin - Blockonomi",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY3hMWnlWcFZVMWUyNnRxSVlBNF9TVzFFSlFkbDhCbFZJQ0J0bHg3MUpQX1VmWjFnQlZsZjdtR1VhWW03NU9rVmJLYUFpRFNseFE1czF1QUJIcUhYaU04ZW9kTGpSVEZyX2FNdzVUdURYR3g3dTRiY1YwYThnd3dJYkJQTTNLc2tfZzVXX3BlSVM1V2hYeGZmZTVveUJ4cl9t?oc=5",
+        "brand": "MetaMask",
+        "narrative": "General wallet coverage",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-07-01T06:33:59+00:00",
+        "source": "The Defiant",
+        "headline": "World Launches Onchain Prediction Market on Solana Through Phantom - The Defiant",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQk8tQUZJNUhFTFp0M3dna2laUzgwT2lnZFV5cG9wbGMtN0ZqNHVHM3lXTVVYa01wWTlsTHpXUDUwS0U5R2NHVDlsTUV6cUxQOWg2SlVyaGtmcnl5RHlyeXFCYktGYVpSVXRVWnBoUjI0R05QUGZoWE1tN3Izc0pGTXc4UDFjOW1UZTZnZnRsOFhvRThFeVM3WUhmaTQzVDg?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "Prediction markets",
+        "sentiment": "Positive"
       }
     ],
     "narratives": {
-      "General wallet coverage": 32,
-      "Crypto card": 3,
-      "Onchain trading / swaps": 7,
-      "Self-custody": 3,
-      "AI / agentic finance": 3
+      "General wallet coverage": 11,
+      "Prediction markets": 10,
+      "Onchain trading / swaps": 5,
+      "AI / agentic finance": 1,
+      "Crypto card": 2,
+      "Regulation": 1
     },
     "brands": {
-      "MetaMask": 41,
-      "Phantom Wallet": 4,
-      "Trust Wallet": 1,
-      "Bitget Wallet": 1,
-      "Coinbase Wallet / Base App": 1
+      "MetaMask": 14,
+      "Phantom Wallet": 11,
+      "Bitget Wallet": 5
     }
   }
 }
