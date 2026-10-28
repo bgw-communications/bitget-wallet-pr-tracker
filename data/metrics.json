@@ -1,285 +1,1670 @@
 {
-  "generated_at": "2026-10-27T06:04:14.655916+00:00",
+  "generated_at": "2026-10-28T06:42:25.389454+00:00",
   "time_window": "QTD from 2026-04-01",
   "qtd_start": "2026-04-01",
-  "total_articles": 1,
-  "rss_articles": 1,
+  "total_articles": 311,
+  "rss_articles": 311,
   "google_news_articles": 0,
   "meltwater_articles": 0,
-  "total_mentions": 1,
+  "total_mentions": 311,
   "wallets_tracked": 6,
   "primary_brand": "Bitget Wallet",
   "brands": [
     {
       "brand": "Bitget Wallet",
-      "mentions": 0,
-      "sov": 0.0,
-      "rank": 0,
+      "mentions": 83,
+      "sov": 26.69,
+      "rank": 2,
       "color": "#00f0b5",
-      "sentiment": {},
-      "top_narrative": "—"
+      "sentiment": {
+        "Positive": 43,
+        "Neutral": 35,
+        "Negative": 5
+      },
+      "top_narrative": "General wallet coverage"
     },
     {
       "brand": "MetaMask",
-      "mentions": 0,
-      "sov": 0.0,
-      "rank": 0,
+      "mentions": 94,
+      "sov": 30.23,
+      "rank": 1,
       "color": "#f6851b",
-      "sentiment": {},
-      "top_narrative": "—"
+      "sentiment": {
+        "Neutral": 65,
+        "Negative": 2,
+        "Positive": 27
+      },
+      "top_narrative": "General wallet coverage"
     },
     {
       "brand": "Trust Wallet",
-      "mentions": 1,
-      "sov": 100.0,
-      "rank": 1,
+      "mentions": 66,
+      "sov": 21.22,
+      "rank": 3,
       "color": "#3375bb",
       "sentiment": {
-        "Negative": 1
+        "Neutral": 43,
+        "Negative": 7,
+        "Positive": 16
       },
-      "top_narrative": "Security"
+      "top_narrative": "General wallet coverage"
     },
     {
       "brand": "Phantom Wallet",
-      "mentions": 0,
-      "sov": 0.0,
-      "rank": 0,
+      "mentions": 31,
+      "sov": 9.97,
+      "rank": 4,
       "color": "#ab9ff2",
-      "sentiment": {},
-      "top_narrative": "—"
+      "sentiment": {
+        "Neutral": 15,
+        "Positive": 14,
+        "Negative": 2
+      },
+      "top_narrative": "General wallet coverage"
     },
     {
       "brand": "OKX Wallet",
-      "mentions": 0,
-      "sov": 0.0,
-      "rank": 0,
+      "mentions": 9,
+      "sov": 2.89,
+      "rank": 6,
       "color": "#ffffff",
-      "sentiment": {},
-      "top_narrative": "—"
+      "sentiment": {
+        "Positive": 7,
+        "Neutral": 2
+      },
+      "top_narrative": "General wallet coverage"
     },
     {
       "brand": "Coinbase Wallet / Base App",
-      "mentions": 0,
-      "sov": 0.0,
-      "rank": 0,
+      "mentions": 28,
+      "sov": 9.0,
+      "rank": 5,
       "color": "#0052ff",
-      "sentiment": {},
-      "top_narrative": "—"
+      "sentiment": {
+        "Neutral": 26,
+        "Negative": 1,
+        "Positive": 1
+      },
+      "top_narrative": "General wallet coverage"
     }
   ],
   "sentiment": {
-    "Negative": 1
+    "Positive": 108,
+    "Neutral": 186,
+    "Negative": 17
   },
-  "primary_sentiment": {},
+  "primary_sentiment": {
+    "Positive": 43,
+    "Neutral": 35,
+    "Negative": 5
+  },
   "narratives": {
-    "Security": 1
+    "QR payments": 13,
+    "General wallet coverage": 137,
+    "AI / agentic finance": 37,
+    "Prediction markets": 8,
+    "Security": 30,
+    "Onchain trading / swaps": 34,
+    "Crypto card": 18,
+    "RWA / tokenized assets": 11,
+    "Regulation": 8,
+    "Self-custody": 9,
+    "Stablecoin payments": 5,
+    "Wallet UX": 1
   },
   "narrative_by_brand": {
-    "Bitget Wallet": {},
-    "MetaMask": {},
+    "Bitget Wallet": {
+      "QR payments": 5,
+      "General wallet coverage": 28,
+      "AI / agentic finance": 7,
+      "Onchain trading / swaps": 8,
+      "RWA / tokenized assets": 10,
+      "Security": 3,
+      "Self-custody": 1,
+      "Regulation": 2,
+      "Crypto card": 12,
+      "Stablecoin payments": 4,
+      "Prediction markets": 3
+    },
+    "MetaMask": {
+      "General wallet coverage": 40,
+      "AI / agentic finance": 18,
+      "Crypto card": 5,
+      "Regulation": 2,
+      "QR payments": 4,
+      "Security": 16,
+      "Onchain trading / swaps": 7,
+      "Stablecoin payments": 1,
+      "Self-custody": 1
+    },
     "Trust Wallet": {
+      "General wallet coverage": 37,
+      "Security": 8,
+      "AI / agentic finance": 5,
+      "QR payments": 3,
+      "Onchain trading / swaps": 5,
+      "Self-custody": 6,
+      "RWA / tokenized assets": 1,
+      "Regulation": 1
+    },
+    "Phantom Wallet": {
+      "AI / agentic finance": 3,
+      "General wallet coverage": 13,
+      "Prediction markets": 5,
+      "Onchain trading / swaps": 6,
+      "Regulation": 1,
+      "Self-custody": 1,
+      "QR payments": 1,
       "Security": 1
     },
-    "Phantom Wallet": {},
-    "OKX Wallet": {},
-    "Coinbase Wallet / Base App": {}
+    "OKX Wallet": {
+      "General wallet coverage": 6,
+      "Onchain trading / swaps": 1,
+      "Wallet UX": 1,
+      "AI / agentic finance": 1
+    },
+    "Coinbase Wallet / Base App": {
+      "Crypto card": 1,
+      "General wallet coverage": 13,
+      "Regulation": 2,
+      "Security": 2,
+      "AI / agentic finance": 3,
+      "Onchain trading / swaps": 7
+    }
   },
   "keyword_cloud": [
     {
-      "keyword": "shuts",
-      "count": 1
+      "keyword": "token",
+      "count": 60
     },
     {
-      "keyword": "down",
-      "count": 1
+      "keyword": "security",
+      "count": 54
     },
     {
-      "keyword": "speculation",
-      "count": 1
+      "keyword": "finance",
+      "count": 54
     },
     {
-      "keyword": "over",
-      "count": 1
+      "keyword": "consensy",
+      "count": 52
     },
     {
-      "keyword": "exploit",
-      "count": 1
+      "keyword": "convert",
+      "count": 50
     },
     {
-      "keyword": "fallout",
-      "count": 1
+      "keyword": "bybit",
+      "count": 48
     },
     {
-      "keyword": "major",
-      "count": 1
+      "keyword": "binance",
+      "count": 48
     },
     {
-      "keyword": "answer",
-      "count": 1
+      "keyword": "account",
+      "count": 44
     },
     {
-      "keyword": "rumor",
-      "count": 1
+      "keyword": "tokenized",
+      "count": 44
     },
     {
-      "keyword": "massive",
-      "count": 1
+      "keyword": "stablecoin",
+      "count": 42
     },
     {
-      "keyword": "hack",
-      "count": 1
+      "keyword": "adds",
+      "count": 42
     },
     {
-      "keyword": "confirm",
-      "count": 1
+      "keyword": "acces",
+      "count": 40
     },
     {
-      "keyword": "total",
-      "count": 1
+      "keyword": "incident",
+      "count": 36
     },
     {
-      "keyword": "safety",
-      "count": 1
+      "keyword": "card",
+      "count": 34
+    },
+    {
+      "keyword": "stock",
+      "count": 34
+    },
+    {
+      "keyword": "trading",
+      "count": 32
+    },
+    {
+      "keyword": "tradingview",
+      "count": 32
+    },
+    {
+      "keyword": "yahoo",
+      "count": 32
+    },
+    {
+      "keyword": "coinmarketcap",
+      "count": 30
+    },
+    {
+      "keyword": "validator",
+      "count": 28
+    },
+    {
+      "keyword": "payment",
+      "count": 26
+    },
+    {
+      "keyword": "bring",
+      "count": 24
+    },
+    {
+      "keyword": "agent",
+      "count": 24
+    },
+    {
+      "keyword": "infrastructure",
+      "count": 24
+    },
+    {
+      "keyword": "pluang",
+      "count": 22
+    },
+    {
+      "keyword": "expand",
+      "count": 22
+    },
+    {
+      "keyword": "ethereum",
+      "count": 22
+    },
+    {
+      "keyword": "split",
+      "count": 22
+    },
+    {
+      "keyword": "block",
+      "count": 20
+    },
+    {
+      "keyword": "globenewswire",
+      "count": 20
+    },
+    {
+      "keyword": "self-custody",
+      "count": 20
+    },
+    {
+      "keyword": "network",
+      "count": 20
+    },
+    {
+      "keyword": "asset",
+      "count": 20
+    },
+    {
+      "keyword": "support",
+      "count": 20
+    },
+    {
+      "keyword": "money",
+      "count": 20
+    },
+    {
+      "keyword": "virtual",
+      "count": 18
+    },
+    {
+      "keyword": "briefing",
+      "count": 18
+    },
+    {
+      "keyword": "exits",
+      "count": 18
+    },
+    {
+      "keyword": "integration",
+      "count": 18
+    },
+    {
+      "keyword": "user",
+      "count": 18
+    },
+    {
+      "keyword": "your",
+      "count": 18
+    },
+    {
+      "keyword": "integrate",
+      "count": 18
+    },
+    {
+      "keyword": "bitcoin",
+      "count": 18
+    },
+    {
+      "keyword": "onchain",
+      "count": 16
+    },
+    {
+      "keyword": "cashback",
+      "count": 16
+    },
+    {
+      "keyword": "transfer",
+      "count": 16
+    },
+    {
+      "keyword": "trade",
+      "count": 16
+    },
+    {
+      "keyword": "hyperliquid",
+      "count": 16
+    },
+    {
+      "keyword": "dollar",
+      "count": 14
+    },
+    {
+      "keyword": "prediction",
+      "count": 14
     }
   ],
   "keyword_cloud_by_brand": {
-    "Bitget Wallet": [],
-    "MetaMask": [],
+    "Bitget Wallet": [
+      {
+        "keyword": "tokenized",
+        "count": 34
+      },
+      {
+        "keyword": "stock",
+        "count": 28
+      },
+      {
+        "keyword": "account",
+        "count": 26
+      },
+      {
+        "keyword": "card",
+        "count": 26
+      },
+      {
+        "keyword": "adds",
+        "count": 22
+      },
+      {
+        "keyword": "stablecoin",
+        "count": 20
+      },
+      {
+        "keyword": "bring",
+        "count": 20
+      },
+      {
+        "keyword": "payment",
+        "count": 20
+      },
+      {
+        "keyword": "acces",
+        "count": 20
+      },
+      {
+        "keyword": "globenewswire",
+        "count": 20
+      },
+      {
+        "keyword": "virtual",
+        "count": 18
+      },
+      {
+        "keyword": "reality",
+        "count": 14
+      },
+      {
+        "keyword": "finance",
+        "count": 14
+      },
+      {
+        "keyword": "cashback",
+        "count": 14
+      },
+      {
+        "keyword": "nigeria",
+        "count": 12
+      },
+      {
+        "keyword": "pluang",
+        "count": 12
+      },
+      {
+        "keyword": "onchain",
+        "count": 12
+      },
+      {
+        "keyword": "trading",
+        "count": 12
+      },
+      {
+        "keyword": "xstock",
+        "count": 12
+      },
+      {
+        "keyword": "expand",
+        "count": 12
+      },
+      {
+        "keyword": "asset",
+        "count": 10
+      },
+      {
+        "keyword": "integrate",
+        "count": 10
+      },
+      {
+        "keyword": "yahoo",
+        "count": 10
+      },
+      {
+        "keyword": "bitcoin",
+        "count": 10
+      },
+      {
+        "keyword": "gold",
+        "count": 10
+      },
+      {
+        "keyword": "daily",
+        "count": 8
+      },
+      {
+        "keyword": "integration",
+        "count": 8
+      },
+      {
+        "keyword": "equitie",
+        "count": 8
+      },
+      {
+        "keyword": "network",
+        "count": 8
+      },
+      {
+        "keyword": "investor",
+        "count": 8
+      },
+      {
+        "keyword": "direct",
+        "count": 8
+      },
+      {
+        "keyword": "africa",
+        "count": 8
+      },
+      {
+        "keyword": "south",
+        "count": 8
+      },
+      {
+        "keyword": "deposit",
+        "count": 6
+      },
+      {
+        "keyword": "free",
+        "count": 6
+      }
+    ],
+    "MetaMask": [
+      {
+        "keyword": "consensy",
+        "count": 52
+      },
+      {
+        "keyword": "security",
+        "count": 42
+      },
+      {
+        "keyword": "incident",
+        "count": 34
+      },
+      {
+        "keyword": "validator",
+        "count": 28
+      },
+      {
+        "keyword": "finance",
+        "count": 28
+      },
+      {
+        "keyword": "agent",
+        "count": 24
+      },
+      {
+        "keyword": "infrastructure",
+        "count": 24
+      },
+      {
+        "keyword": "ethereum",
+        "count": 22
+      },
+      {
+        "keyword": "split",
+        "count": 22
+      },
+      {
+        "keyword": "money",
+        "count": 20
+      },
+      {
+        "keyword": "exits",
+        "count": 18
+      },
+      {
+        "keyword": "account",
+        "count": 18
+      },
+      {
+        "keyword": "stablecoin",
+        "count": 18
+      },
+      {
+        "keyword": "tradingview",
+        "count": 18
+      },
+      {
+        "keyword": "coinmarketcap",
+        "count": 16
+      },
+      {
+        "keyword": "yahoo",
+        "count": 16
+      },
+      {
+        "keyword": "yield",
+        "count": 12
+      },
+      {
+        "keyword": "lido",
+        "count": 12
+      },
+      {
+        "keyword": "block",
+        "count": 10
+      },
+      {
+        "keyword": "your",
+        "count": 10
+      },
+      {
+        "keyword": "staking",
+        "count": 10
+      },
+      {
+        "keyword": "biggo",
+        "count": 10
+      },
+      {
+        "keyword": "independent",
+        "count": 10
+      },
+      {
+        "keyword": "self-custody",
+        "count": 8
+      },
+      {
+        "keyword": "card",
+        "count": 8
+      },
+      {
+        "keyword": "lubin",
+        "count": 8
+      },
+      {
+        "keyword": "coindesk",
+        "count": 8
+      },
+      {
+        "keyword": "exit",
+        "count": 8
+      },
+      {
+        "keyword": "expand",
+        "count": 8
+      },
+      {
+        "keyword": "binance",
+        "count": 8
+      },
+      {
+        "keyword": "software",
+        "count": 8
+      },
+      {
+        "keyword": "acces",
+        "count": 8
+      },
+      {
+        "keyword": "companie",
+        "count": 8
+      },
+      {
+        "keyword": "mastercard",
+        "count": 6
+      },
+      {
+        "keyword": "spending",
+        "count": 6
+      }
+    ],
     "Trust Wallet": [
       {
-        "keyword": "shuts",
-        "count": 1
+        "keyword": "token",
+        "count": 50
       },
       {
-        "keyword": "down",
-        "count": 1
+        "keyword": "convert",
+        "count": 46
       },
       {
-        "keyword": "speculation",
-        "count": 1
+        "keyword": "bybit",
+        "count": 46
+      },
+      {
+        "keyword": "binance",
+        "count": 24
+      },
+      {
+        "keyword": "self-custody",
+        "count": 12
+      },
+      {
+        "keyword": "integrate",
+        "count": 8
+      },
+      {
+        "keyword": "tradingview",
+        "count": 8
+      },
+      {
+        "keyword": "tokenized",
+        "count": 8
+      },
+      {
+        "keyword": "dollar",
+        "count": 6
+      },
+      {
+        "keyword": "adds",
+        "count": 6
+      },
+      {
+        "keyword": "coinmarketcap",
+        "count": 6
+      },
+      {
+        "keyword": "incrypted",
+        "count": 6
+      },
+      {
+        "keyword": "briefing",
+        "count": 6
+      },
+      {
+        "keyword": "transfer",
+        "count": 6
+      },
+      {
+        "keyword": "security",
+        "count": 6
+      },
+      {
+        "keyword": "user",
+        "count": 6
+      },
+      {
+        "keyword": "acces",
+        "count": 6
+      },
+      {
+        "keyword": "inside",
+        "count": 6
+      },
+      {
+        "keyword": "bstock",
+        "count": 6
+      },
+      {
+        "keyword": "united",
+        "count": 4
+      },
+      {
+        "keyword": "state",
+        "count": 4
+      },
+      {
+        "keyword": "chain",
+        "count": 4
+      },
+      {
+        "keyword": "ukrainian",
+        "count": 4
       },
       {
         "keyword": "over",
-        "count": 1
+        "count": 4
       },
       {
-        "keyword": "exploit",
-        "count": 1
+        "keyword": "chart",
+        "count": 4
       },
       {
-        "keyword": "fallout",
-        "count": 1
+        "keyword": "indian",
+        "count": 4
       },
       {
-        "keyword": "major",
-        "count": 1
+        "keyword": "rupee",
+        "count": 4
       },
       {
-        "keyword": "answer",
-        "count": 1
+        "keyword": "omani",
+        "count": 4
       },
       {
-        "keyword": "rumor",
-        "count": 1
+        "keyword": "rial",
+        "count": 4
       },
       {
-        "keyword": "massive",
-        "count": 1
+        "keyword": "cryptoticker",
+        "count": 4
       },
       {
-        "keyword": "hack",
-        "count": 1
+        "keyword": "trade",
+        "count": 4
       },
       {
-        "keyword": "confirm",
-        "count": 1
+        "keyword": "icelandic",
+        "count": 4
       },
       {
-        "keyword": "total",
-        "count": 1
+        "keyword": "robinhood",
+        "count": 4
       },
       {
-        "keyword": "safety",
-        "count": 1
+        "keyword": "stock",
+        "count": 4
+      },
+      {
+        "keyword": "usdc",
+        "count": 4
       }
     ],
-    "Phantom Wallet": [],
-    "OKX Wallet": [],
-    "Coinbase Wallet / Base App": []
+    "Phantom Wallet": [
+      {
+        "keyword": "support",
+        "count": 14
+      },
+      {
+        "keyword": "prediction",
+        "count": 12
+      },
+      {
+        "keyword": "solana",
+        "count": 10
+      },
+      {
+        "keyword": "trading",
+        "count": 8
+      },
+      {
+        "keyword": "referral",
+        "count": 6
+      },
+      {
+        "keyword": "adds",
+        "count": 6
+      },
+      {
+        "keyword": "kalshi",
+        "count": 6
+      },
+      {
+        "keyword": "chain",
+        "count": 6
+      },
+      {
+        "keyword": "pluang",
+        "count": 6
+      },
+      {
+        "keyword": "sept",
+        "count": 6
+      },
+      {
+        "keyword": "asset",
+        "count": 6
+      },
+      {
+        "keyword": "code",
+        "count": 4
+      },
+      {
+        "keyword": "fees",
+        "count": 4
+      },
+      {
+        "keyword": "steady",
+        "count": 4
+      },
+      {
+        "keyword": "startup",
+        "count": 4
+      },
+      {
+        "keyword": "fortune",
+        "count": 4
+      },
+      {
+        "keyword": "coinmarketcap",
+        "count": 4
+      },
+      {
+        "keyword": "hyperliquid",
+        "count": 4
+      },
+      {
+        "keyword": "native",
+        "count": 4
+      },
+      {
+        "keyword": "cryptoticker",
+        "count": 4
+      },
+      {
+        "keyword": "ends",
+        "count": 4
+      },
+      {
+        "keyword": "binance",
+        "count": 4
+      },
+      {
+        "keyword": "cryptorank",
+        "count": 4
+      },
+      {
+        "keyword": "monad",
+        "count": 4
+      },
+      {
+        "keyword": "deadline",
+        "count": 4
+      },
+      {
+        "keyword": "ledger",
+        "count": 4
+      },
+      {
+        "keyword": "world",
+        "count": 4
+      },
+      {
+        "keyword": "outage",
+        "count": 4
+      },
+      {
+        "keyword": "service",
+        "count": 4
+      },
+      {
+        "keyword": "balance",
+        "count": 4
+      },
+      {
+        "keyword": "display",
+        "count": 4
+      },
+      {
+        "keyword": "error",
+        "count": 4
+      },
+      {
+        "keyword": "reward100",
+        "count": 2
+      },
+      {
+        "keyword": "reward",
+        "count": 2
+      },
+      {
+        "keyword": "explained",
+        "count": 2
+      }
+    ],
+    "OKX Wallet": [
+      {
+        "keyword": "ethena",
+        "count": 8
+      },
+      {
+        "keyword": "usde",
+        "count": 8
+      },
+      {
+        "keyword": "announcement",
+        "count": 6
+      },
+      {
+        "keyword": "cryptonew",
+        "count": 4
+      },
+      {
+        "keyword": "stablecoin",
+        "count": 4
+      },
+      {
+        "keyword": "layer",
+        "count": 4
+      },
+      {
+        "keyword": "trader",
+        "count": 4
+      },
+      {
+        "keyword": "union",
+        "count": 4
+      },
+      {
+        "keyword": "prediction",
+        "count": 2
+      },
+      {
+        "keyword": "eyes",
+        "count": 2
+      },
+      {
+        "keyword": "heads",
+        "count": 2
+      },
+      {
+        "keyword": "aave",
+        "count": 2
+      },
+      {
+        "keyword": "rises",
+        "count": 2
+      },
+      {
+        "keyword": "around",
+        "count": 2
+      },
+      {
+        "keyword": "expand",
+        "count": 2
+      },
+      {
+        "keyword": "native",
+        "count": 2
+      },
+      {
+        "keyword": "integration",
+        "count": 2
+      },
+      {
+        "keyword": "coincide",
+        "count": 2
+      },
+      {
+        "keyword": "stronger",
+        "count": 2
+      },
+      {
+        "keyword": "action",
+        "count": 2
+      },
+      {
+        "keyword": "staking",
+        "count": 2
+      },
+      {
+        "keyword": "earn",
+        "count": 2
+      },
+      {
+        "keyword": "feature",
+        "count": 2
+      },
+      {
+        "keyword": "pluang",
+        "count": 2
+      },
+      {
+        "keyword": "socket",
+        "count": 2
+      },
+      {
+        "keyword": "finds",
+        "count": 2
+      },
+      {
+        "keyword": "fake",
+        "count": 2
+      },
+      {
+        "keyword": "rabby",
+        "count": 2
+      },
+      {
+        "keyword": "extension",
+        "count": 2
+      },
+      {
+        "keyword": "firefox",
+        "count": 2
+      },
+      {
+        "keyword": "discontinue",
+        "count": 2
+      },
+      {
+        "keyword": "advanced",
+        "count": 2
+      },
+      {
+        "keyword": "mode",
+        "count": 2
+      },
+      {
+        "keyword": "discontinuation",
+        "count": 2
+      },
+      {
+        "keyword": "src-20",
+        "count": 2
+      }
+    ],
+    "Coinbase Wallet / Base App": [
+      {
+        "keyword": "rebrand",
+        "count": 12
+      },
+      {
+        "keyword": "social",
+        "count": 10
+      },
+      {
+        "keyword": "finance",
+        "count": 10
+      },
+      {
+        "keyword": "hyperliquid",
+        "count": 10
+      },
+      {
+        "keyword": "perps",
+        "count": 10
+      },
+      {
+        "keyword": "binance",
+        "count": 8
+      },
+      {
+        "keyword": "failed",
+        "count": 8
+      },
+      {
+        "keyword": "jesse",
+        "count": 8
+      },
+      {
+        "keyword": "pollak",
+        "count": 8
+      },
+      {
+        "keyword": "bitcoin",
+        "count": 6
+      },
+      {
+        "keyword": "experiment",
+        "count": 6
+      },
+      {
+        "keyword": "return",
+        "count": 6
+      },
+      {
+        "keyword": "yahoo",
+        "count": 6
+      },
+      {
+        "keyword": "cobie",
+        "count": 6
+      },
+      {
+        "keyword": "trader",
+        "count": 4
+      },
+      {
+        "keyword": "decrypt",
+        "count": 4
+      },
+      {
+        "keyword": "usdc",
+        "count": 4
+      },
+      {
+        "keyword": "transfer",
+        "count": 4
+      },
+      {
+        "keyword": "pending",
+        "count": 4
+      },
+      {
+        "keyword": "security",
+        "count": 4
+      },
+      {
+        "keyword": "complete",
+        "count": 4
+      },
+      {
+        "keyword": "user",
+        "count": 4
+      },
+      {
+        "keyword": "just",
+        "count": 4
+      },
+      {
+        "keyword": "what",
+        "count": 4
+      },
+      {
+        "keyword": "wrong",
+        "count": 4
+      },
+      {
+        "keyword": "foundation",
+        "count": 4
+      },
+      {
+        "keyword": "ends",
+        "count": 4
+      },
+      {
+        "keyword": "year",
+        "count": 4
+      },
+      {
+        "keyword": "trading",
+        "count": 4
+      },
+      {
+        "keyword": "briefing",
+        "count": 4
+      },
+      {
+        "keyword": "back",
+        "count": 4
+      },
+      {
+        "keyword": "short",
+        "count": 4
+      },
+      {
+        "keyword": "adds",
+        "count": 4
+      },
+      {
+        "keyword": "through",
+        "count": 4
+      },
+      {
+        "keyword": "route",
+        "count": 4
+      }
+    ]
   },
   "top_sources": [
     [
-      "U.Today",
-      1
+      "Bybit",
+      23
+    ],
+    [
+      "Binance",
+      17
+    ],
+    [
+      "TradingView",
+      16
+    ],
+    [
+      "CoinMarketCap",
+      15
+    ],
+    [
+      "Yahoo Finance",
+      15
+    ],
+    [
+      "Pluang",
+      11
+    ],
+    [
+      "The Block",
+      10
+    ],
+    [
+      "GlobeNewswire",
+      10
+    ],
+    [
+      "Crypto Briefing",
+      9
+    ],
+    [
+      "The Defiant",
+      6
+    ],
+    [
+      "CoinDesk",
+      6
+    ],
+    [
+      "Cryptonews.net",
+      5
+    ],
+    [
+      "Decrypt",
+      5
+    ],
+    [
+      "CryptoPotato",
+      4
+    ],
+    [
+      "Startup Fortune",
+      4
     ]
   ],
   "competitor_intelligence": [
     {
-      "brand": "Trust Wallet",
-      "tagline": "Retail scale and wallet UX challenger",
-      "threat_level": "LOW",
+      "brand": "MetaMask",
+      "tagline": "Incumbent self-custody and distribution benchmark",
+      "threat_level": "CRITICAL",
       "rank": 1,
-      "mentions": 1,
-      "positive": 0,
-      "negative": 1,
-      "tier1": 0,
-      "top_narrative": "Security",
+      "mentions": 94,
+      "positive": 27,
+      "negative": 2,
+      "tier1": 14,
+      "top_narrative": "General wallet coverage",
       "latest_articles": [
         {
-          "date": "2026-10-22T14:05:30+00:00",
-          "headline": "Trust Wallet Shuts Down Speculation Over PHP Exploit Fallout",
-          "source": "U.Today",
-          "url": "https://u.today/trust-wallet-shuts-down-speculation-over-php-exploit-fallout",
-          "narrative": "Security",
-          "sentiment": "Negative"
+          "date": "2026-10-27T17:03:11+00:00",
+          "headline": "The Next Generation of Crypto Wallets | ChangeNOW, MetaMask & Trezor - The Block",
+          "source": "The Block",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWTMxQ2FEODlpRllYQkdkQS1yWmRaVXc3TEhETjJaX19YSnFVY0FlejJZZjBwSGR4VzhlOXZGZmFXTUctUnVfRVB3STRuTG4ybW5BQUQ0NWNINzB3YlNXcTFqUk5YeHZPdDIzeHIzMWc1RGN5V1RGdlJWNTc2N2dWRW45STlmWmRiSGdMd0JHWWtWSk5SbWg5eg?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Neutral"
+        },
+        {
+          "date": "2026-10-26T21:19:27+00:00",
+          "headline": "MetaMask, Trezor and ChangeNOW weigh AI agents and wallet security at Token2049 Singapore - Crypto Briefing",
+          "source": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NWmlfejIxNmJONkxGR1d3UUxNUzB1QlljdmhPX3FHc0ZQcWo0SW5aTmRuMm5Wcl9YOFI4NWpKNXpkMEYtakYzTFJTYkhDTDlFWWdpVWdfTVdEdVEteTRzZXdYNWVKOTZhUHIxOHZxdWJmWXFqT1FUSFAwZVBCQQ?oc=5",
+          "narrative": "AI / agentic finance",
+          "sentiment": "Neutral"
+        },
+        {
+          "date": "2026-10-26T04:40:15+00:00",
+          "headline": "MetaMask Co-Founder Dan Finlay Exits Consensys After a Decade - CoinMarketCap",
+          "source": "CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQk5tT0xZNEJGNzV0ZFhqeU5XdzdJXzRnQVItZzhPMnVMc0ZVZEVaaERqRVp5ZVpoVk9NQW1fZGdCT1JDbWN2SDB3RWlTX0VRSHZhc0VSei1nVlhSYlpiVUhfLXVZaTN5T0hQYVFHZVRqLVBVNVhVbVVjUWpQM2xiaGRjRjhLeldwLUQwWXlmajlRZGdpSkFScTFaaldOaldPa21kdkpR?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Neutral"
         }
       ],
-      "verdict": "Coverage is present but mostly broad wallet/category news. Lower immediate threat unless volume accelerates. Negative coverage may create a contrast opportunity."
+      "verdict": "Direct narrative overlap with Bitget Wallet around general wallet coverage. Monitor positioning closely, as this is competing for the same media frame. Sentiment skews constructive, suggesting room for proactive counter-positioning."
     },
     {
-      "brand": "MetaMask",
-      "tagline": "No material QTD signal detected",
-      "threat_level": "LOW",
-      "rank": 0,
-      "mentions": 0,
-      "top_narrative": "—",
-      "latest_articles": [],
-      "verdict": "No meaningful competitor coverage detected in the tracked source set."
+      "brand": "Trust Wallet",
+      "tagline": "Retail scale and wallet UX challenger",
+      "threat_level": "CRITICAL",
+      "rank": 3,
+      "mentions": 66,
+      "positive": 16,
+      "negative": 7,
+      "tier1": 0,
+      "top_narrative": "General wallet coverage",
+      "latest_articles": [
+        {
+          "date": "2026-10-26T07:47:01+00:00",
+          "headline": "Convert 1 TWT (Trust Wallet Token) to USD (United States Dollar) - Bybit",
+          "source": "Bybit",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qczA2dTliTjBTMG9LNW1rQ0h2QkZtRlY2a0JzU2ItRDhkUGNfMU1vUFVKdUZLelpSX1lUd1hoVVFiMUx1MnVQR1BKU18xZTh6QjUzNzVWVQ?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Neutral"
+        },
+        {
+          "date": "2026-10-26T00:18:49+00:00",
+          "headline": "Trust Wallet Adds Scam Address Screening Across 32 Chains - CoinMarketCap",
+          "source": "CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1pQZmVzVW5NOUhkRVFIT1BXWlgzbkVadHZFaGtna2JPOG11UkxCRDdyWU10aGdEVFQ5VmF4UTk0ODJValpzb0d1Zlc4aTVFX1BpMlp1UnVlSjR1VXJoblhtb0JKQ0tmeDBQM3I2LXBqTDJESGFabUp6ckJ4Y2VaT0U3VGxKNjhYbGJEY0VLS1dOc29Jd2VMSDN0M2tiaU1H?oc=5",
+          "narrative": "Security",
+          "sentiment": "Negative"
+        },
+        {
+          "date": "2026-10-25T20:35:54+00:00",
+          "headline": "Convert 1 TWT (Trust Wallet Token) to NGN (Nigerian Naira) - Bybit",
+          "source": "Bybit",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1xS0t0SkZ1UEJacEtSWEZ6WGpyLXYzZldxZTdZWjZUR3JOcU80WXVYNkF4a3d0NVBqQjJJalNJQUFzNGdJMUFUM0kta2hBSlZHLTZCYVpRaw?oc=5",
+          "narrative": "AI / agentic finance",
+          "sentiment": "Neutral"
+        }
+      ],
+      "verdict": "Direct narrative overlap with Bitget Wallet around general wallet coverage. Monitor positioning closely, as this is competing for the same media frame. Sentiment skews constructive, suggesting room for proactive counter-positioning."
     },
     {
       "brand": "Phantom Wallet",
-      "tagline": "No material QTD signal detected",
-      "threat_level": "LOW",
-      "rank": 0,
-      "mentions": 0,
-      "top_narrative": "—",
-      "latest_articles": [],
-      "verdict": "No meaningful competitor coverage detected in the tracked source set."
-    },
-    {
-      "brand": "OKX Wallet",
-      "tagline": "No material QTD signal detected",
-      "threat_level": "LOW",
-      "rank": 0,
-      "mentions": 0,
-      "top_narrative": "—",
-      "latest_articles": [],
-      "verdict": "No meaningful competitor coverage detected in the tracked source set."
+      "tagline": "Solana-native wallet expanding cross-chain",
+      "threat_level": "CRITICAL",
+      "rank": 4,
+      "mentions": 31,
+      "positive": 14,
+      "negative": 2,
+      "tier1": 4,
+      "top_narrative": "General wallet coverage",
+      "latest_articles": [
+        {
+          "date": "2026-10-27T16:37:51+00:00",
+          "headline": "Phantom Wallet Referral Code \"reward100\": Referral Rewards Explained: Fees and Terms to Review - Steady",
+          "source": "Steady",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbVdJTDg1NHdSTG9yS2k5aExFeWVwV2NjRlJadmY3VmlIQjljaGlSM1VBd0lvVkpFLWFhV29RQ3llMGV1a0R5S0ZXNE42NVFvZU5hNmpXZzJ5SU1xbnZ1dW5LbDhEZW95NVhlYnpjX3pselBtOW5iTVFkSEdXQjQ0a1JPX0huMUpPeW5KblNkak9DQ0dRTDVnUG43d2pEYWhoal96bg?oc=5",
+          "narrative": "AI / agentic finance",
+          "sentiment": "Neutral"
+        },
+        {
+          "date": "2026-10-27T16:37:51+00:00",
+          "headline": "Phantom Wallet Referral Code \"GET100\": Important Checks Before… - Steady",
+          "source": "Steady",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObEEzYnpGVDlHbF9Wajc3M3pjdHA5SG54UW5FdWZObl9kRUNfNk1TTlljRkVTMHEwbC1qdm1tSERfQ1A2OEtDUVEyNGJaQ2lGZUZxSlhJdlJRTDdMTmRRXzhjUm1oS2RJWm1ObVYydW8xWTBDNTJjdDRwNVdpQXlmeEFURGRGMzhwcmpDcjBCaGlZT1pDT1djTHFQdWR4cE9vOEdDZQ?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Neutral"
+        },
+        {
+          "date": "2026-10-26T11:45:24+00:00",
+          "headline": "Phantom Wallet Adds Kalshi Prediction Markets for US Users - Altcoin Buzz",
+          "source": "Altcoin Buzz",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS0hNbllqSkVtcTB0bllLQjB6OXJ1ZWVJbnBQemlfbWp1Tmd2SkxnMzJUb2wxSlBjOTdfeEZmeEZjSWJpSElTSGw2bFQwS0ZPMHhfbWpoYTcxMlItOTZuVHFqWFZ4QmJSeUpBeTI1WHZUNnY1aHlNUjhDVGcyQTVvQnBzVjBRNU56RlliSDJKVFU5a0E?oc=5",
+          "narrative": "Prediction markets",
+          "sentiment": "Neutral"
+        }
+      ],
+      "verdict": "Direct narrative overlap with Bitget Wallet around general wallet coverage. Monitor positioning closely, as this is competing for the same media frame. Sentiment skews constructive, suggesting room for proactive counter-positioning."
     },
     {
       "brand": "Coinbase Wallet / Base App",
-      "tagline": "No material QTD signal detected",
-      "threat_level": "LOW",
-      "rank": 0,
-      "mentions": 0,
-      "top_narrative": "—",
-      "latest_articles": [],
-      "verdict": "No meaningful competitor coverage detected in the tracked source set."
+      "tagline": "US-regulated wallet and Base ecosystem gateway",
+      "threat_level": "CRITICAL",
+      "rank": 5,
+      "mentions": 28,
+      "positive": 1,
+      "negative": 1,
+      "tier1": 6,
+      "top_narrative": "General wallet coverage",
+      "latest_articles": [
+        {
+          "date": "2026-10-21T04:47:40+00:00",
+          "headline": "Coinbase Wallet courts high-volume traders with up to 50% fee cashback - Cryptopolitan",
+          "source": "Cryptopolitan",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHg3aWFxU3NlTEFWWFRGejEweWhrdWVsN0JfRW9VNTZ4aEhpdmxweUhJTWZ3eHBBenQ3OVVZY09xVnFaVzZDWmF0YXFyTzgzZ01zTFNOanhXQTNvbkxOeGVKdXN5dWV1NG9EVFZwVjFaVHl1M2FrZ01nVkZxeUplYWRUQXA1bXlVa054Z0d5QWx6MUdmMkxhdFdwaXM4OGhRbHc?oc=5",
+          "narrative": "Crypto card",
+          "sentiment": "Neutral"
+        },
+        {
+          "date": "2026-10-09T06:28:53+00:00",
+          "headline": "L2 Base Network Congestion Causing Transactions on Coinbase Wallet to be Stuck - CoinMarketCap",
+          "source": "CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ3VSRG1GM0Jmc21LUlhOTWZkdGl0bnVOeE1HaGt2ZlRZcXRCT3dIQUlXY2FpVTBYeTFCWTdsSjU0ME5XSVpSR0NIQVZfQkZvaGhBMkJTcU9QWG1BNXVwLXlLa3JieTZhVG5BTHc0TEd2Q0p5QjdGYkNEcWtDSXhvdndqSzQ0a0pISHhSNXZaX0xMcWx4Ni1vQ1l0ODZtVjlVLVVZYmZDWDVROWZGVzZnTGY4NUhUSzdGck1jVw?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Neutral"
+        },
+        {
+          "date": "2026-09-25T07:00:00+00:00",
+          "headline": "Defense Secretary Pete Hegseth Holds Bitcoin in a Coinbase Wallet, Filing Shows - Decrypt",
+          "source": "Decrypt",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSXR3aUNtU0ZVTGtyTkQ1ZWt4a0pVN0ZHT0ZTa1lzMEtQdkkzNkJmcXQzSTNiN3c2NmNWdUdsQmpnRGUxTnVJd0tzQTJkdEtPZUNybE9SRVRNWnpoeldNWWxrVjZhTFN4dnFaUFpYOE8xcFZqUDRHTTlFUFhvSFM2bTVaX0FvcFdQRHdLclJ2TXhodFBhOGNqa0xlcjhkd21ORUZKN2ZyWQ?oc=5",
+          "narrative": "Regulation",
+          "sentiment": "Neutral"
+        }
+      ],
+      "verdict": "Direct narrative overlap with Bitget Wallet around general wallet coverage. Monitor positioning closely, as this is competing for the same media frame."
+    },
+    {
+      "brand": "OKX Wallet",
+      "tagline": "Exchange-backed Web3 wallet and DEX thesis",
+      "threat_level": "MONITOR",
+      "rank": 6,
+      "mentions": 9,
+      "positive": 7,
+      "negative": 0,
+      "tier1": 0,
+      "top_narrative": "General wallet coverage",
+      "latest_articles": [
+        {
+          "date": "2026-10-26T21:09:02+00:00",
+          "headline": "Ethena Price Prediction: ENA Eyes $0.23 as USDe Heads to OKX Wallet and Aave - Cryptonews.net",
+          "source": "Cryptonews.net",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13Vk16eUJLY2VpdzJTbFpZUWFCN1ZJQ3pVeEVkZndySnpVZDBiSFUweDhqSVYxcHk4eW5pekRySlFfMEJnY1VKUGx2WkRJbWFOUDhreURFb3pTVjg?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Positive"
+        },
+        {
+          "date": "2026-10-25T17:42:17+00:00",
+          "headline": "Ethena rises around 10.5% as USDe stablecoin expands to X Layer and OKX Wallet - Traders Union",
+          "source": "Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTE5FY2NhbDBmUGJhQ05MUzVuQzZvU3RIWnlWYzNKREhpOGR5ZjVKRnU1ci1NWi1Bc3ZNaUxJaE5TbnktQjlMTXB2Ync4dXl3R19FakpBZkR0bTJhT1BtQ1dvLUJ5TVFUbkx1QTNqRExqSXRiMFlDbnN0Ml9HOTNXQy1TYUx5OEN0RC1WU2lpVXVsZnNiVDlSLTl4eTROc3lQbVEweg?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Positive"
+        },
+        {
+          "date": "2026-10-25T15:00:22+00:00",
+          "headline": "USDe native launch and OKX Wallet integration coincide with stronger Ethena price action - Traders Union",
+          "source": "Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUFlGa3hCTzZlQ0dGMEJTM0NoT1ExR2I4NzEyalNqelJxLTFwTDU4aVpxTzdNakxsZE1KUXQyQjl0QWM0Mm80ejBVUUx6LXVUQTdJYW9xNTVuRXN1YVVqX3NFR0xrLXBmOXBfM3JPVnRNUFpFUFcwQW9SR2pDYm1TRzR0MDh6SVBhWHR4aFg4cXdvREUydVE2cWpn?oc=5",
+          "narrative": "General wallet coverage",
+          "sentiment": "Positive"
+        }
+      ],
+      "verdict": "Direct narrative overlap with Bitget Wallet around general wallet coverage. Monitor positioning closely, as this is competing for the same media frame. Sentiment skews constructive, suggesting room for proactive counter-positioning."
     }
   ],
   "last_24h": {
-    "articles": [],
-    "narratives": {},
-    "brands": {}
+    "articles": [
+      {
+        "date": "2026-10-28T01:56:00+00:00",
+        "source": "www.tokenpost.com",
+        "headline": "Bitget Wallet Launches Dollar and Euro Accounts for Stablecoin Deposits - www.tokenpost.com",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zRWIxamZTRno4ZnRIVVNySDJWM0hPX1c4bGI3MHR0TnBNNHNPeFQtMVVpZG9WN3c2ZFJEdlZhX1BDdGNZNWtPRGR2NEJIWG9vODlmNXpTN0w?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "QR payments",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-10-27T22:52:30+00:00",
+        "source": "Vanguard News",
+        "headline": "Bitget Wallet bypasses foreign address barriers with free USD and EUR accounts in users’ names - Vanguard News",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPckc4QmhGTFRUeEFJSFZPWUk3NHJtUlpFR29Cd1p3WnVnSlNDNzFOOTBBdWk5OUZPYVIyYmpXalVNbkhNSHpZSjBGS3I0V1VVRjZEeTJkdXp5TWVPZjVBNVNXSVlGdlRZbWR3d29GTHJGWnMwaDVwR1dsOURvd3ljWVJNWWFCT3ZVT2I3UVVmcVZhUlNkWVNaZldUV05zYXJjS1lKX3AxcW9DeXZBYkFQZlV6aXZPeWtKTWlZWXRwLU9LQXkyeFdEck1n0gHPAUFVX3lxTE9UdzZFNkJzT2ItWmh4eEZiZ3dqcU1yODU5LVNZM1lwZkE2MGZTYTNFMlhNSHdBaE9DSGpCbDRMNVFLLXBzYXpyNGlGSTMxRUxSbEthZzFjOGJkZndvMXVMMmwyOGh1VlUtVGR5Nzd5dXZHeXVQZ2xaN0U4VjdlSGR1R1VXS0JGQnIyejFpeGxQRm5Eb01BMzVxZGhHUndaSmtGRHNFbEZKVmpxSG0zZDZFZWNZZFpqVXY1bzFjRUxsOTJwbjFJaVp1TW1jN0pCaw?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-10-27T21:05:00+00:00",
+        "source": "CryptoPotato",
+        "headline": "Bitget Wallet Brings USD and EUR Virtual Accounts, Converting Traditional Payments to Stablecoins - CryptoPotato",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYlVyRzV6Vy1OSW9YTjNCazh6b1FGeVVyZHA3dV83c3dkel9TQm9Wei1DYVROSU5KdF80bXRfQ1ItSnU3eW9CXzU4VHk2SHpmdXBsLVN3aktybnVUa01ad280M19kcnBiOUt4QTBaTHhxcmRQcmVqdGpYODJEREJHWnY0elFiUTlrLXdCVl9VQU5rZXZpYXl5ejJ4NThpd0FCZ2Z6OXpRYUxRYlk1UXBmbEdSYVM2c0JkanFVdWM5NA?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T18:57:21+00:00",
+        "source": "Daily Post Nigeria",
+        "headline": "Bitget Wallet bypasses foreign address barriers with Free USD and EUR Accounts in users' names - Daily Post Nigeria",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb19TNHVKMmhPcEFHWXp6X3c1UWVrcHVsejFlUkpyM1VqMENITzFhS2loc1lVX1VDTndpS20wSEdPSVZQVTJZZWpUZXNxd3AwZ2FQcVdBZG94djdHTENESXUyOXl4TWpPTzZiYXN6NllIS3ZBOFpwWHNDcFBCc0dKVUtYTjZHWkRSOGd2RFVvZlFoYzNrU1pLQ1BrUzF0UTZoaVBiZ1AxcS02dlhoSWxnNkFGTGdoc3NhVGM3TVdvYVl4Nzds?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "QR payments",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T17:52:46+00:00",
+        "source": "markets.businessinsider.com",
+        "headline": "Bitget Wallet Brings USD and EUR Virtual Accounts to 100 Million Users - markets.businessinsider.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVXlnUFZhaWhqWXVUclV4NlhxNlBkcmRNdXpOSGlmRWtqeVZLZF94SFFjNjFHaEt5OW4xMlNmUS03UGRteVVoQlhST0dzbmhRWGJmVlRNUnBTdW5NRThuRFN3bWJyV3ItQm1uc2V6TXQ2b05SaWRxdnZyN05vanNlTU55Q2pEWkxaeDRPLUh4THFfVFdhN291MEdrQlA1a0NHM1I3aDJ1WGNvQ1k3VmhJN01VOEh2THcxckxDc0FBa1A1bV9DTmtTTg?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T17:26:52+00:00",
+        "source": "Pluang",
+        "headline": "Bitget Wallet launches free USD and EUR virtual... - Pluang",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdHZQMjNoWEhxejZ1M0dobTl3Q1FCWmpTU25yRktGbXRCSHhKcUpMSHBBVnFBTGxhVjhfNWVKYUs5QVpOd3lPcmtoZ3UyeXBNQ3A3SkstZFNzUzZDeG9ic3ZaM1p0bzFFemFPSDBYbzFBUHdZeUc4bUVEek1BbGpyWEFzTDl2X3VyMkhvOXpSQ3c0NG96Y3dlZElGaFB2NURvQ1E?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-10-27T17:03:11+00:00",
+        "source": "The Block",
+        "headline": "The Next Generation of Crypto Wallets | ChangeNOW, MetaMask & Trezor - The Block",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWTMxQ2FEODlpRllYQkdkQS1yWmRaVXc3TEhETjJaX19YSnFVY0FlejJZZjBwSGR4VzhlOXZGZmFXTUctUnVfRVB3STRuTG4ybW5BQUQ0NWNINzB3YlNXcTFqUk5YeHZPdDIzeHIzMWc1RGN5V1RGdlJWNTc2N2dWRW45STlmWmRiSGdMd0JHWWtWSk5SbWg5eg?oc=5",
+        "brand": "MetaMask",
+        "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T17:00:45+00:00",
+        "source": "U.Today",
+        "headline": "Bitget Wallet Adds USD and EUR Banking Access to Self-Custodial Wallets - U.Today",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbF9GaWZpTnhPX3d3aVVleUxlS2Z4UUZKRjVqQU9vckVrZmp2c1I5VXllVnJhRWxPWVktRVh0MTZ5UmxNX0VJS3d1UzJWeG1sZmdoOERqS1NtYlYwTnN5QkxDTjN0azBoZi1Hd3hMdXhlczJrODF4Ym1jNkNMaGY2Y3lkRlE4cE8yNFJDQV9RbmnSAZYBQVVfeXFMUHdHWWFaVXlUNVI4THQzZExMQ19KZ2tydDd6Sjh4OGhaeTM1dW1NVDZZeXQwbHZPMHRIY1BIZjIzWmswaFM3NkowNHgwS25KZ2ppOExoWW5ZUTdXYVZnY0pLTkxZWXR0ZDM3MEN5dGdKTDdmQ1Z1cW9RWjdWX3lnek1ZYUFSckhxelRfb3c0eGIzUngydzl3?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Negative"
+      },
+      {
+        "date": "2026-10-27T17:00:23+00:00",
+        "source": "lincolnjournal.com",
+        "headline": "Bitget Wallet Brings USD and EUR Virtual Accounts to 100 Million Users - lincolnjournal.com",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQNkJUWUNhUVlCLTdpanM0akF0aEd1b0xzTTNkMTJVR21SVzl0OUdNTUkzMlBEYS03b04zaWVxaWJhbHFSeW1pVU55T3NQdWZPQ21BczZxcG9Yam9fWW82UHlzNWZ5ZU8wVDhtY1lxNGFSTjNZbVJEZUVyWFdFTms4aHRyR2taZ29qNVpuU0JsRnRzcTFzS3NmdVNXQlVWdUpSeUx5OE1SVzZrWFRiTGt6T3N4MkZkNnZLUlJKUjE0WXI5QkVOeVNQVHJJSUxRd0Yta3RUUENvTC1GbnFWV2RVWml3cEtISGxuMXYxa21yOTA3dktpNktNU2I5RkxSeE51MUozUUJXN1pKQVYxY1d3?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T16:47:42+00:00",
+        "source": "CryptoNinjas",
+        "headline": "Bitget Wallet Officially Launches Virtual Accounts to 100M Crypto Users - CryptoNinjas",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVlRxa3o3enR5Q2xOMHZ1dm8yZHVJREM5TmQ5Ui1qSVNwMUtUSjY5cG9DRnN3NXRkSWxvZ291NDQzMHo3cGdMc2xUQ0w4VlJEWmF6YmFGeVNEVHRVZFR2T183Z0NsRHJadDFoQjFvdEJLNUphUGVISG9Dd2V4LUF5R1U4d2Y0SFp2M3pnOWo0SHhGZS1lcVI2V2dJWnVRQmFaa3lKajdkdEZzQdIBrwFBVV95cUxQRmRwSkVtMk1xM18zMTlCMTYyY1JENXlia2pCdlhpdEgwLXpiRVhURldXRG95dUpOR1NoWGYtN01wc0JsUXRkV2k5Vzk5RS16UjlrYmZKbXBUeDRQMnBXNVl0SmFtdUU3UVVxanpuSlZFZTRJeklaTmIxTExfX3hhZDk3aXU2QkphX3VkR1dwRDVYQnpPeXpMSWhNdGpodnhHMjFvaTJub0tteHREcnM0?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-10-27T16:37:51+00:00",
+        "source": "Steady",
+        "headline": "Phantom Wallet Referral Code \"reward100\": Referral Rewards Explained: Fees and Terms to Review - Steady",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbVdJTDg1NHdSTG9yS2k5aExFeWVwV2NjRlJadmY3VmlIQjljaGlSM1VBd0lvVkpFLWFhV29RQ3llMGV1a0R5S0ZXNE42NVFvZU5hNmpXZzJ5SU1xbnZ1dW5LbDhEZW95NVhlYnpjX3pselBtOW5iTVFkSEdXQjQ0a1JPX0huMUpPeW5KblNkak9DQ0dRTDVnUG43d2pEYWhoal96bg?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "AI / agentic finance",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T16:37:51+00:00",
+        "source": "Steady",
+        "headline": "Phantom Wallet Referral Code \"GET100\": Important Checks Before… - Steady",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObEEzYnpGVDlHbF9Wajc3M3pjdHA5SG54UW5FdWZObl9kRUNfNk1TTlljRkVTMHEwbC1qdm1tSERfQ1A2OEtDUVEyNGJaQ2lGZUZxSlhJdlJRTDdMTmRRXzhjUm1oS2RJWm1ObVYydW8xWTBDNTJjdDRwNVdpQXlmeEFURGRGMzhwcmpDcjBCaGlZT1pDT1djTHFQdWR4cE9vOEdDZQ?oc=5",
+        "brand": "Phantom Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T14:53:00+00:00",
+        "source": "unchainedcrypto.com",
+        "headline": "Bitget Wallet Gives Users USD and EUR Account Numbers That Convert Deposits to Stablecoins - unchainedcrypto.com",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRUpBTTlMZ29YdlNBWkNCQ0x1Vzlmb0RXeW5pQ25fZjRXTDQ2bTNjV1Z1MkJpVEVRZEliV1F4TGozRF8zUGtpYUJFNWVLOXZUR0xzMUhSaWwwd2FLQ1BXa19lVV9yVG5JRGFRM3I4MlR5VUpxRGJjTHQ5dzhwOUl6NWxyNVRJcl9WaF8wVmVkTXQta1J1WGxKM0dyOXRoTHNDbFBnSDNCQ1k4bnZwazN4eFRCWDJEQ05UMVE4?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "QR payments",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T14:38:09+00:00",
+        "source": "The Defiant",
+        "headline": "Bitget Wallet Brings USD and EUR Virtual Accounts to 100 Million Users - The Defiant",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYnhacVREZ0Q1bFc3aks4c0cteTdOYWl6TkJmTnE4ejgzSVJzSkp4Wm5BNGFPZy03MmVYTGhJRlFlb0tZbEVRX1dXNmozRzk0bURHcTItMGRPcHJDbmRmOWoyOE5BN1BFUl9Jd0dXVkhDNXRTdmxDWnhaTmFDYmNiMXU2b1pBTkZyREJQbUFIMXBlam1wcTJjSW5DZFdCUzhEXzRkSm1n?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T14:05:03+00:00",
+        "source": "Pluang",
+        "headline": "Bitget Wallet launches Virtual Account for easy USD and EUR access with stablecoin conversion - Pluang",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcjZBamNwbjlRYkE3ZVk2YVlrOU5EenlQNkQ2WkgwU3J0U3ExbUlZb0l3dUhLQXBRUkNRU0RxMDlDSktOOXVRYldhdDRxbUtsRzFvR2M5dFdkQVFHclhFY1dCVmdwYmZUOGN4U004QW5ZNmRRN0tOZlROOFlDNnZaSEtDRDV2ZHZYdTZvQU9YbExMdw?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-10-27T14:01:07+00:00",
+        "source": "Crypto Briefing",
+        "headline": "Bitget Wallet launches Virtual Account for USD and EUR access - Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2eHFVTmNSTG9qaklpd1IwZlo4bWpXQks1NXd1dUpRdXpvakk1UXFLUk9zald0eHd0RDlVWVQyN1ZZYzBfMERlRG9FTnhEaEpPMDd3aEl5UzdLOVk4b3F3OHByTjJMdUlzaER6Q3VIMFo3ZW8?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Positive"
+      },
+      {
+        "date": "2026-10-27T13:53:35+00:00",
+        "source": "Investing.com",
+        "headline": "Bitget Wallet adds USD, EUR accounts that convert deposits into stablecoins - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVFBsVGtGSmFscUtZajM3cTg4TndoMEQyekhpWUZrSHBlZ0E1ei01VGxTT3NwZEZmVjd0bkhrV0dUWkkxd2dTSmpqME91MGdNR1Jrbm1tMGRaLTRPUnhYUHpLdmJTYXlqNFE1b0pTZHFqLTNwMElEbDc2YWMwWDhkRVl5WVZjLWpRb3FjS1hrYXpubXVJWkpKRnB6Ni1uSjN1Q09XZzhGSnM4Y29CTU9zT0ZYWnlpZy1xaHpwNWJxM0U0TlhESXh0Y1E2ZFdLUQ?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "QR payments",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T12:11:04+00:00",
+        "source": "The Cryptonomist",
+        "headline": "Bitget Wallet Virtual Account enables USD and EUR salaries without local banks - The Cryptonomist",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XeDdvZFlUQjR6ZVA4RUNmYmdpbWxfaExsRjEwMUJWRzVhUTREV2F4Qm04Z014dUlQVEhKcFF3WHZsd1BkM2luZUlxbVU2NlR6LWtxdVZqaV9xS0RDQlBxX242dUlGQ3BJS3ZUVFN2QlJHWHVLY0JR?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "General wallet coverage",
+        "sentiment": "Neutral"
+      },
+      {
+        "date": "2026-10-27T12:05:17+00:00",
+        "source": "Coin Edition",
+        "headline": "Bitget Wallet Opens Traditional Banking Rails to 100 Million Crypto Users - Coin Edition",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa2FETTFiZlk0cWlXTFRCRE1XdXdfT1Axc0JxWml1a3hSZFdJZllUeDJ3d0wyVFJNRDRTbUt2V0J2RzE3c1VBMDJfVTZzNTNWR1NlNmFuY19CYXVwaE1fRHRjMUFYVjBFeTkzeXN3T2FldG9OOXdxdXJSNUIzalJjVUt6MHRZaU5xRk1wT1lMOGt1X19tc1JHNmdlWmVWTVk?oc=5",
+        "brand": "Bitget Wallet",
+        "narrative": "AI / agentic finance",
+        "sentiment": "Negative"
+      }
+    ],
+    "narratives": {
+      "QR payments": 4,
+      "General wallet coverage": 13,
+      "AI / agentic finance": 2
+    },
+    "brands": {
+      "Bitget Wallet": 16,
+      "MetaMask": 1,
+      "Phantom Wallet": 2
+    }
   }
 }
